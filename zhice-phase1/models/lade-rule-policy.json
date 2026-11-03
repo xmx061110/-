@@ -1,0 +1,27 @@
+{
+  "cities": [
+    "jl",
+    "hz",
+    "sh",
+    "cq",
+    "yt"
+  ],
+  "days_per_city": 10,
+  "budgets_points": [
+    0,
+    20,
+    50,
+    100
+  ],
+  "duration_minutes": 120,
+  "candidate_limit": 40,
+  "day_selection": "有效日期列表按等间隔取10个，不按延迟或算法成绩选择",
+  "courier_selection": "该日期有效历史任务数最多的快递员；同分按编号。回顾性样本，不是线上派单策略",
+  "policy_parameters": {
+    "min_gain_bps": 200,
+    "switch_penalty_units": 500,
+    "cooldown_steps": 2
+  },
+  "parameter_fitting": "未拟合，规则与参数预先指定",
+  "meaning": "真实历史任务事件+规则优先级+模拟资源与行动，不是实际干预效果评估"
+}

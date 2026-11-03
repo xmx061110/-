@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "date_utc": "2026-11-02T12:06:27.750039+00:00",
+  "mode": "model",
+  "scenario_count": 3,
+  "model_calls": 12,
+  "cases": [
+    {
+      "run_id": "c9a3a2482dad40bfbf8a7f485a89e818",
+      "request": {
+        "city": "hz",
+        "day": "07-15",
+        "courier_id": "6060",
+        "start_time": "09:00",
+        "goal": "priority",
+        "budget_points": 50,
+        "mode": "model"
+      },
+      "status": "passed",
+      "model_calls": 4,
+      "evidence": "four-agent-live-1.json",
+      "roles": [
+        "总控Agent",
+        "经营分析Agent",
+        "优化决策Agent",
+        "方案评审Agent"
+      ]
+    },
+    {
+      "run_id": "64bf5b0985014b07bdcf736ee81bdb12",
+      "request": {
+        "city": "hz",
+        "day": "07-15",
+        "courier_id": "6060",
+        "start_time": "09:00",
+        "goal": "stability",
+        "budget_points": 50,
+        "mode": "model"
+      },
+      "status": "passed",
+      "model_calls": 4,
+      "evidence": "four-agent-live-2.json",
+      "roles": [
+        "总控Agent",
+        "经营分析Agent",
+        "优化决策Agent",
+        "方案评审Agent"
+      ]
+    },
+    {
+      "run_id": "cb191bdb62fa470385c880550ac6a0d4",
+      "request": {
+        "city": "jl",
+        "day": "05-01",
+        "courier_id": "14171",
+        "start_time": "08:25",
+        "goal": "priority",
+        "budget_points": 0,
+        "mode": "model"
+      },
+      "status": "passed",
+      "model_calls": 4,
+      "evidence": "four-agent-live-3.json",
+      "roles": [
+        "总控Agent",
+        "经营分析Agent",
+        "优化决策Agent",
+        "方案评审Agent"
+      ]
+    }
+  ],
+  "code_sha256": {
+    "zhice/four_agents.py": "e914e33ff4c6eeb54e19afce2b6bc47b483f0504eb296f7227c2057fafc0f707",
+    "zhice/agent_server.py": "6044057614d152c9578ac2f869076009f15e73bb6ba896ab0ac5f49adbd43164",
+    "work/four_agent_acceptance.py": "61f73a2045aafd0c820bebb4e58923ba3eea4b960078b3b365af8267b2fc8d6b"
+  },
+  "boundary": "固定验收场景，不代表模型整体准确率或真实物流干预收益；工具演练不计作模型协作。"
+}

@@ -1,0 +1,2913 @@
+{
+  "day": "2018-07-09",
+  "seed": 100,
+  "budget_cents": 10000,
+  "input": {
+    "items": [
+      {
+        "order_id": "64439b9234594e291aa9a30c226f257e",
+        "risk_score": 0.07681179,
+        "cost_cents": 1200,
+        "assumed_effect": "0.2",
+        "priority_units": 15362
+      },
+      {
+        "order_id": "fdf0135ca769666a6e9f28c5d6576feb",
+        "risk_score": 0.06823364,
+        "cost_cents": 1400,
+        "assumed_effect": "0.8",
+        "priority_units": 54587
+      },
+      {
+        "order_id": "d30d0c9c3a766ca0d558a205d4579320",
+        "risk_score": 0.06323027,
+        "cost_cents": 1100,
+        "assumed_effect": "0.2",
+        "priority_units": 12646
+      },
+      {
+        "order_id": "2591cfc04214495607525020ec87652a",
+        "risk_score": 0.084217615,
+        "cost_cents": 2600,
+        "assumed_effect": "0.5",
+        "priority_units": 42109
+      },
+      {
+        "order_id": "43d33927e13df71f3cf0e5782b0ff7c2",
+        "risk_score": 0.066225424,
+        "cost_cents": 2300,
+        "assumed_effect": "0.2",
+        "priority_units": 13245
+      },
+      {
+        "order_id": "556c0a42a8e9e57a6e411701908f0fd3",
+        "risk_score": 0.07605197,
+        "cost_cents": 1400,
+        "assumed_effect": "0.5",
+        "priority_units": 38026
+      },
+      {
+        "order_id": "d17eedcc5d276d0eb9ea566289f89352",
+        "risk_score": 0.06050431,
+        "cost_cents": 1800,
+        "assumed_effect": "0.2",
+        "priority_units": 12101
+      },
+      {
+        "order_id": "2ebeaae6b3c969c7f5474e8f736bc33a",
+        "risk_score": 0.06678265,
+        "cost_cents": 1100,
+        "assumed_effect": "0.8",
+        "priority_units": 53426
+      },
+      {
+        "order_id": "9c41b4f492e766fc38f8df3e60c4e144",
+        "risk_score": 0.08476725,
+        "cost_cents": 2600,
+        "assumed_effect": "0.2",
+        "priority_units": 16953
+      },
+      {
+        "order_id": "7d3ee0bd440416eb22946dad24f7e4c2",
+        "risk_score": 0.07083553,
+        "cost_cents": 2200,
+        "assumed_effect": "0.2",
+        "priority_units": 14167
+      },
+      {
+        "order_id": "6076ec81706ee9060d085f2909a6fbe7",
+        "risk_score": 0.07005334,
+        "cost_cents": 1100,
+        "assumed_effect": "0.5",
+        "priority_units": 35027
+      },
+      {
+        "order_id": "5a3a0bfe72c4d627e4f13d9aa81d78ad",
+        "risk_score": 0.1759088,
+        "cost_cents": 300,
+        "assumed_effect": "0.5",
+        "priority_units": 87954
+      },
+      {
+        "order_id": "c3c485b86c410043b6e4775e3def9a20",
+        "risk_score": 0.097719304,
+        "cost_cents": 1600,
+        "assumed_effect": "0.2",
+        "priority_units": 19544
+      },
+      {
+        "order_id": "30597e915fa41c74c59cf5f8ce640d3d",
+        "risk_score": 0.09065802,
+        "cost_cents": 2200,
+        "assumed_effect": "0.8",
+        "priority_units": 72526
+      },
+      {
+        "order_id": "be0f9dd8034713beef855df4e524f6e4",
+        "risk_score": 0.11310321,
+        "cost_cents": 200,
+        "assumed_effect": "0.2",
+        "priority_units": 22621
+      },
+      {
+        "order_id": "be83e11958329610a35de1f743052c66",
+        "risk_score": 0.07041517,
+        "cost_cents": 1000,
+        "assumed_effect": "0.5",
+        "priority_units": 35208
+      },
+      {
+        "order_id": "354fc19d43cbb0ad997bd631a02fd169",
+        "risk_score": 0.09838647,
+        "cost_cents": 2000,
+        "assumed_effect": "0.2",
+        "priority_units": 19677
+      },
+      {
+        "order_id": "a86ccaef13b7ca889ab8b7076629a748",
+        "risk_score": 0.083664104,
+        "cost_cents": 900,
+        "assumed_effect": "0.5",
+        "priority_units": 41832
+      },
+      {
+        "order_id": "8084fb81dfc973b3d492e788bfe45ab7",
+        "risk_score": 0.07573025,
+        "cost_cents": 1800,
+        "assumed_effect": "0.2",
+        "priority_units": 15146
+      },
+      {
+        "order_id": "8aed60ebc9e0c32365fe7fcbe6138592",
+        "risk_score": 0.08847038,
+        "cost_cents": 1300,
+        "assumed_effect": "0.2",
+        "priority_units": 17694
+      },
+      {
+        "order_id": "1a777b4fbc5f78c56a4d194ce7311df5",
+        "risk_score": 0.10439018,
+        "cost_cents": 1600,
+        "assumed_effect": "0.8",
+        "priority_units": 83512
+      },
+      {
+        "order_id": "d6a55340021ebcaf3b321d5a34c6c31e",
+        "risk_score": 0.087081514,
+        "cost_cents": 800,
+        "assumed_effect": "0.5",
+        "priority_units": 43541
+      },
+      {
+        "order_id": "dd96d2bc36b1b3227d9defe815e46b7e",
+        "risk_score": 0.07366057,
+        "cost_cents": 500,
+        "assumed_effect": "0.5",
+        "priority_units": 36830
+      },
+      {
+        "order_id": "1551a397c99806c946fb1b1e7c729d8d",
+        "risk_score": 0.089172676,
+        "cost_cents": 1000,
+        "assumed_effect": "0.2",
+        "priority_units": 17835
+      },
+      {
+        "order_id": "20a1b5b821806e87157587550af9d52e",
+        "risk_score": 0.088822745,
+        "cost_cents": 1300,
+        "assumed_effect": "0.2",
+        "priority_units": 17765
+      },
+      {
+        "order_id": "442c441e8e8588cbf0f462423f7d864b",
+        "risk_score": 0.064061016,
+        "cost_cents": 1800,
+        "assumed_effect": "0.8",
+        "priority_units": 51249
+      },
+      {
+        "order_id": "5b95bd0807c4d1bdc5db12fe3373ba8e",
+        "risk_score": 0.10456826,
+        "cost_cents": 1100,
+        "assumed_effect": "0.2",
+        "priority_units": 20914
+      },
+      {
+        "order_id": "dbd0a0b89b3fe516f8534b0f5de08534",
+        "risk_score": 0.087805085,
+        "cost_cents": 1200,
+        "assumed_effect": "0.5",
+        "priority_units": 43903
+      },
+      {
+        "order_id": "63114fe7881be901a26ef97cbd3b47a8",
+        "risk_score": 0.07355816,
+        "cost_cents": 200,
+        "assumed_effect": "0.5",
+        "priority_units": 36779
+      },
+      {
+        "order_id": "62ea5251fe435ac8a677196623782c04",
+        "risk_score": 0.0893027,
+        "cost_cents": 2400,
+        "assumed_effect": "0.8",
+        "priority_units": 71442
+      },
+      {
+        "order_id": "8cf69b251bfcd650555347d7752a3625",
+        "risk_score": 0.1134363,
+        "cost_cents": 200,
+        "assumed_effect": "0.2",
+        "priority_units": 22687
+      },
+      {
+        "order_id": "d1632cdbf90f11c2d5fa53d5c3deeadf",
+        "risk_score": 0.07343534,
+        "cost_cents": 900,
+        "assumed_effect": "0.5",
+        "priority_units": 36718
+      },
+      {
+        "order_id": "fca08869e5ebde633b5183dfdbc8e1be",
+        "risk_score": 0.09347709,
+        "cost_cents": 1300,
+        "assumed_effect": "0.5",
+        "priority_units": 46739
+      },
+      {
+        "order_id": "82f36bdc0196b518ac49483e7af21d02",
+        "risk_score": 0.07182008,
+        "cost_cents": 900,
+        "assumed_effect": "0.8",
+        "priority_units": 57456
+      },
+      {
+        "order_id": "42ec328ff647d401412f3531462b0b96",
+        "risk_score": 0.07201977,
+        "cost_cents": 1800,
+        "assumed_effect": "0.8",
+        "priority_units": 57616
+      },
+      {
+        "order_id": "450c4a4d9a4f339a59165241cfe113db",
+        "risk_score": 0.07241313,
+        "cost_cents": 1300,
+        "assumed_effect": "0.5",
+        "priority_units": 36207
+      },
+      {
+        "order_id": "838f02ea52c8e48b8bc5ed2671e7bfd3",
+        "risk_score": 0.071958125,
+        "cost_cents": 400,
+        "assumed_effect": "0.2",
+        "priority_units": 14392
+      },
+      {
+        "order_id": "7258f5b1cf840900c133d9f7192b7a84",
+        "risk_score": 0.06540949,
+        "cost_cents": 2400,
+        "assumed_effect": "0.5",
+        "priority_units": 32705
+      },
+      {
+        "order_id": "0dfe811c6d5e59581eb93ef96fc13d72",
+        "risk_score": 0.08182322,
+        "cost_cents": 500,
+        "assumed_effect": "0.5",
+        "priority_units": 40912
+      },
+      {
+        "order_id": "774c56b5c1305e0dc2a79ad46e118ba4",
+        "risk_score": 0.043095164,
+        "cost_cents": 1600,
+        "assumed_effect": "0.8",
+        "priority_units": 34476
+      }
+    ],
+    "budget_cents": 10000,
+    "steps": 12,
+    "events": [
+      {
+        "event_id": "01:43d33927e13df71f3cf0e5782b0ff7c2",
+        "order_id": "43d33927e13df71f3cf0e5782b0ff7c2",
+        "step": 1,
+        "occurred_step": 1,
+        "status": "in_transit",
+        "priority_units": 7947
+      },
+      {
+        "event_id": "01:be0f9dd8034713beef855df4e524f6e4",
+        "order_id": "be0f9dd8034713beef855df4e524f6e4",
+        "step": 1,
+        "occurred_step": 1,
+        "status": "in_transit",
+        "priority_units": 26014
+      },
+      {
+        "event_id": "01:fca08869e5ebde633b5183dfdbc8e1be",
+        "order_id": "fca08869e5ebde633b5183dfdbc8e1be",
+        "step": 1,
+        "occurred_step": 1,
+        "status": "in_transit",
+        "priority_units": 39728
+      },
+      {
+        "event_id": "01:450c4a4d9a4f339a59165241cfe113db",
+        "order_id": "450c4a4d9a4f339a59165241cfe113db",
+        "step": 1,
+        "occurred_step": 1,
+        "status": "exception",
+        "priority_units": 30776
+      },
+      {
+        "event_id": "01:8aed60ebc9e0c32365fe7fcbe6138592",
+        "order_id": "8aed60ebc9e0c32365fe7fcbe6138592",
+        "step": 1,
+        "occurred_step": 1,
+        "status": "exception",
+        "priority_units": 20348
+      },
+      {
+        "event_id": "01:8084fb81dfc973b3d492e788bfe45ab7",
+        "order_id": "8084fb81dfc973b3d492e788bfe45ab7",
+        "step": 2,
+        "occurred_step": 1,
+        "status": "in_transit",
+        "priority_units": 12874
+      },
+      {
+        "event_id": "01:9c41b4f492e766fc38f8df3e60c4e144",
+        "order_id": "9c41b4f492e766fc38f8df3e60c4e144",
+        "step": 2,
+        "occurred_step": 1,
+        "status": "in_transit",
+        "priority_units": 19496
+      },
+      {
+        "event_id": "01:d1632cdbf90f11c2d5fa53d5c3deeadf",
+        "order_id": "d1632cdbf90f11c2d5fa53d5c3deeadf",
+        "step": 1,
+        "occurred_step": 1,
+        "status": "exception",
+        "priority_units": 22031
+      },
+      {
+        "event_id": "02:0dfe811c6d5e59581eb93ef96fc13d72",
+        "order_id": "0dfe811c6d5e59581eb93ef96fc13d72",
+        "step": 3,
+        "occurred_step": 2,
+        "status": "in_transit",
+        "priority_units": 34775
+      },
+      {
+        "event_id": "02:fca08869e5ebde633b5183dfdbc8e1be",
+        "order_id": "fca08869e5ebde633b5183dfdbc8e1be",
+        "step": 2,
+        "occurred_step": 2,
+        "status": "in_transit",
+        "priority_units": 63565
+      },
+      {
+        "event_id": "02:8aed60ebc9e0c32365fe7fcbe6138592",
+        "order_id": "8aed60ebc9e0c32365fe7fcbe6138592",
+        "step": 4,
+        "occurred_step": 2,
+        "status": "in_transit",
+        "priority_units": 12209
+      },
+      {
+        "event_id": "02:43d33927e13df71f3cf0e5782b0ff7c2",
+        "order_id": "43d33927e13df71f3cf0e5782b0ff7c2",
+        "step": 4,
+        "occurred_step": 2,
+        "status": "exception",
+        "priority_units": 9139
+      },
+      {
+        "event_id": "02:442c441e8e8588cbf0f462423f7d864b",
+        "order_id": "442c441e8e8588cbf0f462423f7d864b",
+        "step": 4,
+        "occurred_step": 2,
+        "status": "exception",
+        "priority_units": 58936
+      },
+      {
+        "event_id": "02:556c0a42a8e9e57a6e411701908f0fd3",
+        "order_id": "556c0a42a8e9e57a6e411701908f0fd3",
+        "step": 3,
+        "occurred_step": 2,
+        "status": "in_transit",
+        "priority_units": 43730
+      },
+      {
+        "event_id": "02:d6a55340021ebcaf3b321d5a34c6c31e",
+        "order_id": "d6a55340021ebcaf3b321d5a34c6c31e",
+        "step": 2,
+        "occurred_step": 2,
+        "status": "in_transit",
+        "priority_units": 26125
+      },
+      {
+        "event_id": "02:1551a397c99806c946fb1b1e7c729d8d",
+        "order_id": "1551a397c99806c946fb1b1e7c729d8d",
+        "step": 2,
+        "occurred_step": 2,
+        "status": "in_transit",
+        "priority_units": 28536
+      },
+      {
+        "event_id": "03:6076ec81706ee9060d085f2909a6fbe7",
+        "order_id": "6076ec81706ee9060d085f2909a6fbe7",
+        "step": 3,
+        "occurred_step": 3,
+        "status": "exception",
+        "priority_units": 21016
+      },
+      {
+        "event_id": "03:9c41b4f492e766fc38f8df3e60c4e144",
+        "order_id": "9c41b4f492e766fc38f8df3e60c4e144",
+        "step": 5,
+        "occurred_step": 3,
+        "status": "in_transit",
+        "priority_units": 22420
+      },
+      {
+        "event_id": "03:d1632cdbf90f11c2d5fa53d5c3deeadf",
+        "order_id": "d1632cdbf90f11c2d5fa53d5c3deeadf",
+        "step": 3,
+        "occurred_step": 3,
+        "status": "in_transit",
+        "priority_units": 25336
+      },
+      {
+        "event_id": "03:c3c485b86c410043b6e4775e3def9a20",
+        "order_id": "c3c485b86c410043b6e4775e3def9a20",
+        "step": 3,
+        "occurred_step": 3,
+        "status": "in_transit",
+        "priority_units": 31270
+      },
+      {
+        "event_id": "03:62ea5251fe435ac8a677196623782c04",
+        "order_id": "62ea5251fe435ac8a677196623782c04",
+        "step": 3,
+        "occurred_step": 3,
+        "status": "in_transit",
+        "priority_units": 60726
+      },
+      {
+        "event_id": "03:43d33927e13df71f3cf0e5782b0ff7c2",
+        "order_id": "43d33927e13df71f3cf0e5782b0ff7c2",
+        "step": 3,
+        "occurred_step": 3,
+        "status": "in_transit",
+        "priority_units": 14622
+      },
+      {
+        "event_id": "03:20a1b5b821806e87157587550af9d52e",
+        "order_id": "20a1b5b821806e87157587550af9d52e",
+        "step": 5,
+        "occurred_step": 3,
+        "status": "in_transit",
+        "priority_units": 28424
+      },
+      {
+        "event_id": "03:774c56b5c1305e0dc2a79ad46e118ba4",
+        "order_id": "774c56b5c1305e0dc2a79ad46e118ba4",
+        "step": 4,
+        "occurred_step": 3,
+        "status": "exception",
+        "priority_units": 20686
+      },
+      {
+        "event_id": "04:20a1b5b821806e87157587550af9d52e",
+        "order_id": "20a1b5b821806e87157587550af9d52e",
+        "step": 5,
+        "occurred_step": 4,
+        "status": "in_transit",
+        "priority_units": 17054
+      },
+      {
+        "event_id": "04:556c0a42a8e9e57a6e411701908f0fd3",
+        "order_id": "556c0a42a8e9e57a6e411701908f0fd3",
+        "step": 4,
+        "occurred_step": 4,
+        "status": "exception",
+        "priority_units": 69968
+      },
+      {
+        "event_id": "04:6076ec81706ee9060d085f2909a6fbe7",
+        "order_id": "6076ec81706ee9060d085f2909a6fbe7",
+        "step": 5,
+        "occurred_step": 4,
+        "status": "in_transit",
+        "priority_units": 24168
+      },
+      {
+        "event_id": "04:442c441e8e8588cbf0f462423f7d864b",
+        "order_id": "442c441e8e8588cbf0f462423f7d864b",
+        "step": 4,
+        "occurred_step": 4,
+        "status": "exception",
+        "priority_units": 94298
+      },
+      {
+        "event_id": "04:30597e915fa41c74c59cf5f8ce640d3d",
+        "order_id": "30597e915fa41c74c59cf5f8ce640d3d",
+        "step": 4,
+        "occurred_step": 4,
+        "status": "in_transit",
+        "priority_units": 116042
+      },
+      {
+        "event_id": "04:1a777b4fbc5f78c56a4d194ce7311df5",
+        "order_id": "1a777b4fbc5f78c56a4d194ce7311df5",
+        "step": 4,
+        "occurred_step": 4,
+        "status": "in_transit",
+        "priority_units": 70985
+      },
+      {
+        "event_id": "04:42ec328ff647d401412f3531462b0b96",
+        "order_id": "42ec328ff647d401412f3531462b0b96",
+        "step": 4,
+        "occurred_step": 4,
+        "status": "in_transit",
+        "priority_units": 66258
+      },
+      {
+        "event_id": "04:5a3a0bfe72c4d627e4f13d9aa81d78ad",
+        "order_id": "5a3a0bfe72c4d627e4f13d9aa81d78ad",
+        "step": 4,
+        "occurred_step": 4,
+        "status": "canceled",
+        "priority_units": 101147
+      },
+      {
+        "event_id": "05:8cf69b251bfcd650555347d7752a3625",
+        "order_id": "8cf69b251bfcd650555347d7752a3625",
+        "step": 5,
+        "occurred_step": 5,
+        "status": "exception",
+        "priority_units": 13612
+      },
+      {
+        "event_id": "05:0dfe811c6d5e59581eb93ef96fc13d72",
+        "order_id": "0dfe811c6d5e59581eb93ef96fc13d72",
+        "step": 7,
+        "occurred_step": 5,
+        "status": "in_transit",
+        "priority_units": 39991
+      },
+      {
+        "event_id": "05:2ebeaae6b3c969c7f5474e8f736bc33a",
+        "order_id": "2ebeaae6b3c969c7f5474e8f736bc33a",
+        "step": 5,
+        "occurred_step": 5,
+        "status": "exception",
+        "priority_units": 32056
+      },
+      {
+        "event_id": "05:6076ec81706ee9060d085f2909a6fbe7",
+        "order_id": "6076ec81706ee9060d085f2909a6fbe7",
+        "step": 6,
+        "occurred_step": 5,
+        "status": "in_transit",
+        "priority_units": 20543
+      },
+      {
+        "event_id": "05:774c56b5c1305e0dc2a79ad46e118ba4",
+        "order_id": "774c56b5c1305e0dc2a79ad46e118ba4",
+        "step": 5,
+        "occurred_step": 5,
+        "status": "in_transit",
+        "priority_units": 17583
+      },
+      {
+        "event_id": "05:1551a397c99806c946fb1b1e7c729d8d",
+        "order_id": "1551a397c99806c946fb1b1e7c729d8d",
+        "step": 5,
+        "occurred_step": 5,
+        "status": "in_transit",
+        "priority_units": 32816
+      },
+      {
+        "event_id": "05:dd96d2bc36b1b3227d9defe815e46b7e",
+        "order_id": "dd96d2bc36b1b3227d9defe815e46b7e",
+        "step": 6,
+        "occurred_step": 5,
+        "status": "in_transit",
+        "priority_units": 31306
+      },
+      {
+        "event_id": "05:82f36bdc0196b518ac49483e7af21d02",
+        "order_id": "82f36bdc0196b518ac49483e7af21d02",
+        "step": 5,
+        "occurred_step": 5,
+        "status": "in_transit",
+        "priority_units": 34474
+      },
+      {
+        "event_id": "06:42ec328ff647d401412f3531462b0b96",
+        "order_id": "42ec328ff647d401412f3531462b0b96",
+        "step": 7,
+        "occurred_step": 6,
+        "status": "in_transit",
+        "priority_units": 39755
+      },
+      {
+        "event_id": "06:354fc19d43cbb0ad997bd631a02fd169",
+        "order_id": "354fc19d43cbb0ad997bd631a02fd169",
+        "step": 6,
+        "occurred_step": 6,
+        "status": "in_transit",
+        "priority_units": 31483
+      },
+      {
+        "event_id": "06:6076ec81706ee9060d085f2909a6fbe7",
+        "order_id": "6076ec81706ee9060d085f2909a6fbe7",
+        "step": 8,
+        "occurred_step": 6,
+        "status": "in_transit",
+        "priority_units": 12326
+      },
+      {
+        "event_id": "06:20a1b5b821806e87157587550af9d52e",
+        "order_id": "20a1b5b821806e87157587550af9d52e",
+        "step": 8,
+        "occurred_step": 6,
+        "status": "in_transit",
+        "priority_units": 14496
+      },
+      {
+        "event_id": "06:8cf69b251bfcd650555347d7752a3625",
+        "order_id": "8cf69b251bfcd650555347d7752a3625",
+        "step": 8,
+        "occurred_step": 6,
+        "status": "in_transit",
+        "priority_units": 15654
+      },
+      {
+        "event_id": "06:be83e11958329610a35de1f743052c66",
+        "order_id": "be83e11958329610a35de1f743052c66",
+        "step": 7,
+        "occurred_step": 6,
+        "status": "in_transit",
+        "priority_units": 21125
+      },
+      {
+        "event_id": "06:a86ccaef13b7ca889ab8b7076629a748",
+        "order_id": "a86ccaef13b7ca889ab8b7076629a748",
+        "step": 6,
+        "occurred_step": 6,
+        "status": "in_transit",
+        "priority_units": 66931
+      },
+      {
+        "event_id": "06:82f36bdc0196b518ac49483e7af21d02",
+        "order_id": "82f36bdc0196b518ac49483e7af21d02",
+        "step": 6,
+        "occurred_step": 6,
+        "status": "exception",
+        "priority_units": 39645
+      },
+      {
+        "event_id": "07:1a777b4fbc5f78c56a4d194ce7311df5",
+        "order_id": "1a777b4fbc5f78c56a4d194ce7311df5",
+        "step": 7,
+        "occurred_step": 7,
+        "status": "delivered",
+        "priority_units": 113576
+      },
+      {
+        "event_id": "07:0dfe811c6d5e59581eb93ef96fc13d72",
+        "order_id": "0dfe811c6d5e59581eb93ef96fc13d72",
+        "step": 7,
+        "occurred_step": 7,
+        "status": "in_transit",
+        "priority_units": 45990
+      },
+      {
+        "event_id": "07:6076ec81706ee9060d085f2909a6fbe7",
+        "order_id": "6076ec81706ee9060d085f2909a6fbe7",
+        "step": 7,
+        "occurred_step": 7,
+        "status": "in_transit",
+        "priority_units": 7396
+      },
+      {
+        "event_id": "07:d17eedcc5d276d0eb9ea566289f89352",
+        "order_id": "d17eedcc5d276d0eb9ea566289f89352",
+        "step": 8,
+        "occurred_step": 7,
+        "status": "exception",
+        "priority_units": 10286
+      },
+      {
+        "event_id": "07:354fc19d43cbb0ad997bd631a02fd169",
+        "order_id": "354fc19d43cbb0ad997bd631a02fd169",
+        "step": 7,
+        "occurred_step": 7,
+        "status": "delivered",
+        "priority_units": 36205
+      },
+      {
+        "event_id": "07:2ebeaae6b3c969c7f5474e8f736bc33a",
+        "order_id": "2ebeaae6b3c969c7f5474e8f736bc33a",
+        "step": 8,
+        "occurred_step": 7,
+        "status": "in_transit",
+        "priority_units": 36864
+      },
+      {
+        "event_id": "07:42ec328ff647d401412f3531462b0b96",
+        "order_id": "42ec328ff647d401412f3531462b0b96",
+        "step": 7,
+        "occurred_step": 7,
+        "status": "in_transit",
+        "priority_units": 23853
+      },
+      {
+        "event_id": "07:c3c485b86c410043b6e4775e3def9a20",
+        "order_id": "c3c485b86c410043b6e4775e3def9a20",
+        "step": 7,
+        "occurred_step": 7,
+        "status": "exception",
+        "priority_units": 26580
+      },
+      {
+        "event_id": "08:be83e11958329610a35de1f743052c66",
+        "order_id": "be83e11958329610a35de1f743052c66",
+        "step": 8,
+        "occurred_step": 8,
+        "status": "in_transit",
+        "priority_units": 12675
+      },
+      {
+        "event_id": "08:30597e915fa41c74c59cf5f8ce640d3d",
+        "order_id": "30597e915fa41c74c59cf5f8ce640d3d",
+        "step": 10,
+        "occurred_step": 8,
+        "status": "in_transit",
+        "priority_units": 69625
+      },
+      {
+        "event_id": "08:fca08869e5ebde633b5183dfdbc8e1be",
+        "order_id": "fca08869e5ebde633b5183dfdbc8e1be",
+        "step": 9,
+        "occurred_step": 8,
+        "status": "in_transit",
+        "priority_units": 38139
+      },
+      {
+        "event_id": "08:82f36bdc0196b518ac49483e7af21d02",
+        "order_id": "82f36bdc0196b518ac49483e7af21d02",
+        "step": 8,
+        "occurred_step": 8,
+        "status": "exception",
+        "priority_units": 33698
+      },
+      {
+        "event_id": "08:62ea5251fe435ac8a677196623782c04",
+        "order_id": "62ea5251fe435ac8a677196623782c04",
+        "step": 8,
+        "occurred_step": 8,
+        "status": "in_transit",
+        "priority_units": 69835
+      },
+      {
+        "event_id": "08:dbd0a0b89b3fe516f8534b0f5de08534",
+        "order_id": "dbd0a0b89b3fe516f8534b0f5de08534",
+        "step": 8,
+        "occurred_step": 8,
+        "status": "in_transit",
+        "priority_units": 70245
+      },
+      {
+        "event_id": "08:442c441e8e8588cbf0f462423f7d864b",
+        "order_id": "442c441e8e8588cbf0f462423f7d864b",
+        "step": 10,
+        "occurred_step": 8,
+        "status": "exception",
+        "priority_units": 80153
+      },
+      {
+        "event_id": "08:2ebeaae6b3c969c7f5474e8f736bc33a",
+        "order_id": "2ebeaae6b3c969c7f5474e8f736bc33a",
+        "step": 8,
+        "occurred_step": 8,
+        "status": "exception",
+        "priority_units": 22118
+      },
+      {
+        "event_id": "09:43d33927e13df71f3cf0e5782b0ff7c2",
+        "order_id": "43d33927e13df71f3cf0e5782b0ff7c2",
+        "step": 10,
+        "occurred_step": 9,
+        "status": "in_transit",
+        "priority_units": 16815
+      },
+      {
+        "event_id": "09:556c0a42a8e9e57a6e411701908f0fd3",
+        "order_id": "556c0a42a8e9e57a6e411701908f0fd3",
+        "step": 9,
+        "occurred_step": 9,
+        "status": "delivered",
+        "priority_units": 41981
+      },
+      {
+        "event_id": "09:d17eedcc5d276d0eb9ea566289f89352",
+        "order_id": "d17eedcc5d276d0eb9ea566289f89352",
+        "step": 11,
+        "occurred_step": 9,
+        "status": "in_transit",
+        "priority_units": 11829
+      },
+      {
+        "event_id": "09:8cf69b251bfcd650555347d7752a3625",
+        "order_id": "8cf69b251bfcd650555347d7752a3625",
+        "step": 9,
+        "occurred_step": 9,
+        "status": "in_transit",
+        "priority_units": 13306
+      },
+      {
+        "event_id": "09:62ea5251fe435ac8a677196623782c04",
+        "order_id": "62ea5251fe435ac8a677196623782c04",
+        "step": 9,
+        "occurred_step": 9,
+        "status": "exception",
+        "priority_units": 111736
+      },
+      {
+        "event_id": "09:64439b9234594e291aa9a30c226f257e",
+        "order_id": "64439b9234594e291aa9a30c226f257e",
+        "step": 9,
+        "occurred_step": 9,
+        "status": "in_transit",
+        "priority_units": 13058
+      },
+      {
+        "event_id": "09:6076ec81706ee9060d085f2909a6fbe7",
+        "order_id": "6076ec81706ee9060d085f2909a6fbe7",
+        "step": 10,
+        "occurred_step": 9,
+        "status": "exception",
+        "priority_units": 8505
+      },
+      {
+        "event_id": "09:0dfe811c6d5e59581eb93ef96fc13d72",
+        "order_id": "0dfe811c6d5e59581eb93ef96fc13d72",
+        "step": 10,
+        "occurred_step": 9,
+        "status": "exception",
+        "priority_units": 52888
+      },
+      {
+        "event_id": "10:20a1b5b821806e87157587550af9d52e",
+        "order_id": "20a1b5b821806e87157587550af9d52e",
+        "step": 10,
+        "occurred_step": 10,
+        "status": "exception",
+        "priority_units": 12322
+      },
+      {
+        "event_id": "10:7d3ee0bd440416eb22946dad24f7e4c2",
+        "order_id": "7d3ee0bd440416eb22946dad24f7e4c2",
+        "step": 10,
+        "occurred_step": 10,
+        "status": "exception",
+        "priority_units": 22667
+      },
+      {
+        "event_id": "10:d30d0c9c3a766ca0d558a205d4579320",
+        "order_id": "d30d0c9c3a766ca0d558a205d4579320",
+        "step": 12,
+        "occurred_step": 10,
+        "status": "exception",
+        "priority_units": 7588
+      },
+      {
+        "event_id": "10:8cf69b251bfcd650555347d7752a3625",
+        "order_id": "8cf69b251bfcd650555347d7752a3625",
+        "step": 10,
+        "occurred_step": 10,
+        "status": "in_transit",
+        "priority_units": 7984
+      },
+      {
+        "event_id": "10:8aed60ebc9e0c32365fe7fcbe6138592",
+        "order_id": "8aed60ebc9e0c32365fe7fcbe6138592",
+        "step": 12,
+        "occurred_step": 10,
+        "status": "in_transit",
+        "priority_units": 19534
+      },
+      {
+        "event_id": "10:d1632cdbf90f11c2d5fa53d5c3deeadf",
+        "order_id": "d1632cdbf90f11c2d5fa53d5c3deeadf",
+        "step": 11,
+        "occurred_step": 10,
+        "status": "exception",
+        "priority_units": 15202
+      },
+      {
+        "event_id": "10:dbd0a0b89b3fe516f8534b0f5de08534",
+        "order_id": "dbd0a0b89b3fe516f8534b0f5de08534",
+        "step": 10,
+        "occurred_step": 10,
+        "status": "in_transit",
+        "priority_units": 59708
+      },
+      {
+        "event_id": "10:d17eedcc5d276d0eb9ea566289f89352",
+        "order_id": "d17eedcc5d276d0eb9ea566289f89352",
+        "step": 12,
+        "occurred_step": 10,
+        "status": "exception",
+        "priority_units": 10055
+      },
+      {
+        "event_id": "11:30597e915fa41c74c59cf5f8ce640d3d",
+        "order_id": "30597e915fa41c74c59cf5f8ce640d3d",
+        "step": 13,
+        "occurred_step": 11,
+        "status": "exception",
+        "priority_units": 59181
+      },
+      {
+        "event_id": "11:8aed60ebc9e0c32365fe7fcbe6138592",
+        "order_id": "8aed60ebc9e0c32365fe7fcbe6138592",
+        "step": 11,
+        "occurred_step": 11,
+        "status": "in_transit",
+        "priority_units": 11720
+      },
+      {
+        "event_id": "11:450c4a4d9a4f339a59165241cfe113db",
+        "order_id": "450c4a4d9a4f339a59165241cfe113db",
+        "step": 11,
+        "occurred_step": 11,
+        "status": "in_transit",
+        "priority_units": 35392
+      },
+      {
+        "event_id": "11:be0f9dd8034713beef855df4e524f6e4",
+        "order_id": "be0f9dd8034713beef855df4e524f6e4",
+        "step": 12,
+        "occurred_step": 11,
+        "status": "in_transit",
+        "priority_units": 22112
+      },
+      {
+        "event_id": "11:20a1b5b821806e87157587550af9d52e",
+        "order_id": "20a1b5b821806e87157587550af9d52e",
+        "step": 12,
+        "occurred_step": 11,
+        "status": "exception",
+        "priority_units": 14170
+      },
+      {
+        "event_id": "11:62ea5251fe435ac8a677196623782c04",
+        "order_id": "62ea5251fe435ac8a677196623782c04",
+        "step": 13,
+        "occurred_step": 11,
+        "status": "exception",
+        "priority_units": 67042
+      },
+      {
+        "event_id": "11:5b95bd0807c4d1bdc5db12fe3373ba8e",
+        "order_id": "5b95bd0807c4d1bdc5db12fe3373ba8e",
+        "step": 12,
+        "occurred_step": 11,
+        "status": "in_transit",
+        "priority_units": 17777
+      },
+      {
+        "event_id": "11:63114fe7881be901a26ef97cbd3b47a8",
+        "order_id": "63114fe7881be901a26ef97cbd3b47a8",
+        "step": 13,
+        "occurred_step": 11,
+        "status": "in_transit",
+        "priority_units": 42296
+      }
+    ],
+    "seed": 100,
+    "source": "历史风险初值+人工费用、效用变化和状态；非真实物流或干预实验"
+  },
+  "source": "历史风险初值+人工费用、效用变化和状态；非真实物流或干预实验",
+  "stream_sha256": "769a37e8f6efac9a13ce0d546e98608d80fc224151fc7685bdbaed5b22eeddd1",
+  "candidate_count": 40,
+  "steps": 12,
+  "results": [
+    {
+      "policy": "static",
+      "stream_sha256": "769a37e8f6efac9a13ce0d546e98608d80fc224151fc7685bdbaed5b22eeddd1",
+      "budget_cents": 10000,
+      "spent_cents": 7400,
+      "utility_units": 468837,
+      "executed_count": 12,
+      "solver_calls": 1,
+      "accepted_replans": 0,
+      "rejected_replans": 0,
+      "plan_edit_count": 0,
+      "mandatory_removals": 1,
+      "stale_events_ignored": 2,
+      "actions": [
+        {
+          "order_id": "5a3a0bfe72c4d627e4f13d9aa81d78ad",
+          "cost_cents": 300,
+          "priority_units": 87954,
+          "step": 0
+        },
+        {
+          "order_id": "63114fe7881be901a26ef97cbd3b47a8",
+          "cost_cents": 200,
+          "priority_units": 36779,
+          "step": 1
+        },
+        {
+          "order_id": "be0f9dd8034713beef855df4e524f6e4",
+          "cost_cents": 200,
+          "priority_units": 26014,
+          "step": 2
+        },
+        {
+          "order_id": "8cf69b251bfcd650555347d7752a3625",
+          "cost_cents": 200,
+          "priority_units": 22687,
+          "step": 3
+        },
+        {
+          "order_id": "dd96d2bc36b1b3227d9defe815e46b7e",
+          "cost_cents": 500,
+          "priority_units": 36830,
+          "step": 4
+        },
+        {
+          "order_id": "0dfe811c6d5e59581eb93ef96fc13d72",
+          "cost_cents": 500,
+          "priority_units": 34775,
+          "step": 5
+        },
+        {
+          "order_id": "a86ccaef13b7ca889ab8b7076629a748",
+          "cost_cents": 900,
+          "priority_units": 66931,
+          "step": 6
+        },
+        {
+          "order_id": "82f36bdc0196b518ac49483e7af21d02",
+          "cost_cents": 900,
+          "priority_units": 39645,
+          "step": 7
+        },
+        {
+          "order_id": "fdf0135ca769666a6e9f28c5d6576feb",
+          "cost_cents": 1400,
+          "priority_units": 54587,
+          "step": 8
+        },
+        {
+          "order_id": "838f02ea52c8e48b8bc5ed2671e7bfd3",
+          "cost_cents": 400,
+          "priority_units": 14392,
+          "step": 9
+        },
+        {
+          "order_id": "d6a55340021ebcaf3b321d5a34c6c31e",
+          "cost_cents": 800,
+          "priority_units": 26125,
+          "step": 10
+        },
+        {
+          "order_id": "2ebeaae6b3c969c7f5474e8f736bc33a",
+          "cost_cents": 1100,
+          "priority_units": 22118,
+          "step": 11
+        }
+      ],
+      "trace": [
+        {
+          "step": 0,
+          "received_event_ids": [],
+          "decision": "初始规划",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "5a3a0bfe72c4d627e4f13d9aa81d78ad",
+            "63114fe7881be901a26ef97cbd3b47a8",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "8cf69b251bfcd650555347d7752a3625",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "be0f9dd8034713beef855df4e524f6e4",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9900,
+          "executed": {
+            "order_id": "5a3a0bfe72c4d627e4f13d9aa81d78ad",
+            "cost_cents": 300,
+            "priority_units": 87954,
+            "step": 0
+          },
+          "spent_cents": 300,
+          "utility_units": 87954,
+          "remaining_cents": 9700
+        },
+        {
+          "step": 1,
+          "received_event_ids": [
+            "01:43d33927e13df71f3cf0e5782b0ff7c2",
+            "01:450c4a4d9a4f339a59165241cfe113db",
+            "01:8aed60ebc9e0c32365fe7fcbe6138592",
+            "01:be0f9dd8034713beef855df4e524f6e4",
+            "01:d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "01:fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "63114fe7881be901a26ef97cbd3b47a8",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "8cf69b251bfcd650555347d7752a3625",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "be0f9dd8034713beef855df4e524f6e4",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9600,
+          "executed": {
+            "order_id": "63114fe7881be901a26ef97cbd3b47a8",
+            "cost_cents": 200,
+            "priority_units": 36779,
+            "step": 1
+          },
+          "spent_cents": 500,
+          "utility_units": 124733,
+          "remaining_cents": 9500
+        },
+        {
+          "step": 2,
+          "received_event_ids": [
+            "01:8084fb81dfc973b3d492e788bfe45ab7",
+            "01:9c41b4f492e766fc38f8df3e60c4e144",
+            "02:1551a397c99806c946fb1b1e7c729d8d",
+            "02:d6a55340021ebcaf3b321d5a34c6c31e",
+            "02:fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "8cf69b251bfcd650555347d7752a3625",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "be0f9dd8034713beef855df4e524f6e4",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9400,
+          "executed": {
+            "order_id": "be0f9dd8034713beef855df4e524f6e4",
+            "cost_cents": 200,
+            "priority_units": 26014,
+            "step": 2
+          },
+          "spent_cents": 700,
+          "utility_units": 150747,
+          "remaining_cents": 9300
+        },
+        {
+          "step": 3,
+          "received_event_ids": [
+            "02:0dfe811c6d5e59581eb93ef96fc13d72",
+            "02:556c0a42a8e9e57a6e411701908f0fd3",
+            "03:43d33927e13df71f3cf0e5782b0ff7c2",
+            "03:6076ec81706ee9060d085f2909a6fbe7",
+            "03:62ea5251fe435ac8a677196623782c04",
+            "03:c3c485b86c410043b6e4775e3def9a20",
+            "03:d1632cdbf90f11c2d5fa53d5c3deeadf"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "8cf69b251bfcd650555347d7752a3625",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9200,
+          "executed": {
+            "order_id": "8cf69b251bfcd650555347d7752a3625",
+            "cost_cents": 200,
+            "priority_units": 22687,
+            "step": 3
+          },
+          "spent_cents": 900,
+          "utility_units": 173434,
+          "remaining_cents": 9100
+        },
+        {
+          "step": 4,
+          "received_event_ids": [
+            "02:43d33927e13df71f3cf0e5782b0ff7c2",
+            "02:442c441e8e8588cbf0f462423f7d864b",
+            "02:8aed60ebc9e0c32365fe7fcbe6138592",
+            "03:774c56b5c1305e0dc2a79ad46e118ba4",
+            "04:1a777b4fbc5f78c56a4d194ce7311df5",
+            "04:30597e915fa41c74c59cf5f8ce640d3d",
+            "04:42ec328ff647d401412f3531462b0b96",
+            "04:442c441e8e8588cbf0f462423f7d864b",
+            "04:556c0a42a8e9e57a6e411701908f0fd3",
+            "04:5a3a0bfe72c4d627e4f13d9aa81d78ad"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9000,
+          "executed": {
+            "order_id": "dd96d2bc36b1b3227d9defe815e46b7e",
+            "cost_cents": 500,
+            "priority_units": 36830,
+            "step": 4
+          },
+          "spent_cents": 1400,
+          "utility_units": 210264,
+          "remaining_cents": 8600
+        },
+        {
+          "step": 5,
+          "received_event_ids": [
+            "03:20a1b5b821806e87157587550af9d52e",
+            "03:9c41b4f492e766fc38f8df3e60c4e144",
+            "04:20a1b5b821806e87157587550af9d52e",
+            "04:6076ec81706ee9060d085f2909a6fbe7",
+            "05:1551a397c99806c946fb1b1e7c729d8d",
+            "05:2ebeaae6b3c969c7f5474e8f736bc33a",
+            "05:774c56b5c1305e0dc2a79ad46e118ba4",
+            "05:82f36bdc0196b518ac49483e7af21d02",
+            "05:8cf69b251bfcd650555347d7752a3625"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 8500,
+          "executed": {
+            "order_id": "0dfe811c6d5e59581eb93ef96fc13d72",
+            "cost_cents": 500,
+            "priority_units": 34775,
+            "step": 5
+          },
+          "spent_cents": 1900,
+          "utility_units": 245039,
+          "remaining_cents": 8100
+        },
+        {
+          "step": 6,
+          "received_event_ids": [
+            "05:6076ec81706ee9060d085f2909a6fbe7",
+            "05:dd96d2bc36b1b3227d9defe815e46b7e",
+            "06:354fc19d43cbb0ad997bd631a02fd169",
+            "06:82f36bdc0196b518ac49483e7af21d02",
+            "06:a86ccaef13b7ca889ab8b7076629a748"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 8000,
+          "executed": {
+            "order_id": "a86ccaef13b7ca889ab8b7076629a748",
+            "cost_cents": 900,
+            "priority_units": 66931,
+            "step": 6
+          },
+          "spent_cents": 2800,
+          "utility_units": 311970,
+          "remaining_cents": 7200
+        },
+        {
+          "step": 7,
+          "received_event_ids": [
+            "05:0dfe811c6d5e59581eb93ef96fc13d72",
+            "06:42ec328ff647d401412f3531462b0b96",
+            "06:be83e11958329610a35de1f743052c66",
+            "07:0dfe811c6d5e59581eb93ef96fc13d72",
+            "07:1a777b4fbc5f78c56a4d194ce7311df5",
+            "07:354fc19d43cbb0ad997bd631a02fd169",
+            "07:42ec328ff647d401412f3531462b0b96",
+            "07:6076ec81706ee9060d085f2909a6fbe7",
+            "07:c3c485b86c410043b6e4775e3def9a20"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 5500,
+          "executed": {
+            "order_id": "82f36bdc0196b518ac49483e7af21d02",
+            "cost_cents": 900,
+            "priority_units": 39645,
+            "step": 7
+          },
+          "spent_cents": 3700,
+          "utility_units": 351615,
+          "remaining_cents": 6300
+        },
+        {
+          "step": 8,
+          "received_event_ids": [
+            "06:20a1b5b821806e87157587550af9d52e",
+            "06:6076ec81706ee9060d085f2909a6fbe7",
+            "06:8cf69b251bfcd650555347d7752a3625",
+            "07:2ebeaae6b3c969c7f5474e8f736bc33a",
+            "07:d17eedcc5d276d0eb9ea566289f89352",
+            "08:2ebeaae6b3c969c7f5474e8f736bc33a",
+            "08:62ea5251fe435ac8a677196623782c04",
+            "08:82f36bdc0196b518ac49483e7af21d02",
+            "08:be83e11958329610a35de1f743052c66",
+            "08:dbd0a0b89b3fe516f8534b0f5de08534"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 4600,
+          "executed": {
+            "order_id": "fdf0135ca769666a6e9f28c5d6576feb",
+            "cost_cents": 1400,
+            "priority_units": 54587,
+            "step": 8
+          },
+          "spent_cents": 5100,
+          "utility_units": 406202,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 9,
+          "received_event_ids": [
+            "08:fca08869e5ebde633b5183dfdbc8e1be",
+            "09:556c0a42a8e9e57a6e411701908f0fd3",
+            "09:62ea5251fe435ac8a677196623782c04",
+            "09:64439b9234594e291aa9a30c226f257e",
+            "09:8cf69b251bfcd650555347d7752a3625"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e"
+          ],
+          "planned_cost_cents": 3200,
+          "executed": {
+            "order_id": "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "cost_cents": 400,
+            "priority_units": 14392,
+            "step": 9
+          },
+          "spent_cents": 5500,
+          "utility_units": 420594,
+          "remaining_cents": 4500
+        },
+        {
+          "step": 10,
+          "received_event_ids": [
+            "08:30597e915fa41c74c59cf5f8ce640d3d",
+            "08:442c441e8e8588cbf0f462423f7d864b",
+            "09:0dfe811c6d5e59581eb93ef96fc13d72",
+            "09:43d33927e13df71f3cf0e5782b0ff7c2",
+            "09:6076ec81706ee9060d085f2909a6fbe7",
+            "10:20a1b5b821806e87157587550af9d52e",
+            "10:7d3ee0bd440416eb22946dad24f7e4c2",
+            "10:8cf69b251bfcd650555347d7752a3625",
+            "10:dbd0a0b89b3fe516f8534b0f5de08534"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e"
+          ],
+          "planned_cost_cents": 2800,
+          "executed": {
+            "order_id": "d6a55340021ebcaf3b321d5a34c6c31e",
+            "cost_cents": 800,
+            "priority_units": 26125,
+            "step": 10
+          },
+          "spent_cents": 6300,
+          "utility_units": 446719,
+          "remaining_cents": 3700
+        },
+        {
+          "step": 11,
+          "received_event_ids": [
+            "09:d17eedcc5d276d0eb9ea566289f89352",
+            "10:d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "11:450c4a4d9a4f339a59165241cfe113db",
+            "11:8aed60ebc9e0c32365fe7fcbe6138592"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf"
+          ],
+          "planned_cost_cents": 2000,
+          "executed": {
+            "order_id": "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "cost_cents": 1100,
+            "priority_units": 22118,
+            "step": 11
+          },
+          "spent_cents": 7400,
+          "utility_units": 468837,
+          "remaining_cents": 2600
+        }
+      ],
+      "parameters": {
+        "interval": 3,
+        "min_gain_bps": 500,
+        "switch_penalty_units": 1000,
+        "cooldown_steps": 2
+      },
+      "net_utility_units": 468837
+    },
+    {
+      "policy": "periodic",
+      "stream_sha256": "769a37e8f6efac9a13ce0d546e98608d80fc224151fc7685bdbaed5b22eeddd1",
+      "budget_cents": 10000,
+      "spent_cents": 9800,
+      "utility_units": 661534,
+      "executed_count": 12,
+      "solver_calls": 4,
+      "accepted_replans": 3,
+      "rejected_replans": 0,
+      "plan_edit_count": 15,
+      "mandatory_removals": 1,
+      "stale_events_ignored": 2,
+      "actions": [
+        {
+          "order_id": "5a3a0bfe72c4d627e4f13d9aa81d78ad",
+          "cost_cents": 300,
+          "priority_units": 87954,
+          "step": 0
+        },
+        {
+          "order_id": "63114fe7881be901a26ef97cbd3b47a8",
+          "cost_cents": 200,
+          "priority_units": 36779,
+          "step": 1
+        },
+        {
+          "order_id": "be0f9dd8034713beef855df4e524f6e4",
+          "cost_cents": 200,
+          "priority_units": 26014,
+          "step": 2
+        },
+        {
+          "order_id": "8cf69b251bfcd650555347d7752a3625",
+          "cost_cents": 200,
+          "priority_units": 22687,
+          "step": 3
+        },
+        {
+          "order_id": "dd96d2bc36b1b3227d9defe815e46b7e",
+          "cost_cents": 500,
+          "priority_units": 36830,
+          "step": 4
+        },
+        {
+          "order_id": "0dfe811c6d5e59581eb93ef96fc13d72",
+          "cost_cents": 500,
+          "priority_units": 34775,
+          "step": 5
+        },
+        {
+          "order_id": "a86ccaef13b7ca889ab8b7076629a748",
+          "cost_cents": 900,
+          "priority_units": 66931,
+          "step": 6
+        },
+        {
+          "order_id": "30597e915fa41c74c59cf5f8ce640d3d",
+          "cost_cents": 2200,
+          "priority_units": 116042,
+          "step": 7
+        },
+        {
+          "order_id": "442c441e8e8588cbf0f462423f7d864b",
+          "cost_cents": 1800,
+          "priority_units": 94298,
+          "step": 8
+        },
+        {
+          "order_id": "dbd0a0b89b3fe516f8534b0f5de08534",
+          "cost_cents": 1200,
+          "priority_units": 70245,
+          "step": 9
+        },
+        {
+          "order_id": "fdf0135ca769666a6e9f28c5d6576feb",
+          "cost_cents": 1400,
+          "priority_units": 54587,
+          "step": 10
+        },
+        {
+          "order_id": "838f02ea52c8e48b8bc5ed2671e7bfd3",
+          "cost_cents": 400,
+          "priority_units": 14392,
+          "step": 11
+        }
+      ],
+      "trace": [
+        {
+          "step": 0,
+          "received_event_ids": [],
+          "decision": "初始规划",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "5a3a0bfe72c4d627e4f13d9aa81d78ad",
+            "63114fe7881be901a26ef97cbd3b47a8",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "8cf69b251bfcd650555347d7752a3625",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "be0f9dd8034713beef855df4e524f6e4",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9900,
+          "executed": {
+            "order_id": "5a3a0bfe72c4d627e4f13d9aa81d78ad",
+            "cost_cents": 300,
+            "priority_units": 87954,
+            "step": 0
+          },
+          "spent_cents": 300,
+          "utility_units": 87954,
+          "remaining_cents": 9700
+        },
+        {
+          "step": 1,
+          "received_event_ids": [
+            "01:43d33927e13df71f3cf0e5782b0ff7c2",
+            "01:450c4a4d9a4f339a59165241cfe113db",
+            "01:8aed60ebc9e0c32365fe7fcbe6138592",
+            "01:be0f9dd8034713beef855df4e524f6e4",
+            "01:d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "01:fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "63114fe7881be901a26ef97cbd3b47a8",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "8cf69b251bfcd650555347d7752a3625",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "be0f9dd8034713beef855df4e524f6e4",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9600,
+          "executed": {
+            "order_id": "63114fe7881be901a26ef97cbd3b47a8",
+            "cost_cents": 200,
+            "priority_units": 36779,
+            "step": 1
+          },
+          "spent_cents": 500,
+          "utility_units": 124733,
+          "remaining_cents": 9500
+        },
+        {
+          "step": 2,
+          "received_event_ids": [
+            "01:8084fb81dfc973b3d492e788bfe45ab7",
+            "01:9c41b4f492e766fc38f8df3e60c4e144",
+            "02:1551a397c99806c946fb1b1e7c729d8d",
+            "02:d6a55340021ebcaf3b321d5a34c6c31e",
+            "02:fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "8cf69b251bfcd650555347d7752a3625",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "be0f9dd8034713beef855df4e524f6e4",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9400,
+          "executed": {
+            "order_id": "be0f9dd8034713beef855df4e524f6e4",
+            "cost_cents": 200,
+            "priority_units": 26014,
+            "step": 2
+          },
+          "spent_cents": 700,
+          "utility_units": 150747,
+          "remaining_cents": 9300
+        },
+        {
+          "step": 3,
+          "received_event_ids": [
+            "02:0dfe811c6d5e59581eb93ef96fc13d72",
+            "02:556c0a42a8e9e57a6e411701908f0fd3",
+            "03:43d33927e13df71f3cf0e5782b0ff7c2",
+            "03:6076ec81706ee9060d085f2909a6fbe7",
+            "03:62ea5251fe435ac8a677196623782c04",
+            "03:c3c485b86c410043b6e4775e3def9a20",
+            "03:d1632cdbf90f11c2d5fa53d5c3deeadf"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "8cf69b251bfcd650555347d7752a3625",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fca08869e5ebde633b5183dfdbc8e1be",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9200,
+          "executed": {
+            "order_id": "8cf69b251bfcd650555347d7752a3625",
+            "cost_cents": 200,
+            "priority_units": 22687,
+            "step": 3
+          },
+          "spent_cents": 900,
+          "utility_units": 173434,
+          "remaining_cents": 9100
+        },
+        {
+          "step": 4,
+          "received_event_ids": [
+            "02:43d33927e13df71f3cf0e5782b0ff7c2",
+            "02:442c441e8e8588cbf0f462423f7d864b",
+            "02:8aed60ebc9e0c32365fe7fcbe6138592",
+            "03:774c56b5c1305e0dc2a79ad46e118ba4",
+            "04:1a777b4fbc5f78c56a4d194ce7311df5",
+            "04:30597e915fa41c74c59cf5f8ce640d3d",
+            "04:42ec328ff647d401412f3531462b0b96",
+            "04:442c441e8e8588cbf0f462423f7d864b",
+            "04:556c0a42a8e9e57a6e411701908f0fd3",
+            "04:5a3a0bfe72c4d627e4f13d9aa81d78ad"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fca08869e5ebde633b5183dfdbc8e1be",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9000,
+          "executed": {
+            "order_id": "dd96d2bc36b1b3227d9defe815e46b7e",
+            "cost_cents": 500,
+            "priority_units": 36830,
+            "step": 4
+          },
+          "spent_cents": 1400,
+          "utility_units": 210264,
+          "remaining_cents": 8600
+        },
+        {
+          "step": 5,
+          "received_event_ids": [
+            "03:20a1b5b821806e87157587550af9d52e",
+            "03:9c41b4f492e766fc38f8df3e60c4e144",
+            "04:20a1b5b821806e87157587550af9d52e",
+            "04:6076ec81706ee9060d085f2909a6fbe7",
+            "05:1551a397c99806c946fb1b1e7c729d8d",
+            "05:2ebeaae6b3c969c7f5474e8f736bc33a",
+            "05:774c56b5c1305e0dc2a79ad46e118ba4",
+            "05:82f36bdc0196b518ac49483e7af21d02",
+            "05:8cf69b251bfcd650555347d7752a3625"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "fca08869e5ebde633b5183dfdbc8e1be",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 8500,
+          "executed": {
+            "order_id": "0dfe811c6d5e59581eb93ef96fc13d72",
+            "cost_cents": 500,
+            "priority_units": 34775,
+            "step": 5
+          },
+          "spent_cents": 1900,
+          "utility_units": 245039,
+          "remaining_cents": 8100
+        },
+        {
+          "step": 6,
+          "received_event_ids": [
+            "05:6076ec81706ee9060d085f2909a6fbe7",
+            "05:dd96d2bc36b1b3227d9defe815e46b7e",
+            "06:354fc19d43cbb0ad997bd631a02fd169",
+            "06:82f36bdc0196b518ac49483e7af21d02",
+            "06:a86ccaef13b7ca889ab8b7076629a748"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "30597e915fa41c74c59cf5f8ce640d3d",
+            "442c441e8e8588cbf0f462423f7d864b",
+            "556c0a42a8e9e57a6e411701908f0fd3",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "planned_cost_cents": 8000,
+          "executed": {
+            "order_id": "a86ccaef13b7ca889ab8b7076629a748",
+            "cost_cents": 900,
+            "priority_units": 66931,
+            "step": 6
+          },
+          "spent_cents": 2800,
+          "utility_units": 311970,
+          "remaining_cents": 7200
+        },
+        {
+          "step": 7,
+          "received_event_ids": [
+            "05:0dfe811c6d5e59581eb93ef96fc13d72",
+            "06:42ec328ff647d401412f3531462b0b96",
+            "06:be83e11958329610a35de1f743052c66",
+            "07:0dfe811c6d5e59581eb93ef96fc13d72",
+            "07:1a777b4fbc5f78c56a4d194ce7311df5",
+            "07:354fc19d43cbb0ad997bd631a02fd169",
+            "07:42ec328ff647d401412f3531462b0b96",
+            "07:6076ec81706ee9060d085f2909a6fbe7",
+            "07:c3c485b86c410043b6e4775e3def9a20"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "30597e915fa41c74c59cf5f8ce640d3d",
+            "442c441e8e8588cbf0f462423f7d864b",
+            "556c0a42a8e9e57a6e411701908f0fd3",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "planned_cost_cents": 7100,
+          "executed": {
+            "order_id": "30597e915fa41c74c59cf5f8ce640d3d",
+            "cost_cents": 2200,
+            "priority_units": 116042,
+            "step": 7
+          },
+          "spent_cents": 5000,
+          "utility_units": 428012,
+          "remaining_cents": 5000
+        },
+        {
+          "step": 8,
+          "received_event_ids": [
+            "06:20a1b5b821806e87157587550af9d52e",
+            "06:6076ec81706ee9060d085f2909a6fbe7",
+            "06:8cf69b251bfcd650555347d7752a3625",
+            "07:2ebeaae6b3c969c7f5474e8f736bc33a",
+            "07:d17eedcc5d276d0eb9ea566289f89352",
+            "08:2ebeaae6b3c969c7f5474e8f736bc33a",
+            "08:62ea5251fe435ac8a677196623782c04",
+            "08:82f36bdc0196b518ac49483e7af21d02",
+            "08:be83e11958329610a35de1f743052c66",
+            "08:dbd0a0b89b3fe516f8534b0f5de08534"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "442c441e8e8588cbf0f462423f7d864b",
+            "556c0a42a8e9e57a6e411701908f0fd3",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "planned_cost_cents": 4900,
+          "executed": {
+            "order_id": "442c441e8e8588cbf0f462423f7d864b",
+            "cost_cents": 1800,
+            "priority_units": 94298,
+            "step": 8
+          },
+          "spent_cents": 6800,
+          "utility_units": 522310,
+          "remaining_cents": 3200
+        },
+        {
+          "step": 9,
+          "received_event_ids": [
+            "08:fca08869e5ebde633b5183dfdbc8e1be",
+            "09:556c0a42a8e9e57a6e411701908f0fd3",
+            "09:62ea5251fe435ac8a677196623782c04",
+            "09:64439b9234594e291aa9a30c226f257e",
+            "09:8cf69b251bfcd650555347d7752a3625"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "dbd0a0b89b3fe516f8534b0f5de08534",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 3000,
+          "executed": {
+            "order_id": "dbd0a0b89b3fe516f8534b0f5de08534",
+            "cost_cents": 1200,
+            "priority_units": 70245,
+            "step": 9
+          },
+          "spent_cents": 8000,
+          "utility_units": 592555,
+          "remaining_cents": 2000
+        },
+        {
+          "step": 10,
+          "received_event_ids": [
+            "08:30597e915fa41c74c59cf5f8ce640d3d",
+            "08:442c441e8e8588cbf0f462423f7d864b",
+            "09:0dfe811c6d5e59581eb93ef96fc13d72",
+            "09:43d33927e13df71f3cf0e5782b0ff7c2",
+            "09:6076ec81706ee9060d085f2909a6fbe7",
+            "10:20a1b5b821806e87157587550af9d52e",
+            "10:7d3ee0bd440416eb22946dad24f7e4c2",
+            "10:8cf69b251bfcd650555347d7752a3625",
+            "10:dbd0a0b89b3fe516f8534b0f5de08534"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 1800,
+          "executed": {
+            "order_id": "fdf0135ca769666a6e9f28c5d6576feb",
+            "cost_cents": 1400,
+            "priority_units": 54587,
+            "step": 10
+          },
+          "spent_cents": 9400,
+          "utility_units": 647142,
+          "remaining_cents": 600
+        },
+        {
+          "step": 11,
+          "received_event_ids": [
+            "09:d17eedcc5d276d0eb9ea566289f89352",
+            "10:d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "11:450c4a4d9a4f339a59165241cfe113db",
+            "11:8aed60ebc9e0c32365fe7fcbe6138592"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "838f02ea52c8e48b8bc5ed2671e7bfd3"
+          ],
+          "planned_cost_cents": 400,
+          "executed": {
+            "order_id": "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "cost_cents": 400,
+            "priority_units": 14392,
+            "step": 11
+          },
+          "spent_cents": 9800,
+          "utility_units": 661534,
+          "remaining_cents": 200
+        }
+      ],
+      "parameters": {
+        "interval": 3,
+        "min_gain_bps": 500,
+        "switch_penalty_units": 1000,
+        "cooldown_steps": 2
+      },
+      "net_utility_units": 646534
+    },
+    {
+      "policy": "immediate",
+      "stream_sha256": "769a37e8f6efac9a13ce0d546e98608d80fc224151fc7685bdbaed5b22eeddd1",
+      "budget_cents": 10000,
+      "spent_cents": 10000,
+      "utility_units": 664580,
+      "executed_count": 11,
+      "solver_calls": 11,
+      "accepted_replans": 10,
+      "rejected_replans": 0,
+      "plan_edit_count": 22,
+      "mandatory_removals": 1,
+      "stale_events_ignored": 2,
+      "actions": [
+        {
+          "order_id": "5a3a0bfe72c4d627e4f13d9aa81d78ad",
+          "cost_cents": 300,
+          "priority_units": 87954,
+          "step": 0
+        },
+        {
+          "order_id": "63114fe7881be901a26ef97cbd3b47a8",
+          "cost_cents": 200,
+          "priority_units": 36779,
+          "step": 1
+        },
+        {
+          "order_id": "be0f9dd8034713beef855df4e524f6e4",
+          "cost_cents": 200,
+          "priority_units": 26014,
+          "step": 2
+        },
+        {
+          "order_id": "8cf69b251bfcd650555347d7752a3625",
+          "cost_cents": 200,
+          "priority_units": 22687,
+          "step": 3
+        },
+        {
+          "order_id": "dd96d2bc36b1b3227d9defe815e46b7e",
+          "cost_cents": 500,
+          "priority_units": 36830,
+          "step": 4
+        },
+        {
+          "order_id": "0dfe811c6d5e59581eb93ef96fc13d72",
+          "cost_cents": 500,
+          "priority_units": 34775,
+          "step": 5
+        },
+        {
+          "order_id": "a86ccaef13b7ca889ab8b7076629a748",
+          "cost_cents": 900,
+          "priority_units": 66931,
+          "step": 6
+        },
+        {
+          "order_id": "30597e915fa41c74c59cf5f8ce640d3d",
+          "cost_cents": 2200,
+          "priority_units": 116042,
+          "step": 7
+        },
+        {
+          "order_id": "dbd0a0b89b3fe516f8534b0f5de08534",
+          "cost_cents": 1200,
+          "priority_units": 70245,
+          "step": 8
+        },
+        {
+          "order_id": "62ea5251fe435ac8a677196623782c04",
+          "cost_cents": 2400,
+          "priority_units": 111736,
+          "step": 9
+        },
+        {
+          "order_id": "fdf0135ca769666a6e9f28c5d6576feb",
+          "cost_cents": 1400,
+          "priority_units": 54587,
+          "step": 10
+        }
+      ],
+      "trace": [
+        {
+          "step": 0,
+          "received_event_ids": [],
+          "decision": "初始规划",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "5a3a0bfe72c4d627e4f13d9aa81d78ad",
+            "63114fe7881be901a26ef97cbd3b47a8",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "8cf69b251bfcd650555347d7752a3625",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "be0f9dd8034713beef855df4e524f6e4",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9900,
+          "executed": {
+            "order_id": "5a3a0bfe72c4d627e4f13d9aa81d78ad",
+            "cost_cents": 300,
+            "priority_units": 87954,
+            "step": 0
+          },
+          "spent_cents": 300,
+          "utility_units": 87954,
+          "remaining_cents": 9700
+        },
+        {
+          "step": 1,
+          "received_event_ids": [
+            "01:43d33927e13df71f3cf0e5782b0ff7c2",
+            "01:450c4a4d9a4f339a59165241cfe113db",
+            "01:8aed60ebc9e0c32365fe7fcbe6138592",
+            "01:be0f9dd8034713beef855df4e524f6e4",
+            "01:d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "01:fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "63114fe7881be901a26ef97cbd3b47a8",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "8cf69b251bfcd650555347d7752a3625",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "be0f9dd8034713beef855df4e524f6e4",
+            "be83e11958329610a35de1f743052c66",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9700,
+          "executed": {
+            "order_id": "63114fe7881be901a26ef97cbd3b47a8",
+            "cost_cents": 200,
+            "priority_units": 36779,
+            "step": 1
+          },
+          "spent_cents": 500,
+          "utility_units": 124733,
+          "remaining_cents": 9500
+        },
+        {
+          "step": 2,
+          "received_event_ids": [
+            "01:8084fb81dfc973b3d492e788bfe45ab7",
+            "01:9c41b4f492e766fc38f8df3e60c4e144",
+            "02:1551a397c99806c946fb1b1e7c729d8d",
+            "02:d6a55340021ebcaf3b321d5a34c6c31e",
+            "02:fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "8cf69b251bfcd650555347d7752a3625",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "be0f9dd8034713beef855df4e524f6e4",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fca08869e5ebde633b5183dfdbc8e1be",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9400,
+          "executed": {
+            "order_id": "be0f9dd8034713beef855df4e524f6e4",
+            "cost_cents": 200,
+            "priority_units": 26014,
+            "step": 2
+          },
+          "spent_cents": 700,
+          "utility_units": 150747,
+          "remaining_cents": 9300
+        },
+        {
+          "step": 3,
+          "received_event_ids": [
+            "02:0dfe811c6d5e59581eb93ef96fc13d72",
+            "02:556c0a42a8e9e57a6e411701908f0fd3",
+            "03:43d33927e13df71f3cf0e5782b0ff7c2",
+            "03:6076ec81706ee9060d085f2909a6fbe7",
+            "03:62ea5251fe435ac8a677196623782c04",
+            "03:c3c485b86c410043b6e4775e3def9a20",
+            "03:d1632cdbf90f11c2d5fa53d5c3deeadf"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "8cf69b251bfcd650555347d7752a3625",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fca08869e5ebde633b5183dfdbc8e1be",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9200,
+          "executed": {
+            "order_id": "8cf69b251bfcd650555347d7752a3625",
+            "cost_cents": 200,
+            "priority_units": 22687,
+            "step": 3
+          },
+          "spent_cents": 900,
+          "utility_units": 173434,
+          "remaining_cents": 9100
+        },
+        {
+          "step": 4,
+          "received_event_ids": [
+            "02:43d33927e13df71f3cf0e5782b0ff7c2",
+            "02:442c441e8e8588cbf0f462423f7d864b",
+            "02:8aed60ebc9e0c32365fe7fcbe6138592",
+            "03:774c56b5c1305e0dc2a79ad46e118ba4",
+            "04:1a777b4fbc5f78c56a4d194ce7311df5",
+            "04:30597e915fa41c74c59cf5f8ce640d3d",
+            "04:42ec328ff647d401412f3531462b0b96",
+            "04:442c441e8e8588cbf0f462423f7d864b",
+            "04:556c0a42a8e9e57a6e411701908f0fd3",
+            "04:5a3a0bfe72c4d627e4f13d9aa81d78ad"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "30597e915fa41c74c59cf5f8ce640d3d",
+            "442c441e8e8588cbf0f462423f7d864b",
+            "556c0a42a8e9e57a6e411701908f0fd3",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "planned_cost_cents": 9000,
+          "executed": {
+            "order_id": "dd96d2bc36b1b3227d9defe815e46b7e",
+            "cost_cents": 500,
+            "priority_units": 36830,
+            "step": 4
+          },
+          "spent_cents": 1400,
+          "utility_units": 210264,
+          "remaining_cents": 8600
+        },
+        {
+          "step": 5,
+          "received_event_ids": [
+            "03:20a1b5b821806e87157587550af9d52e",
+            "03:9c41b4f492e766fc38f8df3e60c4e144",
+            "04:20a1b5b821806e87157587550af9d52e",
+            "04:6076ec81706ee9060d085f2909a6fbe7",
+            "05:1551a397c99806c946fb1b1e7c729d8d",
+            "05:2ebeaae6b3c969c7f5474e8f736bc33a",
+            "05:774c56b5c1305e0dc2a79ad46e118ba4",
+            "05:82f36bdc0196b518ac49483e7af21d02",
+            "05:8cf69b251bfcd650555347d7752a3625"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "30597e915fa41c74c59cf5f8ce640d3d",
+            "442c441e8e8588cbf0f462423f7d864b",
+            "556c0a42a8e9e57a6e411701908f0fd3",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "planned_cost_cents": 8500,
+          "executed": {
+            "order_id": "0dfe811c6d5e59581eb93ef96fc13d72",
+            "cost_cents": 500,
+            "priority_units": 34775,
+            "step": 5
+          },
+          "spent_cents": 1900,
+          "utility_units": 245039,
+          "remaining_cents": 8100
+        },
+        {
+          "step": 6,
+          "received_event_ids": [
+            "05:6076ec81706ee9060d085f2909a6fbe7",
+            "05:dd96d2bc36b1b3227d9defe815e46b7e",
+            "06:354fc19d43cbb0ad997bd631a02fd169",
+            "06:82f36bdc0196b518ac49483e7af21d02",
+            "06:a86ccaef13b7ca889ab8b7076629a748"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "30597e915fa41c74c59cf5f8ce640d3d",
+            "442c441e8e8588cbf0f462423f7d864b",
+            "556c0a42a8e9e57a6e411701908f0fd3",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "planned_cost_cents": 8000,
+          "executed": {
+            "order_id": "a86ccaef13b7ca889ab8b7076629a748",
+            "cost_cents": 900,
+            "priority_units": 66931,
+            "step": 6
+          },
+          "spent_cents": 2800,
+          "utility_units": 311970,
+          "remaining_cents": 7200
+        },
+        {
+          "step": 7,
+          "received_event_ids": [
+            "05:0dfe811c6d5e59581eb93ef96fc13d72",
+            "06:42ec328ff647d401412f3531462b0b96",
+            "06:be83e11958329610a35de1f743052c66",
+            "07:0dfe811c6d5e59581eb93ef96fc13d72",
+            "07:1a777b4fbc5f78c56a4d194ce7311df5",
+            "07:354fc19d43cbb0ad997bd631a02fd169",
+            "07:42ec328ff647d401412f3531462b0b96",
+            "07:6076ec81706ee9060d085f2909a6fbe7",
+            "07:c3c485b86c410043b6e4775e3def9a20"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "30597e915fa41c74c59cf5f8ce640d3d",
+            "442c441e8e8588cbf0f462423f7d864b",
+            "556c0a42a8e9e57a6e411701908f0fd3",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "planned_cost_cents": 7100,
+          "executed": {
+            "order_id": "30597e915fa41c74c59cf5f8ce640d3d",
+            "cost_cents": 2200,
+            "priority_units": 116042,
+            "step": 7
+          },
+          "spent_cents": 5000,
+          "utility_units": 428012,
+          "remaining_cents": 5000
+        },
+        {
+          "step": 8,
+          "received_event_ids": [
+            "06:20a1b5b821806e87157587550af9d52e",
+            "06:6076ec81706ee9060d085f2909a6fbe7",
+            "06:8cf69b251bfcd650555347d7752a3625",
+            "07:2ebeaae6b3c969c7f5474e8f736bc33a",
+            "07:d17eedcc5d276d0eb9ea566289f89352",
+            "08:2ebeaae6b3c969c7f5474e8f736bc33a",
+            "08:62ea5251fe435ac8a677196623782c04",
+            "08:82f36bdc0196b518ac49483e7af21d02",
+            "08:be83e11958329610a35de1f743052c66",
+            "08:dbd0a0b89b3fe516f8534b0f5de08534"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "442c441e8e8588cbf0f462423f7d864b",
+            "556c0a42a8e9e57a6e411701908f0fd3",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "dbd0a0b89b3fe516f8534b0f5de08534"
+          ],
+          "planned_cost_cents": 4800,
+          "executed": {
+            "order_id": "dbd0a0b89b3fe516f8534b0f5de08534",
+            "cost_cents": 1200,
+            "priority_units": 70245,
+            "step": 8
+          },
+          "spent_cents": 6200,
+          "utility_units": 498257,
+          "remaining_cents": 3800
+        },
+        {
+          "step": 9,
+          "received_event_ids": [
+            "08:fca08869e5ebde633b5183dfdbc8e1be",
+            "09:556c0a42a8e9e57a6e411701908f0fd3",
+            "09:62ea5251fe435ac8a677196623782c04",
+            "09:64439b9234594e291aa9a30c226f257e",
+            "09:8cf69b251bfcd650555347d7752a3625"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "62ea5251fe435ac8a677196623782c04",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 3800,
+          "executed": {
+            "order_id": "62ea5251fe435ac8a677196623782c04",
+            "cost_cents": 2400,
+            "priority_units": 111736,
+            "step": 9
+          },
+          "spent_cents": 8600,
+          "utility_units": 609993,
+          "remaining_cents": 1400
+        },
+        {
+          "step": 10,
+          "received_event_ids": [
+            "08:30597e915fa41c74c59cf5f8ce640d3d",
+            "08:442c441e8e8588cbf0f462423f7d864b",
+            "09:0dfe811c6d5e59581eb93ef96fc13d72",
+            "09:43d33927e13df71f3cf0e5782b0ff7c2",
+            "09:6076ec81706ee9060d085f2909a6fbe7",
+            "10:20a1b5b821806e87157587550af9d52e",
+            "10:7d3ee0bd440416eb22946dad24f7e4c2",
+            "10:8cf69b251bfcd650555347d7752a3625",
+            "10:dbd0a0b89b3fe516f8534b0f5de08534"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 1400,
+          "executed": {
+            "order_id": "fdf0135ca769666a6e9f28c5d6576feb",
+            "cost_cents": 1400,
+            "priority_units": 54587,
+            "step": 10
+          },
+          "spent_cents": 10000,
+          "utility_units": 664580,
+          "remaining_cents": 0
+        },
+        {
+          "step": 11,
+          "received_event_ids": [
+            "09:d17eedcc5d276d0eb9ea566289f89352",
+            "10:d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "11:450c4a4d9a4f339a59165241cfe113db",
+            "11:8aed60ebc9e0c32365fe7fcbe6138592"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 10000,
+          "utility_units": 664580,
+          "remaining_cents": 0
+        }
+      ],
+      "parameters": {
+        "interval": 3,
+        "min_gain_bps": 500,
+        "switch_penalty_units": 1000,
+        "cooldown_steps": 2
+      },
+      "net_utility_units": 642580
+    },
+    {
+      "policy": "stable",
+      "stream_sha256": "769a37e8f6efac9a13ce0d546e98608d80fc224151fc7685bdbaed5b22eeddd1",
+      "budget_cents": 10000,
+      "spent_cents": 9800,
+      "utility_units": 661534,
+      "executed_count": 12,
+      "solver_calls": 8,
+      "accepted_replans": 3,
+      "rejected_replans": 4,
+      "plan_edit_count": 14,
+      "mandatory_removals": 2,
+      "stale_events_ignored": 2,
+      "actions": [
+        {
+          "order_id": "5a3a0bfe72c4d627e4f13d9aa81d78ad",
+          "cost_cents": 300,
+          "priority_units": 87954,
+          "step": 0
+        },
+        {
+          "order_id": "63114fe7881be901a26ef97cbd3b47a8",
+          "cost_cents": 200,
+          "priority_units": 36779,
+          "step": 1
+        },
+        {
+          "order_id": "be0f9dd8034713beef855df4e524f6e4",
+          "cost_cents": 200,
+          "priority_units": 26014,
+          "step": 2
+        },
+        {
+          "order_id": "8cf69b251bfcd650555347d7752a3625",
+          "cost_cents": 200,
+          "priority_units": 22687,
+          "step": 3
+        },
+        {
+          "order_id": "dd96d2bc36b1b3227d9defe815e46b7e",
+          "cost_cents": 500,
+          "priority_units": 36830,
+          "step": 4
+        },
+        {
+          "order_id": "0dfe811c6d5e59581eb93ef96fc13d72",
+          "cost_cents": 500,
+          "priority_units": 34775,
+          "step": 5
+        },
+        {
+          "order_id": "a86ccaef13b7ca889ab8b7076629a748",
+          "cost_cents": 900,
+          "priority_units": 66931,
+          "step": 6
+        },
+        {
+          "order_id": "30597e915fa41c74c59cf5f8ce640d3d",
+          "cost_cents": 2200,
+          "priority_units": 116042,
+          "step": 7
+        },
+        {
+          "order_id": "442c441e8e8588cbf0f462423f7d864b",
+          "cost_cents": 1800,
+          "priority_units": 94298,
+          "step": 8
+        },
+        {
+          "order_id": "dbd0a0b89b3fe516f8534b0f5de08534",
+          "cost_cents": 1200,
+          "priority_units": 70245,
+          "step": 9
+        },
+        {
+          "order_id": "fdf0135ca769666a6e9f28c5d6576feb",
+          "cost_cents": 1400,
+          "priority_units": 54587,
+          "step": 10
+        },
+        {
+          "order_id": "838f02ea52c8e48b8bc5ed2671e7bfd3",
+          "cost_cents": 400,
+          "priority_units": 14392,
+          "step": 11
+        }
+      ],
+      "trace": [
+        {
+          "step": 0,
+          "received_event_ids": [],
+          "decision": "初始规划",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "5a3a0bfe72c4d627e4f13d9aa81d78ad",
+            "63114fe7881be901a26ef97cbd3b47a8",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "8cf69b251bfcd650555347d7752a3625",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "be0f9dd8034713beef855df4e524f6e4",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9900,
+          "executed": {
+            "order_id": "5a3a0bfe72c4d627e4f13d9aa81d78ad",
+            "cost_cents": 300,
+            "priority_units": 87954,
+            "step": 0
+          },
+          "spent_cents": 300,
+          "utility_units": 87954,
+          "remaining_cents": 9700
+        },
+        {
+          "step": 1,
+          "received_event_ids": [
+            "01:43d33927e13df71f3cf0e5782b0ff7c2",
+            "01:450c4a4d9a4f339a59165241cfe113db",
+            "01:8aed60ebc9e0c32365fe7fcbe6138592",
+            "01:be0f9dd8034713beef855df4e524f6e4",
+            "01:d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "01:fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "63114fe7881be901a26ef97cbd3b47a8",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "8cf69b251bfcd650555347d7752a3625",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "be0f9dd8034713beef855df4e524f6e4",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9600,
+          "executed": {
+            "order_id": "63114fe7881be901a26ef97cbd3b47a8",
+            "cost_cents": 200,
+            "priority_units": 36779,
+            "step": 1
+          },
+          "spent_cents": 500,
+          "utility_units": 124733,
+          "remaining_cents": 9500
+        },
+        {
+          "step": 2,
+          "received_event_ids": [
+            "01:8084fb81dfc973b3d492e788bfe45ab7",
+            "01:9c41b4f492e766fc38f8df3e60c4e144",
+            "02:1551a397c99806c946fb1b1e7c729d8d",
+            "02:d6a55340021ebcaf3b321d5a34c6c31e",
+            "02:fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "decision": "净增益未过门槛，保留方案",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "8cf69b251bfcd650555347d7752a3625",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "be0f9dd8034713beef855df4e524f6e4",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9400,
+          "executed": {
+            "order_id": "be0f9dd8034713beef855df4e524f6e4",
+            "cost_cents": 200,
+            "priority_units": 26014,
+            "step": 2
+          },
+          "spent_cents": 700,
+          "utility_units": 150747,
+          "remaining_cents": 9300
+        },
+        {
+          "step": 3,
+          "received_event_ids": [
+            "02:0dfe811c6d5e59581eb93ef96fc13d72",
+            "02:556c0a42a8e9e57a6e411701908f0fd3",
+            "03:43d33927e13df71f3cf0e5782b0ff7c2",
+            "03:6076ec81706ee9060d085f2909a6fbe7",
+            "03:62ea5251fe435ac8a677196623782c04",
+            "03:c3c485b86c410043b6e4775e3def9a20",
+            "03:d1632cdbf90f11c2d5fa53d5c3deeadf"
+          ],
+          "decision": "净增益未过门槛，保留方案",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "8cf69b251bfcd650555347d7752a3625",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "d6a55340021ebcaf3b321d5a34c6c31e",
+            "dd96d2bc36b1b3227d9defe815e46b7e",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 9200,
+          "executed": {
+            "order_id": "8cf69b251bfcd650555347d7752a3625",
+            "cost_cents": 200,
+            "priority_units": 22687,
+            "step": 3
+          },
+          "spent_cents": 900,
+          "utility_units": 173434,
+          "remaining_cents": 9100
+        },
+        {
+          "step": 4,
+          "received_event_ids": [
+            "02:43d33927e13df71f3cf0e5782b0ff7c2",
+            "02:442c441e8e8588cbf0f462423f7d864b",
+            "02:8aed60ebc9e0c32365fe7fcbe6138592",
+            "03:774c56b5c1305e0dc2a79ad46e118ba4",
+            "04:1a777b4fbc5f78c56a4d194ce7311df5",
+            "04:30597e915fa41c74c59cf5f8ce640d3d",
+            "04:42ec328ff647d401412f3531462b0b96",
+            "04:442c441e8e8588cbf0f462423f7d864b",
+            "04:556c0a42a8e9e57a6e411701908f0fd3",
+            "04:5a3a0bfe72c4d627e4f13d9aa81d78ad"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "30597e915fa41c74c59cf5f8ce640d3d",
+            "556c0a42a8e9e57a6e411701908f0fd3",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "a86ccaef13b7ca889ab8b7076629a748",
+            "dd96d2bc36b1b3227d9defe815e46b7e"
+          ],
+          "planned_cost_cents": 9100,
+          "executed": {
+            "order_id": "dd96d2bc36b1b3227d9defe815e46b7e",
+            "cost_cents": 500,
+            "priority_units": 36830,
+            "step": 4
+          },
+          "spent_cents": 1400,
+          "utility_units": 210264,
+          "remaining_cents": 8600
+        },
+        {
+          "step": 5,
+          "received_event_ids": [
+            "03:20a1b5b821806e87157587550af9d52e",
+            "03:9c41b4f492e766fc38f8df3e60c4e144",
+            "04:20a1b5b821806e87157587550af9d52e",
+            "04:6076ec81706ee9060d085f2909a6fbe7",
+            "05:1551a397c99806c946fb1b1e7c729d8d",
+            "05:2ebeaae6b3c969c7f5474e8f736bc33a",
+            "05:774c56b5c1305e0dc2a79ad46e118ba4",
+            "05:82f36bdc0196b518ac49483e7af21d02",
+            "05:8cf69b251bfcd650555347d7752a3625"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "0dfe811c6d5e59581eb93ef96fc13d72",
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "30597e915fa41c74c59cf5f8ce640d3d",
+            "556c0a42a8e9e57a6e411701908f0fd3",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "a86ccaef13b7ca889ab8b7076629a748"
+          ],
+          "planned_cost_cents": 8600,
+          "executed": {
+            "order_id": "0dfe811c6d5e59581eb93ef96fc13d72",
+            "cost_cents": 500,
+            "priority_units": 34775,
+            "step": 5
+          },
+          "spent_cents": 1900,
+          "utility_units": 245039,
+          "remaining_cents": 8100
+        },
+        {
+          "step": 6,
+          "received_event_ids": [
+            "05:6076ec81706ee9060d085f2909a6fbe7",
+            "05:dd96d2bc36b1b3227d9defe815e46b7e",
+            "06:354fc19d43cbb0ad997bd631a02fd169",
+            "06:82f36bdc0196b518ac49483e7af21d02",
+            "06:a86ccaef13b7ca889ab8b7076629a748"
+          ],
+          "decision": "净增益未过门槛，保留方案",
+          "planned_ids_before_execution": [
+            "1a777b4fbc5f78c56a4d194ce7311df5",
+            "2ebeaae6b3c969c7f5474e8f736bc33a",
+            "30597e915fa41c74c59cf5f8ce640d3d",
+            "556c0a42a8e9e57a6e411701908f0fd3",
+            "82f36bdc0196b518ac49483e7af21d02",
+            "a86ccaef13b7ca889ab8b7076629a748"
+          ],
+          "planned_cost_cents": 8100,
+          "executed": {
+            "order_id": "a86ccaef13b7ca889ab8b7076629a748",
+            "cost_cents": 900,
+            "priority_units": 66931,
+            "step": 6
+          },
+          "spent_cents": 2800,
+          "utility_units": 311970,
+          "remaining_cents": 7200
+        },
+        {
+          "step": 7,
+          "received_event_ids": [
+            "05:0dfe811c6d5e59581eb93ef96fc13d72",
+            "06:42ec328ff647d401412f3531462b0b96",
+            "06:be83e11958329610a35de1f743052c66",
+            "07:0dfe811c6d5e59581eb93ef96fc13d72",
+            "07:1a777b4fbc5f78c56a4d194ce7311df5",
+            "07:354fc19d43cbb0ad997bd631a02fd169",
+            "07:42ec328ff647d401412f3531462b0b96",
+            "07:6076ec81706ee9060d085f2909a6fbe7",
+            "07:c3c485b86c410043b6e4775e3def9a20"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "30597e915fa41c74c59cf5f8ce640d3d",
+            "442c441e8e8588cbf0f462423f7d864b",
+            "556c0a42a8e9e57a6e411701908f0fd3",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "planned_cost_cents": 7100,
+          "executed": {
+            "order_id": "30597e915fa41c74c59cf5f8ce640d3d",
+            "cost_cents": 2200,
+            "priority_units": 116042,
+            "step": 7
+          },
+          "spent_cents": 5000,
+          "utility_units": 428012,
+          "remaining_cents": 5000
+        },
+        {
+          "step": 8,
+          "received_event_ids": [
+            "06:20a1b5b821806e87157587550af9d52e",
+            "06:6076ec81706ee9060d085f2909a6fbe7",
+            "06:8cf69b251bfcd650555347d7752a3625",
+            "07:2ebeaae6b3c969c7f5474e8f736bc33a",
+            "07:d17eedcc5d276d0eb9ea566289f89352",
+            "08:2ebeaae6b3c969c7f5474e8f736bc33a",
+            "08:62ea5251fe435ac8a677196623782c04",
+            "08:82f36bdc0196b518ac49483e7af21d02",
+            "08:be83e11958329610a35de1f743052c66",
+            "08:dbd0a0b89b3fe516f8534b0f5de08534"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "442c441e8e8588cbf0f462423f7d864b",
+            "556c0a42a8e9e57a6e411701908f0fd3",
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "fca08869e5ebde633b5183dfdbc8e1be"
+          ],
+          "planned_cost_cents": 4900,
+          "executed": {
+            "order_id": "442c441e8e8588cbf0f462423f7d864b",
+            "cost_cents": 1800,
+            "priority_units": 94298,
+            "step": 8
+          },
+          "spent_cents": 6800,
+          "utility_units": 522310,
+          "remaining_cents": 3200
+        },
+        {
+          "step": 9,
+          "received_event_ids": [
+            "08:fca08869e5ebde633b5183dfdbc8e1be",
+            "09:556c0a42a8e9e57a6e411701908f0fd3",
+            "09:62ea5251fe435ac8a677196623782c04",
+            "09:64439b9234594e291aa9a30c226f257e",
+            "09:8cf69b251bfcd650555347d7752a3625"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "dbd0a0b89b3fe516f8534b0f5de08534",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 3000,
+          "executed": {
+            "order_id": "dbd0a0b89b3fe516f8534b0f5de08534",
+            "cost_cents": 1200,
+            "priority_units": 70245,
+            "step": 9
+          },
+          "spent_cents": 8000,
+          "utility_units": 592555,
+          "remaining_cents": 2000
+        },
+        {
+          "step": 10,
+          "received_event_ids": [
+            "08:30597e915fa41c74c59cf5f8ce640d3d",
+            "08:442c441e8e8588cbf0f462423f7d864b",
+            "09:0dfe811c6d5e59581eb93ef96fc13d72",
+            "09:43d33927e13df71f3cf0e5782b0ff7c2",
+            "09:6076ec81706ee9060d085f2909a6fbe7",
+            "10:20a1b5b821806e87157587550af9d52e",
+            "10:7d3ee0bd440416eb22946dad24f7e4c2",
+            "10:8cf69b251bfcd650555347d7752a3625",
+            "10:dbd0a0b89b3fe516f8534b0f5de08534"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "fdf0135ca769666a6e9f28c5d6576feb"
+          ],
+          "planned_cost_cents": 1800,
+          "executed": {
+            "order_id": "fdf0135ca769666a6e9f28c5d6576feb",
+            "cost_cents": 1400,
+            "priority_units": 54587,
+            "step": 10
+          },
+          "spent_cents": 9400,
+          "utility_units": 647142,
+          "remaining_cents": 600
+        },
+        {
+          "step": 11,
+          "received_event_ids": [
+            "09:d17eedcc5d276d0eb9ea566289f89352",
+            "10:d1632cdbf90f11c2d5fa53d5c3deeadf",
+            "11:450c4a4d9a4f339a59165241cfe113db",
+            "11:8aed60ebc9e0c32365fe7fcbe6138592"
+          ],
+          "decision": "净增益未过门槛，保留方案",
+          "planned_ids_before_execution": [
+            "838f02ea52c8e48b8bc5ed2671e7bfd3"
+          ],
+          "planned_cost_cents": 400,
+          "executed": {
+            "order_id": "838f02ea52c8e48b8bc5ed2671e7bfd3",
+            "cost_cents": 400,
+            "priority_units": 14392,
+            "step": 11
+          },
+          "spent_cents": 9800,
+          "utility_units": 661534,
+          "remaining_cents": 200
+        }
+      ],
+      "parameters": {
+        "interval": 3,
+        "min_gain_bps": 1000,
+        "switch_penalty_units": 5000,
+        "cooldown_steps": 2
+      },
+      "net_utility_units": 647534
+    }
+  ],
+  "limitations": [
+    "累计效用是执行当时的输入评分之和，不是减少延迟的订单数。",
+    "反馈变化和费用均为模拟；不同策略使用相同外生事件，但没有行动改变物流的因果模型。",
+    "稳定策略可能牺牲效用换取较少方案切换，不保证始终更好。"
+  ]
+}

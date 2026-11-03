@@ -1,0 +1,2945 @@
+{
+  "source": "LaDe真实历史接单/揽收完成记录；时间窗规则效用；模拟资源费用与行动",
+  "stream_sha256": "f06d20c3a3170f6e5768831874c2990061c593438ffc18dd0a958dfaa816094d",
+  "candidate_count": 10,
+  "steps": 25,
+  "budget_cents": 5000,
+  "results": [
+    {
+      "policy": "static",
+      "stream_sha256": "f06d20c3a3170f6e5768831874c2990061c593438ffc18dd0a958dfaa816094d",
+      "budget_cents": 5000,
+      "spent_cents": 100,
+      "utility_units": 162162,
+      "executed_count": 1,
+      "solver_calls": 1,
+      "accepted_replans": 0,
+      "rejected_replans": 0,
+      "plan_edit_count": 0,
+      "mandatory_removals": 0,
+      "stale_events_ignored": 0,
+      "actions": [
+        {
+          "order_id": "lade:pickup:jl:7823932",
+          "cost_cents": 100,
+          "priority_units": 162162,
+          "step": 0
+        }
+      ],
+      "trace": [
+        {
+          "step": 0,
+          "received_event_ids": [
+            "lade:pickup:jl:7823932:00"
+          ],
+          "decision": "初始规划",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7823932"
+          ],
+          "planned_cost_cents": 100,
+          "executed": {
+            "order_id": "lade:pickup:jl:7823932",
+            "cost_cents": 100,
+            "priority_units": 162162,
+            "step": 0
+          },
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 1,
+          "received_event_ids": [
+            "lade:pickup:jl:7823932:01"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 2,
+          "received_event_ids": [
+            "lade:pickup:jl:7823932:02"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 3,
+          "received_event_ids": [
+            "lade:pickup:jl:7823932:03"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 4,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:04",
+            "lade:pickup:jl:7823932:04"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 5,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:05",
+            "lade:pickup:jl:7823932:05"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 6,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:06",
+            "lade:pickup:jl:7823932:06"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 7,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:07",
+            "lade:pickup:jl:7823932:07"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 8,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:08",
+            "lade:pickup:jl:7823932:08"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 9,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:09",
+            "lade:pickup:jl:7823932:09"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 10,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:10",
+            "lade:pickup:jl:7823932:10",
+            "lade:pickup:jl:7826106:10"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 11,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:11",
+            "lade:pickup:jl:7823932:11",
+            "lade:pickup:jl:7826106:11"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 12,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:12",
+            "lade:pickup:jl:7823932:12",
+            "lade:pickup:jl:7826106:12"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 13,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:13",
+            "lade:pickup:jl:7823932:13",
+            "lade:pickup:jl:7826106:13"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 14,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:14",
+            "lade:pickup:jl:7819437:14",
+            "lade:pickup:jl:7823932:14",
+            "lade:pickup:jl:7826106:14"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 15,
+          "received_event_ids": [
+            "lade:pickup:jl:7819437:15",
+            "lade:pickup:jl:7823720:15",
+            "lade:pickup:jl:7823932:15",
+            "lade:pickup:jl:7826106:15"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 16,
+          "received_event_ids": [
+            "lade:pickup:jl:7819437:16",
+            "lade:pickup:jl:7823720:16",
+            "lade:pickup:jl:7823932:16",
+            "lade:pickup:jl:7825148:16",
+            "lade:pickup:jl:7826106:16"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 17,
+          "received_event_ids": [
+            "lade:pickup:jl:7819437:17",
+            "lade:pickup:jl:7823720:17",
+            "lade:pickup:jl:7823932:17",
+            "lade:pickup:jl:7825148:17",
+            "lade:pickup:jl:7826106:17"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 18,
+          "received_event_ids": [
+            "lade:pickup:jl:7819437:18",
+            "lade:pickup:jl:7823720:18",
+            "lade:pickup:jl:7823932:18",
+            "lade:pickup:jl:7826106:18"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 19,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:19",
+            "lade:pickup:jl:7819437:19",
+            "lade:pickup:jl:7823720:19",
+            "lade:pickup:jl:7823932:19",
+            "lade:pickup:jl:7826106:19"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 20,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:20",
+            "lade:pickup:jl:7819437:20",
+            "lade:pickup:jl:7823148:20",
+            "lade:pickup:jl:7823500:20",
+            "lade:pickup:jl:7823720:20",
+            "lade:pickup:jl:7826106:20"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 21,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:21",
+            "lade:pickup:jl:7819437:21",
+            "lade:pickup:jl:7821157:21",
+            "lade:pickup:jl:7823148:21",
+            "lade:pickup:jl:7823720:21",
+            "lade:pickup:jl:7826106:21"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 22,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:22",
+            "lade:pickup:jl:7819437:22",
+            "lade:pickup:jl:7821157:22",
+            "lade:pickup:jl:7823148:22",
+            "lade:pickup:jl:7823720:22",
+            "lade:pickup:jl:7826106:22"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 23,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:23",
+            "lade:pickup:jl:7819437:23",
+            "lade:pickup:jl:7821157:23",
+            "lade:pickup:jl:7823148:23",
+            "lade:pickup:jl:7826106:23"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 24,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:24",
+            "lade:pickup:jl:7819437:24",
+            "lade:pickup:jl:7821157:24",
+            "lade:pickup:jl:7823148:24",
+            "lade:pickup:jl:7826106:24"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        }
+      ],
+      "parameters": {
+        "interval": 3,
+        "min_gain_bps": 500,
+        "switch_penalty_units": 1000,
+        "cooldown_steps": 2
+      }
+    },
+    {
+      "policy": "periodic",
+      "stream_sha256": "f06d20c3a3170f6e5768831874c2990061c593438ffc18dd0a958dfaa816094d",
+      "budget_cents": 5000,
+      "spent_cents": 3900,
+      "utility_units": 1590268,
+      "executed_count": 8,
+      "solver_calls": 5,
+      "accepted_replans": 4,
+      "rejected_replans": 0,
+      "plan_edit_count": 7,
+      "mandatory_removals": 0,
+      "stale_events_ignored": 0,
+      "actions": [
+        {
+          "order_id": "lade:pickup:jl:7823932",
+          "cost_cents": 100,
+          "priority_units": 162162,
+          "step": 0
+        },
+        {
+          "order_id": "lade:pickup:jl:7818346",
+          "cost_cents": 300,
+          "priority_units": 193548,
+          "step": 6
+        },
+        {
+          "order_id": "lade:pickup:jl:7826106",
+          "cost_cents": 400,
+          "priority_units": 220588,
+          "step": 12
+        },
+        {
+          "order_id": "lade:pickup:jl:7819437",
+          "cost_cents": 300,
+          "priority_units": 212765,
+          "step": 15
+        },
+        {
+          "order_id": "lade:pickup:jl:7823720",
+          "cost_cents": 300,
+          "priority_units": 206896,
+          "step": 16
+        },
+        {
+          "order_id": "lade:pickup:jl:7819430",
+          "cost_cents": 600,
+          "priority_units": 220588,
+          "step": 21
+        },
+        {
+          "order_id": "lade:pickup:jl:7823148",
+          "cost_cents": 900,
+          "priority_units": 215827,
+          "step": 22
+        },
+        {
+          "order_id": "lade:pickup:jl:7821157",
+          "cost_cents": 1000,
+          "priority_units": 157894,
+          "step": 23
+        }
+      ],
+      "trace": [
+        {
+          "step": 0,
+          "received_event_ids": [
+            "lade:pickup:jl:7823932:00"
+          ],
+          "decision": "初始规划",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7823932"
+          ],
+          "planned_cost_cents": 100,
+          "executed": {
+            "order_id": "lade:pickup:jl:7823932",
+            "cost_cents": 100,
+            "priority_units": 162162,
+            "step": 0
+          },
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 1,
+          "received_event_ids": [
+            "lade:pickup:jl:7823932:01"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 2,
+          "received_event_ids": [
+            "lade:pickup:jl:7823932:02"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 3,
+          "received_event_ids": [
+            "lade:pickup:jl:7823932:03"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 4,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:04",
+            "lade:pickup:jl:7823932:04"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 5,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:05",
+            "lade:pickup:jl:7823932:05"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 6,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:06",
+            "lade:pickup:jl:7823932:06"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7818346"
+          ],
+          "planned_cost_cents": 300,
+          "executed": {
+            "order_id": "lade:pickup:jl:7818346",
+            "cost_cents": 300,
+            "priority_units": 193548,
+            "step": 6
+          },
+          "spent_cents": 400,
+          "utility_units": 355710,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 7,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:07",
+            "lade:pickup:jl:7823932:07"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 400,
+          "utility_units": 355710,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 8,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:08",
+            "lade:pickup:jl:7823932:08"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 400,
+          "utility_units": 355710,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 9,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:09",
+            "lade:pickup:jl:7823932:09"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 400,
+          "utility_units": 355710,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 10,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:10",
+            "lade:pickup:jl:7823932:10",
+            "lade:pickup:jl:7826106:10"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 400,
+          "utility_units": 355710,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 11,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:11",
+            "lade:pickup:jl:7823932:11",
+            "lade:pickup:jl:7826106:11"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 400,
+          "utility_units": 355710,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 12,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:12",
+            "lade:pickup:jl:7823932:12",
+            "lade:pickup:jl:7826106:12"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7826106"
+          ],
+          "planned_cost_cents": 400,
+          "executed": {
+            "order_id": "lade:pickup:jl:7826106",
+            "cost_cents": 400,
+            "priority_units": 220588,
+            "step": 12
+          },
+          "spent_cents": 800,
+          "utility_units": 576298,
+          "remaining_cents": 4200
+        },
+        {
+          "step": 13,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:13",
+            "lade:pickup:jl:7823932:13",
+            "lade:pickup:jl:7826106:13"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 800,
+          "utility_units": 576298,
+          "remaining_cents": 4200
+        },
+        {
+          "step": 14,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:14",
+            "lade:pickup:jl:7819437:14",
+            "lade:pickup:jl:7823932:14",
+            "lade:pickup:jl:7826106:14"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 800,
+          "utility_units": 576298,
+          "remaining_cents": 4200
+        },
+        {
+          "step": 15,
+          "received_event_ids": [
+            "lade:pickup:jl:7819437:15",
+            "lade:pickup:jl:7823720:15",
+            "lade:pickup:jl:7823932:15",
+            "lade:pickup:jl:7826106:15"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7819437",
+            "lade:pickup:jl:7823720"
+          ],
+          "planned_cost_cents": 600,
+          "executed": {
+            "order_id": "lade:pickup:jl:7819437",
+            "cost_cents": 300,
+            "priority_units": 212765,
+            "step": 15
+          },
+          "spent_cents": 1100,
+          "utility_units": 789063,
+          "remaining_cents": 3900
+        },
+        {
+          "step": 16,
+          "received_event_ids": [
+            "lade:pickup:jl:7819437:16",
+            "lade:pickup:jl:7823720:16",
+            "lade:pickup:jl:7823932:16",
+            "lade:pickup:jl:7825148:16",
+            "lade:pickup:jl:7826106:16"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7823720"
+          ],
+          "planned_cost_cents": 300,
+          "executed": {
+            "order_id": "lade:pickup:jl:7823720",
+            "cost_cents": 300,
+            "priority_units": 206896,
+            "step": 16
+          },
+          "spent_cents": 1400,
+          "utility_units": 995959,
+          "remaining_cents": 3600
+        },
+        {
+          "step": 17,
+          "received_event_ids": [
+            "lade:pickup:jl:7819437:17",
+            "lade:pickup:jl:7823720:17",
+            "lade:pickup:jl:7823932:17",
+            "lade:pickup:jl:7825148:17",
+            "lade:pickup:jl:7826106:17"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 1400,
+          "utility_units": 995959,
+          "remaining_cents": 3600
+        },
+        {
+          "step": 18,
+          "received_event_ids": [
+            "lade:pickup:jl:7819437:18",
+            "lade:pickup:jl:7823720:18",
+            "lade:pickup:jl:7823932:18",
+            "lade:pickup:jl:7826106:18"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 1400,
+          "utility_units": 995959,
+          "remaining_cents": 3600
+        },
+        {
+          "step": 19,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:19",
+            "lade:pickup:jl:7819437:19",
+            "lade:pickup:jl:7823720:19",
+            "lade:pickup:jl:7823932:19",
+            "lade:pickup:jl:7826106:19"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 1400,
+          "utility_units": 995959,
+          "remaining_cents": 3600
+        },
+        {
+          "step": 20,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:20",
+            "lade:pickup:jl:7819437:20",
+            "lade:pickup:jl:7823148:20",
+            "lade:pickup:jl:7823500:20",
+            "lade:pickup:jl:7823720:20",
+            "lade:pickup:jl:7826106:20"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 1400,
+          "utility_units": 995959,
+          "remaining_cents": 3600
+        },
+        {
+          "step": 21,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:21",
+            "lade:pickup:jl:7819437:21",
+            "lade:pickup:jl:7821157:21",
+            "lade:pickup:jl:7823148:21",
+            "lade:pickup:jl:7823720:21",
+            "lade:pickup:jl:7826106:21"
+          ],
+          "decision": "接受重规划",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7819430",
+            "lade:pickup:jl:7821157",
+            "lade:pickup:jl:7823148"
+          ],
+          "planned_cost_cents": 2500,
+          "executed": {
+            "order_id": "lade:pickup:jl:7819430",
+            "cost_cents": 600,
+            "priority_units": 220588,
+            "step": 21
+          },
+          "spent_cents": 2000,
+          "utility_units": 1216547,
+          "remaining_cents": 3000
+        },
+        {
+          "step": 22,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:22",
+            "lade:pickup:jl:7819437:22",
+            "lade:pickup:jl:7821157:22",
+            "lade:pickup:jl:7823148:22",
+            "lade:pickup:jl:7823720:22",
+            "lade:pickup:jl:7826106:22"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7821157",
+            "lade:pickup:jl:7823148"
+          ],
+          "planned_cost_cents": 1900,
+          "executed": {
+            "order_id": "lade:pickup:jl:7823148",
+            "cost_cents": 900,
+            "priority_units": 215827,
+            "step": 22
+          },
+          "spent_cents": 2900,
+          "utility_units": 1432374,
+          "remaining_cents": 2100
+        },
+        {
+          "step": 23,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:23",
+            "lade:pickup:jl:7819437:23",
+            "lade:pickup:jl:7821157:23",
+            "lade:pickup:jl:7823148:23",
+            "lade:pickup:jl:7826106:23"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7821157"
+          ],
+          "planned_cost_cents": 1000,
+          "executed": {
+            "order_id": "lade:pickup:jl:7821157",
+            "cost_cents": 1000,
+            "priority_units": 157894,
+            "step": 23
+          },
+          "spent_cents": 3900,
+          "utility_units": 1590268,
+          "remaining_cents": 1100
+        },
+        {
+          "step": 24,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:24",
+            "lade:pickup:jl:7819437:24",
+            "lade:pickup:jl:7821157:24",
+            "lade:pickup:jl:7823148:24",
+            "lade:pickup:jl:7826106:24"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 3900,
+          "utility_units": 1590268,
+          "remaining_cents": 1100
+        }
+      ],
+      "parameters": {
+        "interval": 3,
+        "min_gain_bps": 500,
+        "switch_penalty_units": 1000,
+        "cooldown_steps": 2
+      }
+    },
+    {
+      "policy": "immediate",
+      "stream_sha256": "f06d20c3a3170f6e5768831874c2990061c593438ffc18dd0a958dfaa816094d",
+      "budget_cents": 5000,
+      "spent_cents": 4300,
+      "utility_units": 1717238,
+      "executed_count": 9,
+      "solver_calls": 9,
+      "accepted_replans": 8,
+      "rejected_replans": 0,
+      "plan_edit_count": 8,
+      "mandatory_removals": 0,
+      "stale_events_ignored": 0,
+      "actions": [
+        {
+          "order_id": "lade:pickup:jl:7823932",
+          "cost_cents": 100,
+          "priority_units": 162162,
+          "step": 0
+        },
+        {
+          "order_id": "lade:pickup:jl:7818346",
+          "cost_cents": 300,
+          "priority_units": 181818,
+          "step": 4
+        },
+        {
+          "order_id": "lade:pickup:jl:7826106",
+          "cost_cents": 400,
+          "priority_units": 205479,
+          "step": 10
+        },
+        {
+          "order_id": "lade:pickup:jl:7819437",
+          "cost_cents": 300,
+          "priority_units": 205479,
+          "step": 14
+        },
+        {
+          "order_id": "lade:pickup:jl:7823720",
+          "cost_cents": 300,
+          "priority_units": 200000,
+          "step": 15
+        },
+        {
+          "order_id": "lade:pickup:jl:7825148",
+          "cost_cents": 400,
+          "priority_units": 205479,
+          "step": 16
+        },
+        {
+          "order_id": "lade:pickup:jl:7819430",
+          "cost_cents": 600,
+          "priority_units": 205479,
+          "step": 19
+        },
+        {
+          "order_id": "lade:pickup:jl:7823148",
+          "cost_cents": 900,
+          "priority_units": 201342,
+          "step": 20
+        },
+        {
+          "order_id": "lade:pickup:jl:7821157",
+          "cost_cents": 1000,
+          "priority_units": 150000,
+          "step": 21
+        }
+      ],
+      "trace": [
+        {
+          "step": 0,
+          "received_event_ids": [
+            "lade:pickup:jl:7823932:00"
+          ],
+          "decision": "初始规划",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7823932"
+          ],
+          "planned_cost_cents": 100,
+          "executed": {
+            "order_id": "lade:pickup:jl:7823932",
+            "cost_cents": 100,
+            "priority_units": 162162,
+            "step": 0
+          },
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 1,
+          "received_event_ids": [
+            "lade:pickup:jl:7823932:01"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 2,
+          "received_event_ids": [
+            "lade:pickup:jl:7823932:02"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 3,
+          "received_event_ids": [
+            "lade:pickup:jl:7823932:03"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 4,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:04",
+            "lade:pickup:jl:7823932:04"
+          ],
+          "decision": "队列为空补充",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7818346"
+          ],
+          "planned_cost_cents": 300,
+          "executed": {
+            "order_id": "lade:pickup:jl:7818346",
+            "cost_cents": 300,
+            "priority_units": 181818,
+            "step": 4
+          },
+          "spent_cents": 400,
+          "utility_units": 343980,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 5,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:05",
+            "lade:pickup:jl:7823932:05"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 400,
+          "utility_units": 343980,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 6,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:06",
+            "lade:pickup:jl:7823932:06"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 400,
+          "utility_units": 343980,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 7,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:07",
+            "lade:pickup:jl:7823932:07"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 400,
+          "utility_units": 343980,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 8,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:08",
+            "lade:pickup:jl:7823932:08"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 400,
+          "utility_units": 343980,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 9,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:09",
+            "lade:pickup:jl:7823932:09"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 400,
+          "utility_units": 343980,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 10,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:10",
+            "lade:pickup:jl:7823932:10",
+            "lade:pickup:jl:7826106:10"
+          ],
+          "decision": "队列为空补充",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7826106"
+          ],
+          "planned_cost_cents": 400,
+          "executed": {
+            "order_id": "lade:pickup:jl:7826106",
+            "cost_cents": 400,
+            "priority_units": 205479,
+            "step": 10
+          },
+          "spent_cents": 800,
+          "utility_units": 549459,
+          "remaining_cents": 4200
+        },
+        {
+          "step": 11,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:11",
+            "lade:pickup:jl:7823932:11",
+            "lade:pickup:jl:7826106:11"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 800,
+          "utility_units": 549459,
+          "remaining_cents": 4200
+        },
+        {
+          "step": 12,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:12",
+            "lade:pickup:jl:7823932:12",
+            "lade:pickup:jl:7826106:12"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 800,
+          "utility_units": 549459,
+          "remaining_cents": 4200
+        },
+        {
+          "step": 13,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:13",
+            "lade:pickup:jl:7823932:13",
+            "lade:pickup:jl:7826106:13"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 800,
+          "utility_units": 549459,
+          "remaining_cents": 4200
+        },
+        {
+          "step": 14,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:14",
+            "lade:pickup:jl:7819437:14",
+            "lade:pickup:jl:7823932:14",
+            "lade:pickup:jl:7826106:14"
+          ],
+          "decision": "队列为空补充",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7819437"
+          ],
+          "planned_cost_cents": 300,
+          "executed": {
+            "order_id": "lade:pickup:jl:7819437",
+            "cost_cents": 300,
+            "priority_units": 205479,
+            "step": 14
+          },
+          "spent_cents": 1100,
+          "utility_units": 754938,
+          "remaining_cents": 3900
+        },
+        {
+          "step": 15,
+          "received_event_ids": [
+            "lade:pickup:jl:7819437:15",
+            "lade:pickup:jl:7823720:15",
+            "lade:pickup:jl:7823932:15",
+            "lade:pickup:jl:7826106:15"
+          ],
+          "decision": "队列为空补充",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7823720"
+          ],
+          "planned_cost_cents": 300,
+          "executed": {
+            "order_id": "lade:pickup:jl:7823720",
+            "cost_cents": 300,
+            "priority_units": 200000,
+            "step": 15
+          },
+          "spent_cents": 1400,
+          "utility_units": 954938,
+          "remaining_cents": 3600
+        },
+        {
+          "step": 16,
+          "received_event_ids": [
+            "lade:pickup:jl:7819437:16",
+            "lade:pickup:jl:7823720:16",
+            "lade:pickup:jl:7823932:16",
+            "lade:pickup:jl:7825148:16",
+            "lade:pickup:jl:7826106:16"
+          ],
+          "decision": "队列为空补充",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7825148"
+          ],
+          "planned_cost_cents": 400,
+          "executed": {
+            "order_id": "lade:pickup:jl:7825148",
+            "cost_cents": 400,
+            "priority_units": 205479,
+            "step": 16
+          },
+          "spent_cents": 1800,
+          "utility_units": 1160417,
+          "remaining_cents": 3200
+        },
+        {
+          "step": 17,
+          "received_event_ids": [
+            "lade:pickup:jl:7819437:17",
+            "lade:pickup:jl:7823720:17",
+            "lade:pickup:jl:7823932:17",
+            "lade:pickup:jl:7825148:17",
+            "lade:pickup:jl:7826106:17"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 1800,
+          "utility_units": 1160417,
+          "remaining_cents": 3200
+        },
+        {
+          "step": 18,
+          "received_event_ids": [
+            "lade:pickup:jl:7819437:18",
+            "lade:pickup:jl:7823720:18",
+            "lade:pickup:jl:7823932:18",
+            "lade:pickup:jl:7826106:18"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 1800,
+          "utility_units": 1160417,
+          "remaining_cents": 3200
+        },
+        {
+          "step": 19,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:19",
+            "lade:pickup:jl:7819437:19",
+            "lade:pickup:jl:7823720:19",
+            "lade:pickup:jl:7823932:19",
+            "lade:pickup:jl:7826106:19"
+          ],
+          "decision": "队列为空补充",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7819430"
+          ],
+          "planned_cost_cents": 600,
+          "executed": {
+            "order_id": "lade:pickup:jl:7819430",
+            "cost_cents": 600,
+            "priority_units": 205479,
+            "step": 19
+          },
+          "spent_cents": 2400,
+          "utility_units": 1365896,
+          "remaining_cents": 2600
+        },
+        {
+          "step": 20,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:20",
+            "lade:pickup:jl:7819437:20",
+            "lade:pickup:jl:7823148:20",
+            "lade:pickup:jl:7823500:20",
+            "lade:pickup:jl:7823720:20",
+            "lade:pickup:jl:7826106:20"
+          ],
+          "decision": "队列为空补充",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7823148"
+          ],
+          "planned_cost_cents": 900,
+          "executed": {
+            "order_id": "lade:pickup:jl:7823148",
+            "cost_cents": 900,
+            "priority_units": 201342,
+            "step": 20
+          },
+          "spent_cents": 3300,
+          "utility_units": 1567238,
+          "remaining_cents": 1700
+        },
+        {
+          "step": 21,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:21",
+            "lade:pickup:jl:7819437:21",
+            "lade:pickup:jl:7821157:21",
+            "lade:pickup:jl:7823148:21",
+            "lade:pickup:jl:7823720:21",
+            "lade:pickup:jl:7826106:21"
+          ],
+          "decision": "队列为空补充",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7821157"
+          ],
+          "planned_cost_cents": 1000,
+          "executed": {
+            "order_id": "lade:pickup:jl:7821157",
+            "cost_cents": 1000,
+            "priority_units": 150000,
+            "step": 21
+          },
+          "spent_cents": 4300,
+          "utility_units": 1717238,
+          "remaining_cents": 700
+        },
+        {
+          "step": 22,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:22",
+            "lade:pickup:jl:7819437:22",
+            "lade:pickup:jl:7821157:22",
+            "lade:pickup:jl:7823148:22",
+            "lade:pickup:jl:7823720:22",
+            "lade:pickup:jl:7826106:22"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 4300,
+          "utility_units": 1717238,
+          "remaining_cents": 700
+        },
+        {
+          "step": 23,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:23",
+            "lade:pickup:jl:7819437:23",
+            "lade:pickup:jl:7821157:23",
+            "lade:pickup:jl:7823148:23",
+            "lade:pickup:jl:7826106:23"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 4300,
+          "utility_units": 1717238,
+          "remaining_cents": 700
+        },
+        {
+          "step": 24,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:24",
+            "lade:pickup:jl:7819437:24",
+            "lade:pickup:jl:7821157:24",
+            "lade:pickup:jl:7823148:24",
+            "lade:pickup:jl:7826106:24"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 4300,
+          "utility_units": 1717238,
+          "remaining_cents": 700
+        }
+      ],
+      "parameters": {
+        "interval": 3,
+        "min_gain_bps": 500,
+        "switch_penalty_units": 1000,
+        "cooldown_steps": 2
+      }
+    },
+    {
+      "policy": "stable",
+      "stream_sha256": "f06d20c3a3170f6e5768831874c2990061c593438ffc18dd0a958dfaa816094d",
+      "budget_cents": 5000,
+      "spent_cents": 4300,
+      "utility_units": 1717238,
+      "executed_count": 9,
+      "solver_calls": 9,
+      "accepted_replans": 8,
+      "rejected_replans": 0,
+      "plan_edit_count": 8,
+      "mandatory_removals": 0,
+      "stale_events_ignored": 0,
+      "actions": [
+        {
+          "order_id": "lade:pickup:jl:7823932",
+          "cost_cents": 100,
+          "priority_units": 162162,
+          "step": 0
+        },
+        {
+          "order_id": "lade:pickup:jl:7818346",
+          "cost_cents": 300,
+          "priority_units": 181818,
+          "step": 4
+        },
+        {
+          "order_id": "lade:pickup:jl:7826106",
+          "cost_cents": 400,
+          "priority_units": 205479,
+          "step": 10
+        },
+        {
+          "order_id": "lade:pickup:jl:7819437",
+          "cost_cents": 300,
+          "priority_units": 205479,
+          "step": 14
+        },
+        {
+          "order_id": "lade:pickup:jl:7823720",
+          "cost_cents": 300,
+          "priority_units": 200000,
+          "step": 15
+        },
+        {
+          "order_id": "lade:pickup:jl:7825148",
+          "cost_cents": 400,
+          "priority_units": 205479,
+          "step": 16
+        },
+        {
+          "order_id": "lade:pickup:jl:7819430",
+          "cost_cents": 600,
+          "priority_units": 205479,
+          "step": 19
+        },
+        {
+          "order_id": "lade:pickup:jl:7823148",
+          "cost_cents": 900,
+          "priority_units": 201342,
+          "step": 20
+        },
+        {
+          "order_id": "lade:pickup:jl:7821157",
+          "cost_cents": 1000,
+          "priority_units": 150000,
+          "step": 21
+        }
+      ],
+      "trace": [
+        {
+          "step": 0,
+          "received_event_ids": [
+            "lade:pickup:jl:7823932:00"
+          ],
+          "decision": "初始规划",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7823932"
+          ],
+          "planned_cost_cents": 100,
+          "executed": {
+            "order_id": "lade:pickup:jl:7823932",
+            "cost_cents": 100,
+            "priority_units": 162162,
+            "step": 0
+          },
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 1,
+          "received_event_ids": [
+            "lade:pickup:jl:7823932:01"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 2,
+          "received_event_ids": [
+            "lade:pickup:jl:7823932:02"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 3,
+          "received_event_ids": [
+            "lade:pickup:jl:7823932:03"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 100,
+          "utility_units": 162162,
+          "remaining_cents": 4900
+        },
+        {
+          "step": 4,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:04",
+            "lade:pickup:jl:7823932:04"
+          ],
+          "decision": "队列为空补充",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7818346"
+          ],
+          "planned_cost_cents": 300,
+          "executed": {
+            "order_id": "lade:pickup:jl:7818346",
+            "cost_cents": 300,
+            "priority_units": 181818,
+            "step": 4
+          },
+          "spent_cents": 400,
+          "utility_units": 343980,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 5,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:05",
+            "lade:pickup:jl:7823932:05"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 400,
+          "utility_units": 343980,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 6,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:06",
+            "lade:pickup:jl:7823932:06"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 400,
+          "utility_units": 343980,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 7,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:07",
+            "lade:pickup:jl:7823932:07"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 400,
+          "utility_units": 343980,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 8,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:08",
+            "lade:pickup:jl:7823932:08"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 400,
+          "utility_units": 343980,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 9,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:09",
+            "lade:pickup:jl:7823932:09"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 400,
+          "utility_units": 343980,
+          "remaining_cents": 4600
+        },
+        {
+          "step": 10,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:10",
+            "lade:pickup:jl:7823932:10",
+            "lade:pickup:jl:7826106:10"
+          ],
+          "decision": "队列为空补充",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7826106"
+          ],
+          "planned_cost_cents": 400,
+          "executed": {
+            "order_id": "lade:pickup:jl:7826106",
+            "cost_cents": 400,
+            "priority_units": 205479,
+            "step": 10
+          },
+          "spent_cents": 800,
+          "utility_units": 549459,
+          "remaining_cents": 4200
+        },
+        {
+          "step": 11,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:11",
+            "lade:pickup:jl:7823932:11",
+            "lade:pickup:jl:7826106:11"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 800,
+          "utility_units": 549459,
+          "remaining_cents": 4200
+        },
+        {
+          "step": 12,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:12",
+            "lade:pickup:jl:7823932:12",
+            "lade:pickup:jl:7826106:12"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 800,
+          "utility_units": 549459,
+          "remaining_cents": 4200
+        },
+        {
+          "step": 13,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:13",
+            "lade:pickup:jl:7823932:13",
+            "lade:pickup:jl:7826106:13"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 800,
+          "utility_units": 549459,
+          "remaining_cents": 4200
+        },
+        {
+          "step": 14,
+          "received_event_ids": [
+            "lade:pickup:jl:7818346:14",
+            "lade:pickup:jl:7819437:14",
+            "lade:pickup:jl:7823932:14",
+            "lade:pickup:jl:7826106:14"
+          ],
+          "decision": "队列为空补充",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7819437"
+          ],
+          "planned_cost_cents": 300,
+          "executed": {
+            "order_id": "lade:pickup:jl:7819437",
+            "cost_cents": 300,
+            "priority_units": 205479,
+            "step": 14
+          },
+          "spent_cents": 1100,
+          "utility_units": 754938,
+          "remaining_cents": 3900
+        },
+        {
+          "step": 15,
+          "received_event_ids": [
+            "lade:pickup:jl:7819437:15",
+            "lade:pickup:jl:7823720:15",
+            "lade:pickup:jl:7823932:15",
+            "lade:pickup:jl:7826106:15"
+          ],
+          "decision": "队列为空补充",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7823720"
+          ],
+          "planned_cost_cents": 300,
+          "executed": {
+            "order_id": "lade:pickup:jl:7823720",
+            "cost_cents": 300,
+            "priority_units": 200000,
+            "step": 15
+          },
+          "spent_cents": 1400,
+          "utility_units": 954938,
+          "remaining_cents": 3600
+        },
+        {
+          "step": 16,
+          "received_event_ids": [
+            "lade:pickup:jl:7819437:16",
+            "lade:pickup:jl:7823720:16",
+            "lade:pickup:jl:7823932:16",
+            "lade:pickup:jl:7825148:16",
+            "lade:pickup:jl:7826106:16"
+          ],
+          "decision": "队列为空补充",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7825148"
+          ],
+          "planned_cost_cents": 400,
+          "executed": {
+            "order_id": "lade:pickup:jl:7825148",
+            "cost_cents": 400,
+            "priority_units": 205479,
+            "step": 16
+          },
+          "spent_cents": 1800,
+          "utility_units": 1160417,
+          "remaining_cents": 3200
+        },
+        {
+          "step": 17,
+          "received_event_ids": [
+            "lade:pickup:jl:7819437:17",
+            "lade:pickup:jl:7823720:17",
+            "lade:pickup:jl:7823932:17",
+            "lade:pickup:jl:7825148:17",
+            "lade:pickup:jl:7826106:17"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 1800,
+          "utility_units": 1160417,
+          "remaining_cents": 3200
+        },
+        {
+          "step": 18,
+          "received_event_ids": [
+            "lade:pickup:jl:7819437:18",
+            "lade:pickup:jl:7823720:18",
+            "lade:pickup:jl:7823932:18",
+            "lade:pickup:jl:7826106:18"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 1800,
+          "utility_units": 1160417,
+          "remaining_cents": 3200
+        },
+        {
+          "step": 19,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:19",
+            "lade:pickup:jl:7819437:19",
+            "lade:pickup:jl:7823720:19",
+            "lade:pickup:jl:7823932:19",
+            "lade:pickup:jl:7826106:19"
+          ],
+          "decision": "队列为空补充",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7819430"
+          ],
+          "planned_cost_cents": 600,
+          "executed": {
+            "order_id": "lade:pickup:jl:7819430",
+            "cost_cents": 600,
+            "priority_units": 205479,
+            "step": 19
+          },
+          "spent_cents": 2400,
+          "utility_units": 1365896,
+          "remaining_cents": 2600
+        },
+        {
+          "step": 20,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:20",
+            "lade:pickup:jl:7819437:20",
+            "lade:pickup:jl:7823148:20",
+            "lade:pickup:jl:7823500:20",
+            "lade:pickup:jl:7823720:20",
+            "lade:pickup:jl:7826106:20"
+          ],
+          "decision": "队列为空补充",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7823148"
+          ],
+          "planned_cost_cents": 900,
+          "executed": {
+            "order_id": "lade:pickup:jl:7823148",
+            "cost_cents": 900,
+            "priority_units": 201342,
+            "step": 20
+          },
+          "spent_cents": 3300,
+          "utility_units": 1567238,
+          "remaining_cents": 1700
+        },
+        {
+          "step": 21,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:21",
+            "lade:pickup:jl:7819437:21",
+            "lade:pickup:jl:7821157:21",
+            "lade:pickup:jl:7823148:21",
+            "lade:pickup:jl:7823720:21",
+            "lade:pickup:jl:7826106:21"
+          ],
+          "decision": "队列为空补充",
+          "planned_ids_before_execution": [
+            "lade:pickup:jl:7821157"
+          ],
+          "planned_cost_cents": 1000,
+          "executed": {
+            "order_id": "lade:pickup:jl:7821157",
+            "cost_cents": 1000,
+            "priority_units": 150000,
+            "step": 21
+          },
+          "spent_cents": 4300,
+          "utility_units": 1717238,
+          "remaining_cents": 700
+        },
+        {
+          "step": 22,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:22",
+            "lade:pickup:jl:7819437:22",
+            "lade:pickup:jl:7821157:22",
+            "lade:pickup:jl:7823148:22",
+            "lade:pickup:jl:7823720:22",
+            "lade:pickup:jl:7826106:22"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 4300,
+          "utility_units": 1717238,
+          "remaining_cents": 700
+        },
+        {
+          "step": 23,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:23",
+            "lade:pickup:jl:7819437:23",
+            "lade:pickup:jl:7821157:23",
+            "lade:pickup:jl:7823148:23",
+            "lade:pickup:jl:7826106:23"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 4300,
+          "utility_units": 1717238,
+          "remaining_cents": 700
+        },
+        {
+          "step": 24,
+          "received_event_ids": [
+            "lade:pickup:jl:7819430:24",
+            "lade:pickup:jl:7819437:24",
+            "lade:pickup:jl:7821157:24",
+            "lade:pickup:jl:7823148:24",
+            "lade:pickup:jl:7826106:24"
+          ],
+          "decision": "保留现有方案",
+          "planned_ids_before_execution": [],
+          "planned_cost_cents": 0,
+          "executed": null,
+          "spent_cents": 4300,
+          "utility_units": 1717238,
+          "remaining_cents": 700
+        }
+      ],
+      "parameters": {
+        "interval": 3,
+        "min_gain_bps": 200,
+        "switch_penalty_units": 500,
+        "cooldown_steps": 2
+      }
+    }
+  ],
+  "limitations": [
+    "接单和完成时刻为真实历史记录，按5分钟网格延后至下一可见快照；没有实际接收延迟记录。",
+    "优先级是距时间窗截止的确定性规则，不是训练出的延迟概率；假设接单时可获知时间窗。",
+    "费用1到10资源点、每轮最多一次行动均为模拟；行动不改变真实历史完成时刻。",
+    "累计规则效用不是挽回订单数或实际节省费用，不能证明干预降低延误。",
+    "仅回放所选月日有效完整任务，不含昨日遗留；自动默认快递员按历史有效任务数选择，属于回顾性样本。",
+    "年份未知，未拼接Olist订单；轨迹postman_id与城市courier_id未建立对应关系。"
+  ],
+  "status": "passed",
+  "city": "jl",
+  "city_label": "吉林",
+  "day": "05-01",
+  "courier_id": "14171",
+  "start_time": "08:25",
+  "duration_minutes": 120,
+  "budget_points": 50,
+  "candidate_rule": "当日该快递员：开始时尚未完成或期间新接单；按接单时刻、任务行号取前N笔",
+  "eligible_scope_tasks": 10,
+  "candidate_limit": 100,
+  "input": {
+    "items": [
+      {
+        "order_id": "lade:pickup:jl:7823932",
+        "cost_cents": 100,
+        "priority_units": 162162,
+        "available_step": 0,
+        "source_task_id": 7823932,
+        "window_end_s": 10494000
+      },
+      {
+        "order_id": "lade:pickup:jl:7818346",
+        "cost_cents": 300,
+        "priority_units": 181818,
+        "available_step": 4,
+        "source_task_id": 7818346,
+        "window_end_s": 10494000
+      },
+      {
+        "order_id": "lade:pickup:jl:7826106",
+        "cost_cents": 400,
+        "priority_units": 205479,
+        "available_step": 10,
+        "source_task_id": 7826106,
+        "window_end_s": 10494660
+      },
+      {
+        "order_id": "lade:pickup:jl:7819437",
+        "cost_cents": 300,
+        "priority_units": 205479,
+        "available_step": 14,
+        "source_task_id": 7819437,
+        "window_end_s": 10495860
+      },
+      {
+        "order_id": "lade:pickup:jl:7823720",
+        "cost_cents": 300,
+        "priority_units": 200000,
+        "available_step": 15,
+        "source_task_id": 7823720,
+        "window_end_s": 10496400
+      },
+      {
+        "order_id": "lade:pickup:jl:7825148",
+        "cost_cents": 400,
+        "priority_units": 205479,
+        "available_step": 16,
+        "source_task_id": 7825148,
+        "window_end_s": 10496460
+      },
+      {
+        "order_id": "lade:pickup:jl:7819430",
+        "cost_cents": 600,
+        "priority_units": 205479,
+        "available_step": 19,
+        "source_task_id": 7819430,
+        "window_end_s": 10497360
+      },
+      {
+        "order_id": "lade:pickup:jl:7823500",
+        "cost_cents": 700,
+        "priority_units": 205479,
+        "available_step": 20,
+        "source_task_id": 7823500,
+        "window_end_s": 10497660
+      },
+      {
+        "order_id": "lade:pickup:jl:7823148",
+        "cost_cents": 900,
+        "priority_units": 201342,
+        "available_step": 20,
+        "source_task_id": 7823148,
+        "window_end_s": 10497840
+      },
+      {
+        "order_id": "lade:pickup:jl:7821157",
+        "cost_cents": 1000,
+        "priority_units": 150000,
+        "available_step": 21,
+        "source_task_id": 7821157,
+        "window_end_s": 10501200
+      }
+    ],
+    "events": [
+      {
+        "event_id": "lade:pickup:jl:7823932:00",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 0,
+        "occurred_step": 0,
+        "status": "pending",
+        "priority_units": 162162
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:01",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 1,
+        "occurred_step": 1,
+        "status": "pending",
+        "priority_units": 166666
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:02",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 2,
+        "occurred_step": 2,
+        "status": "pending",
+        "priority_units": 171428
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:03",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 3,
+        "occurred_step": 3,
+        "status": "pending",
+        "priority_units": 176470
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:04",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 4,
+        "occurred_step": 4,
+        "status": "pending",
+        "priority_units": 181818
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:05",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 5,
+        "occurred_step": 5,
+        "status": "pending",
+        "priority_units": 187500
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:06",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 6,
+        "occurred_step": 6,
+        "status": "pending",
+        "priority_units": 193548
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:07",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 7,
+        "occurred_step": 7,
+        "status": "pending",
+        "priority_units": 200000
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:08",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 8,
+        "occurred_step": 8,
+        "status": "pending",
+        "priority_units": 206896
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:09",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 9,
+        "occurred_step": 9,
+        "status": "pending",
+        "priority_units": 214285
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:10",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 10,
+        "occurred_step": 10,
+        "status": "pending",
+        "priority_units": 222222
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:11",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 11,
+        "occurred_step": 11,
+        "status": "pending",
+        "priority_units": 230769
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:12",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 12,
+        "occurred_step": 12,
+        "status": "pending",
+        "priority_units": 240000
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:13",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 13,
+        "occurred_step": 13,
+        "status": "pending",
+        "priority_units": 250000
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:14",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 14,
+        "occurred_step": 14,
+        "status": "pending",
+        "priority_units": 260869
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:15",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 15,
+        "occurred_step": 15,
+        "status": "pending",
+        "priority_units": 272727
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:16",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 16,
+        "occurred_step": 16,
+        "status": "pending",
+        "priority_units": 285714
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:17",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 17,
+        "occurred_step": 17,
+        "status": "pending",
+        "priority_units": 300000
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:18",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 18,
+        "occurred_step": 18,
+        "status": "pending",
+        "priority_units": 315789
+      },
+      {
+        "event_id": "lade:pickup:jl:7823932:19",
+        "order_id": "lade:pickup:jl:7823932",
+        "step": 19,
+        "occurred_step": 19,
+        "status": "completed",
+        "priority_units": 0
+      },
+      {
+        "event_id": "lade:pickup:jl:7818346:04",
+        "order_id": "lade:pickup:jl:7818346",
+        "step": 4,
+        "occurred_step": 4,
+        "status": "pending",
+        "priority_units": 181818
+      },
+      {
+        "event_id": "lade:pickup:jl:7818346:05",
+        "order_id": "lade:pickup:jl:7818346",
+        "step": 5,
+        "occurred_step": 5,
+        "status": "pending",
+        "priority_units": 187500
+      },
+      {
+        "event_id": "lade:pickup:jl:7818346:06",
+        "order_id": "lade:pickup:jl:7818346",
+        "step": 6,
+        "occurred_step": 6,
+        "status": "pending",
+        "priority_units": 193548
+      },
+      {
+        "event_id": "lade:pickup:jl:7818346:07",
+        "order_id": "lade:pickup:jl:7818346",
+        "step": 7,
+        "occurred_step": 7,
+        "status": "pending",
+        "priority_units": 200000
+      },
+      {
+        "event_id": "lade:pickup:jl:7818346:08",
+        "order_id": "lade:pickup:jl:7818346",
+        "step": 8,
+        "occurred_step": 8,
+        "status": "pending",
+        "priority_units": 206896
+      },
+      {
+        "event_id": "lade:pickup:jl:7818346:09",
+        "order_id": "lade:pickup:jl:7818346",
+        "step": 9,
+        "occurred_step": 9,
+        "status": "pending",
+        "priority_units": 214285
+      },
+      {
+        "event_id": "lade:pickup:jl:7818346:10",
+        "order_id": "lade:pickup:jl:7818346",
+        "step": 10,
+        "occurred_step": 10,
+        "status": "pending",
+        "priority_units": 222222
+      },
+      {
+        "event_id": "lade:pickup:jl:7818346:11",
+        "order_id": "lade:pickup:jl:7818346",
+        "step": 11,
+        "occurred_step": 11,
+        "status": "pending",
+        "priority_units": 230769
+      },
+      {
+        "event_id": "lade:pickup:jl:7818346:12",
+        "order_id": "lade:pickup:jl:7818346",
+        "step": 12,
+        "occurred_step": 12,
+        "status": "pending",
+        "priority_units": 240000
+      },
+      {
+        "event_id": "lade:pickup:jl:7818346:13",
+        "order_id": "lade:pickup:jl:7818346",
+        "step": 13,
+        "occurred_step": 13,
+        "status": "pending",
+        "priority_units": 250000
+      },
+      {
+        "event_id": "lade:pickup:jl:7818346:14",
+        "order_id": "lade:pickup:jl:7818346",
+        "step": 14,
+        "occurred_step": 14,
+        "status": "completed",
+        "priority_units": 0
+      },
+      {
+        "event_id": "lade:pickup:jl:7826106:10",
+        "order_id": "lade:pickup:jl:7826106",
+        "step": 10,
+        "occurred_step": 10,
+        "status": "pending",
+        "priority_units": 205479
+      },
+      {
+        "event_id": "lade:pickup:jl:7826106:11",
+        "order_id": "lade:pickup:jl:7826106",
+        "step": 11,
+        "occurred_step": 11,
+        "status": "pending",
+        "priority_units": 212765
+      },
+      {
+        "event_id": "lade:pickup:jl:7826106:12",
+        "order_id": "lade:pickup:jl:7826106",
+        "step": 12,
+        "occurred_step": 12,
+        "status": "pending",
+        "priority_units": 220588
+      },
+      {
+        "event_id": "lade:pickup:jl:7826106:13",
+        "order_id": "lade:pickup:jl:7826106",
+        "step": 13,
+        "occurred_step": 13,
+        "status": "pending",
+        "priority_units": 229007
+      },
+      {
+        "event_id": "lade:pickup:jl:7826106:14",
+        "order_id": "lade:pickup:jl:7826106",
+        "step": 14,
+        "occurred_step": 14,
+        "status": "pending",
+        "priority_units": 238095
+      },
+      {
+        "event_id": "lade:pickup:jl:7826106:15",
+        "order_id": "lade:pickup:jl:7826106",
+        "step": 15,
+        "occurred_step": 15,
+        "status": "pending",
+        "priority_units": 247933
+      },
+      {
+        "event_id": "lade:pickup:jl:7826106:16",
+        "order_id": "lade:pickup:jl:7826106",
+        "step": 16,
+        "occurred_step": 16,
+        "status": "pending",
+        "priority_units": 258620
+      },
+      {
+        "event_id": "lade:pickup:jl:7826106:17",
+        "order_id": "lade:pickup:jl:7826106",
+        "step": 17,
+        "occurred_step": 17,
+        "status": "pending",
+        "priority_units": 270270
+      },
+      {
+        "event_id": "lade:pickup:jl:7826106:18",
+        "order_id": "lade:pickup:jl:7826106",
+        "step": 18,
+        "occurred_step": 18,
+        "status": "pending",
+        "priority_units": 283018
+      },
+      {
+        "event_id": "lade:pickup:jl:7826106:19",
+        "order_id": "lade:pickup:jl:7826106",
+        "step": 19,
+        "occurred_step": 19,
+        "status": "pending",
+        "priority_units": 297029
+      },
+      {
+        "event_id": "lade:pickup:jl:7826106:20",
+        "order_id": "lade:pickup:jl:7826106",
+        "step": 20,
+        "occurred_step": 20,
+        "status": "pending",
+        "priority_units": 312500
+      },
+      {
+        "event_id": "lade:pickup:jl:7826106:21",
+        "order_id": "lade:pickup:jl:7826106",
+        "step": 21,
+        "occurred_step": 21,
+        "status": "pending",
+        "priority_units": 329670
+      },
+      {
+        "event_id": "lade:pickup:jl:7826106:22",
+        "order_id": "lade:pickup:jl:7826106",
+        "step": 22,
+        "occurred_step": 22,
+        "status": "pending",
+        "priority_units": 348837
+      },
+      {
+        "event_id": "lade:pickup:jl:7826106:23",
+        "order_id": "lade:pickup:jl:7826106",
+        "step": 23,
+        "occurred_step": 23,
+        "status": "pending",
+        "priority_units": 370370
+      },
+      {
+        "event_id": "lade:pickup:jl:7826106:24",
+        "order_id": "lade:pickup:jl:7826106",
+        "step": 24,
+        "occurred_step": 24,
+        "status": "pending",
+        "priority_units": 394736
+      },
+      {
+        "event_id": "lade:pickup:jl:7819437:14",
+        "order_id": "lade:pickup:jl:7819437",
+        "step": 14,
+        "occurred_step": 14,
+        "status": "pending",
+        "priority_units": 205479
+      },
+      {
+        "event_id": "lade:pickup:jl:7819437:15",
+        "order_id": "lade:pickup:jl:7819437",
+        "step": 15,
+        "occurred_step": 15,
+        "status": "pending",
+        "priority_units": 212765
+      },
+      {
+        "event_id": "lade:pickup:jl:7819437:16",
+        "order_id": "lade:pickup:jl:7819437",
+        "step": 16,
+        "occurred_step": 16,
+        "status": "pending",
+        "priority_units": 220588
+      },
+      {
+        "event_id": "lade:pickup:jl:7819437:17",
+        "order_id": "lade:pickup:jl:7819437",
+        "step": 17,
+        "occurred_step": 17,
+        "status": "pending",
+        "priority_units": 229007
+      },
+      {
+        "event_id": "lade:pickup:jl:7819437:18",
+        "order_id": "lade:pickup:jl:7819437",
+        "step": 18,
+        "occurred_step": 18,
+        "status": "pending",
+        "priority_units": 238095
+      },
+      {
+        "event_id": "lade:pickup:jl:7819437:19",
+        "order_id": "lade:pickup:jl:7819437",
+        "step": 19,
+        "occurred_step": 19,
+        "status": "pending",
+        "priority_units": 247933
+      },
+      {
+        "event_id": "lade:pickup:jl:7819437:20",
+        "order_id": "lade:pickup:jl:7819437",
+        "step": 20,
+        "occurred_step": 20,
+        "status": "pending",
+        "priority_units": 258620
+      },
+      {
+        "event_id": "lade:pickup:jl:7819437:21",
+        "order_id": "lade:pickup:jl:7819437",
+        "step": 21,
+        "occurred_step": 21,
+        "status": "pending",
+        "priority_units": 270270
+      },
+      {
+        "event_id": "lade:pickup:jl:7819437:22",
+        "order_id": "lade:pickup:jl:7819437",
+        "step": 22,
+        "occurred_step": 22,
+        "status": "pending",
+        "priority_units": 283018
+      },
+      {
+        "event_id": "lade:pickup:jl:7819437:23",
+        "order_id": "lade:pickup:jl:7819437",
+        "step": 23,
+        "occurred_step": 23,
+        "status": "pending",
+        "priority_units": 297029
+      },
+      {
+        "event_id": "lade:pickup:jl:7819437:24",
+        "order_id": "lade:pickup:jl:7819437",
+        "step": 24,
+        "occurred_step": 24,
+        "status": "pending",
+        "priority_units": 312500
+      },
+      {
+        "event_id": "lade:pickup:jl:7823720:15",
+        "order_id": "lade:pickup:jl:7823720",
+        "step": 15,
+        "occurred_step": 15,
+        "status": "pending",
+        "priority_units": 200000
+      },
+      {
+        "event_id": "lade:pickup:jl:7823720:16",
+        "order_id": "lade:pickup:jl:7823720",
+        "step": 16,
+        "occurred_step": 16,
+        "status": "pending",
+        "priority_units": 206896
+      },
+      {
+        "event_id": "lade:pickup:jl:7823720:17",
+        "order_id": "lade:pickup:jl:7823720",
+        "step": 17,
+        "occurred_step": 17,
+        "status": "pending",
+        "priority_units": 214285
+      },
+      {
+        "event_id": "lade:pickup:jl:7823720:18",
+        "order_id": "lade:pickup:jl:7823720",
+        "step": 18,
+        "occurred_step": 18,
+        "status": "pending",
+        "priority_units": 222222
+      },
+      {
+        "event_id": "lade:pickup:jl:7823720:19",
+        "order_id": "lade:pickup:jl:7823720",
+        "step": 19,
+        "occurred_step": 19,
+        "status": "pending",
+        "priority_units": 230769
+      },
+      {
+        "event_id": "lade:pickup:jl:7823720:20",
+        "order_id": "lade:pickup:jl:7823720",
+        "step": 20,
+        "occurred_step": 20,
+        "status": "pending",
+        "priority_units": 240000
+      },
+      {
+        "event_id": "lade:pickup:jl:7823720:21",
+        "order_id": "lade:pickup:jl:7823720",
+        "step": 21,
+        "occurred_step": 21,
+        "status": "pending",
+        "priority_units": 250000
+      },
+      {
+        "event_id": "lade:pickup:jl:7823720:22",
+        "order_id": "lade:pickup:jl:7823720",
+        "step": 22,
+        "occurred_step": 22,
+        "status": "completed",
+        "priority_units": 0
+      },
+      {
+        "event_id": "lade:pickup:jl:7825148:16",
+        "order_id": "lade:pickup:jl:7825148",
+        "step": 16,
+        "occurred_step": 16,
+        "status": "pending",
+        "priority_units": 205479
+      },
+      {
+        "event_id": "lade:pickup:jl:7825148:17",
+        "order_id": "lade:pickup:jl:7825148",
+        "step": 17,
+        "occurred_step": 17,
+        "status": "completed",
+        "priority_units": 0
+      },
+      {
+        "event_id": "lade:pickup:jl:7819430:19",
+        "order_id": "lade:pickup:jl:7819430",
+        "step": 19,
+        "occurred_step": 19,
+        "status": "pending",
+        "priority_units": 205479
+      },
+      {
+        "event_id": "lade:pickup:jl:7819430:20",
+        "order_id": "lade:pickup:jl:7819430",
+        "step": 20,
+        "occurred_step": 20,
+        "status": "pending",
+        "priority_units": 212765
+      },
+      {
+        "event_id": "lade:pickup:jl:7819430:21",
+        "order_id": "lade:pickup:jl:7819430",
+        "step": 21,
+        "occurred_step": 21,
+        "status": "pending",
+        "priority_units": 220588
+      },
+      {
+        "event_id": "lade:pickup:jl:7819430:22",
+        "order_id": "lade:pickup:jl:7819430",
+        "step": 22,
+        "occurred_step": 22,
+        "status": "pending",
+        "priority_units": 229007
+      },
+      {
+        "event_id": "lade:pickup:jl:7819430:23",
+        "order_id": "lade:pickup:jl:7819430",
+        "step": 23,
+        "occurred_step": 23,
+        "status": "pending",
+        "priority_units": 238095
+      },
+      {
+        "event_id": "lade:pickup:jl:7819430:24",
+        "order_id": "lade:pickup:jl:7819430",
+        "step": 24,
+        "occurred_step": 24,
+        "status": "pending",
+        "priority_units": 247933
+      },
+      {
+        "event_id": "lade:pickup:jl:7823500:20",
+        "order_id": "lade:pickup:jl:7823500",
+        "step": 20,
+        "occurred_step": 20,
+        "status": "completed",
+        "priority_units": 0
+      },
+      {
+        "event_id": "lade:pickup:jl:7823148:20",
+        "order_id": "lade:pickup:jl:7823148",
+        "step": 20,
+        "occurred_step": 20,
+        "status": "pending",
+        "priority_units": 201342
+      },
+      {
+        "event_id": "lade:pickup:jl:7823148:21",
+        "order_id": "lade:pickup:jl:7823148",
+        "step": 21,
+        "occurred_step": 21,
+        "status": "pending",
+        "priority_units": 208333
+      },
+      {
+        "event_id": "lade:pickup:jl:7823148:22",
+        "order_id": "lade:pickup:jl:7823148",
+        "step": 22,
+        "occurred_step": 22,
+        "status": "pending",
+        "priority_units": 215827
+      },
+      {
+        "event_id": "lade:pickup:jl:7823148:23",
+        "order_id": "lade:pickup:jl:7823148",
+        "step": 23,
+        "occurred_step": 23,
+        "status": "pending",
+        "priority_units": 223880
+      },
+      {
+        "event_id": "lade:pickup:jl:7823148:24",
+        "order_id": "lade:pickup:jl:7823148",
+        "step": 24,
+        "occurred_step": 24,
+        "status": "pending",
+        "priority_units": 232558
+      },
+      {
+        "event_id": "lade:pickup:jl:7821157:21",
+        "order_id": "lade:pickup:jl:7821157",
+        "step": 21,
+        "occurred_step": 21,
+        "status": "pending",
+        "priority_units": 150000
+      },
+      {
+        "event_id": "lade:pickup:jl:7821157:22",
+        "order_id": "lade:pickup:jl:7821157",
+        "step": 22,
+        "occurred_step": 22,
+        "status": "pending",
+        "priority_units": 153846
+      },
+      {
+        "event_id": "lade:pickup:jl:7821157:23",
+        "order_id": "lade:pickup:jl:7821157",
+        "step": 23,
+        "occurred_step": 23,
+        "status": "pending",
+        "priority_units": 157894
+      },
+      {
+        "event_id": "lade:pickup:jl:7821157:24",
+        "order_id": "lade:pickup:jl:7821157",
+        "step": 24,
+        "occurred_step": 24,
+        "status": "pending",
+        "priority_units": 162162
+      }
+    ],
+    "steps": 25,
+    "budget_cents": 5000,
+    "source": "LaDe真实历史接单/揽收完成记录；时间窗规则效用；模拟资源费用与行动",
+    "source_revision": "be2cec02775cafc8d52230303f32134382bcc50b",
+    "start_s": 10484700,
+    "grid_seconds": 300,
+    "source_timeline": [
+      {
+        "task_key": "lade:pickup:jl:7823932",
+        "source_task_id": 7823932,
+        "external_id": "2327463",
+        "accept_s": 10484700,
+        "finish_s": 10490220,
+        "window_start_s": 10486800,
+        "window_end_s": 10494000,
+        "available_step": 0,
+        "completion_step": 19
+      },
+      {
+        "task_key": "lade:pickup:jl:7818346",
+        "source_task_id": 7818346,
+        "external_id": "2149824",
+        "accept_s": 10485660,
+        "finish_s": 10488780,
+        "window_start_s": 10486800,
+        "window_end_s": 10494000,
+        "available_step": 4,
+        "completion_step": 14
+      },
+      {
+        "task_key": "lade:pickup:jl:7826106",
+        "source_task_id": 7826106,
+        "external_id": "5244537",
+        "accept_s": 10487460,
+        "finish_s": 10492020,
+        "window_start_s": 10487460,
+        "window_end_s": 10494660,
+        "available_step": 10,
+        "completion_step": 25
+      },
+      {
+        "task_key": "lade:pickup:jl:7819437",
+        "source_task_id": 7819437,
+        "external_id": "1132499",
+        "accept_s": 10488660,
+        "finish_s": 10493040,
+        "window_start_s": 10488660,
+        "window_end_s": 10495860,
+        "available_step": 14,
+        "completion_step": 28
+      },
+      {
+        "task_key": "lade:pickup:jl:7823720",
+        "source_task_id": 7823720,
+        "external_id": "2672033",
+        "accept_s": 10489200,
+        "finish_s": 10491120,
+        "window_start_s": 10489200,
+        "window_end_s": 10496400,
+        "available_step": 15,
+        "completion_step": 22
+      },
+      {
+        "task_key": "lade:pickup:jl:7825148",
+        "source_task_id": 7825148,
+        "external_id": "763421",
+        "accept_s": 10489260,
+        "finish_s": 10489560,
+        "window_start_s": 10489260,
+        "window_end_s": 10496460,
+        "available_step": 16,
+        "completion_step": 17
+      },
+      {
+        "task_key": "lade:pickup:jl:7819430",
+        "source_task_id": 7819430,
+        "external_id": "2869399",
+        "accept_s": 10490160,
+        "finish_s": 10492740,
+        "window_start_s": 10490160,
+        "window_end_s": 10497360,
+        "available_step": 19,
+        "completion_step": 27
+      },
+      {
+        "task_key": "lade:pickup:jl:7823500",
+        "source_task_id": 7823500,
+        "external_id": "5059051",
+        "accept_s": 10490460,
+        "finish_s": 10490520,
+        "window_start_s": 10490460,
+        "window_end_s": 10497660,
+        "available_step": 20,
+        "completion_step": 20
+      },
+      {
+        "task_key": "lade:pickup:jl:7823148",
+        "source_task_id": 7823148,
+        "external_id": "5419861",
+        "accept_s": 10490640,
+        "finish_s": 10496280,
+        "window_start_s": 10490640,
+        "window_end_s": 10497840,
+        "available_step": 20,
+        "completion_step": 39
+      },
+      {
+        "task_key": "lade:pickup:jl:7821157",
+        "source_task_id": 7821157,
+        "external_id": "1989020",
+        "accept_s": 10490940,
+        "finish_s": 10494180,
+        "window_start_s": 10494000,
+        "window_end_s": 10501200,
+        "available_step": 21,
+        "completion_step": 32
+      }
+    ],
+    "accounting_unit": "1模拟资源点=100内部整数刻度，无BRL或人民币含义"
+  },
+  "historical_metrics": {
+    "status": "passed",
+    "filters": {
+      "kind": "pickup",
+      "city": "jl",
+      "day": "05-01",
+      "courier": "14171"
+    },
+    "metrics": {
+      "observations": 18,
+      "eligible": 18,
+      "duplicate_observations": 0,
+      "invalid_observations": 0,
+      "window_eligible": 18,
+      "late_count": 0,
+      "early_count": 0,
+      "duration_total_s": 58620,
+      "pickup_late_count": 0,
+      "pickup_late_rate": 0,
+      "mean_accept_to_finish_minutes": 54.27777777777778
+    },
+    "reference_counts": {
+      "observations": 18,
+      "eligible": 18,
+      "duplicate_observations": 0,
+      "invalid_observations": 0,
+      "window_eligible": 18,
+      "late_count": 0,
+      "early_count": 0,
+      "duration_total_s": 58620
+    },
+    "sql": {
+      "normalized": "WITH scoped AS (\n SELECT *,CASE WHEN (quality_flags & 63)=0 AND duplicate_key=0 THEN 1 ELSE 0 END eligible,\n CASE WHEN (quality_flags & 63)!=0 THEN 1 ELSE 0 END invalid_record\n FROM tasks WHERE kind=:kind AND city_code=:city AND accept_day=:day\n AND (:courier IS NULL OR courier_id=:courier)) SELECT COUNT(*) observations,\n COALESCE(SUM(eligible),0) eligible,\n COALESCE(SUM(duplicate_key),0) duplicate_observations,\n COALESCE(SUM(invalid_record),0) invalid_observations,\n COALESCE(SUM(CASE WHEN eligible AND :kind='pickup' THEN 1 ELSE 0 END),0) window_eligible,\n COALESCE(SUM(CASE WHEN eligible AND :kind='pickup' AND finish_s>window_end_s THEN 1 ELSE 0 END),0) late_count,\n COALESCE(SUM(CASE WHEN eligible AND :kind='pickup' AND finish_s<window_start_s THEN 1 ELSE 0 END),0) early_count,\n COALESCE(SUM(CASE WHEN eligible THEN finish_s-accept_s ELSE 0 END),0) duration_total_s FROM scoped",
+      "raw_reference": "WITH base AS MATERIALIZED (\n     SELECT CASE WHEN length(i.accept_time)=14 AND strftime('%m-%d %H:%M:%S',julianday('2000-'||i.accept_time))=i.accept_time\n      THEN CAST(ROUND((julianday('2000-'||i.accept_time)-julianday('2000-01-01'))*86400) AS INTEGER) ELSE NULL END accept_s,CASE WHEN length(i.pickup_time)=14 AND strftime('%m-%d %H:%M:%S',julianday('2000-'||i.pickup_time))=i.pickup_time\n      THEN CAST(ROUND((julianday('2000-'||i.pickup_time)-julianday('2000-01-01'))*86400) AS INTEGER) ELSE NULL END finish_s,\n     CASE WHEN length(i.time_window_start)=14 AND strftime('%m-%d %H:%M:%S',julianday('2000-'||i.time_window_start))=i.time_window_start\n      THEN CAST(ROUND((julianday('2000-'||i.time_window_start)-julianday('2000-01-01'))*86400) AS INTEGER) ELSE NULL END window_start_s,CASE WHEN length(i.time_window_end)=14 AND strftime('%m-%d %H:%M:%S',julianday('2000-'||i.time_window_end))=i.time_window_end\n      THEN CAST(ROUND((julianday('2000-'||i.time_window_end)-julianday('2000-01-01'))*86400) AS INTEGER) ELSE NULL END window_end_s,\n     (lower(trim(i.order_id)) NOT IN ('','nan','none','null') AND lower(trim(i.courier_id)) NOT IN ('','nan','none','null')) ids_valid,\n     CASE WHEN lower(trim(i.order_id)) NOT IN ('','nan','none','null') AND\n       (SELECT COUNT(*) FROM raw_pickup j WHERE j._source_file_id=i._source_file_id AND j.order_id=i.order_id)>1\n       THEN 1 ELSE 0 END duplicate_key\n     FROM raw_pickup i WHERE i._source_file_id=:file_id AND substr(i.accept_time,1,5)=:day\n     AND (:courier IS NULL OR i.courier_id=:courier)),\n     checked AS (SELECT *,CASE WHEN ids_valid AND accept_s IS NOT NULL AND finish_s IS NOT NULL AND finish_s>=accept_s\n       AND window_start_s IS NOT NULL AND window_end_s IS NOT NULL AND window_end_s>=window_start_s THEN 0 ELSE 1 END invalid_record FROM base),\n     scoped AS (SELECT *,CASE WHEN invalid_record=0 AND duplicate_key=0 THEN 1 ELSE 0 END eligible FROM checked)\n     SELECT COUNT(*) observations,\n COALESCE(SUM(eligible),0) eligible,\n COALESCE(SUM(duplicate_key),0) duplicate_observations,\n COALESCE(SUM(invalid_record),0) invalid_observations,\n COALESCE(SUM(CASE WHEN eligible AND :kind='pickup' THEN 1 ELSE 0 END),0) window_eligible,\n COALESCE(SUM(CASE WHEN eligible AND :kind='pickup' AND finish_s>window_end_s THEN 1 ELSE 0 END),0) late_count,\n COALESCE(SUM(CASE WHEN eligible AND :kind='pickup' AND finish_s<window_start_s THEN 1 ELSE 0 END),0) early_count,\n COALESCE(SUM(CASE WHEN eligible THEN finish_s-accept_s ELSE 0 END),0) duration_total_s FROM scoped",
+      "standalone_raw_reference": "-- 2000仅为月日计算参考，不表示真实年份。\nWITH base AS MATERIALIZED (\n     SELECT CASE WHEN length(i.accept_time)=14 AND strftime('%m-%d %H:%M:%S',julianday('2000-'||i.accept_time))=i.accept_time\n      THEN CAST(ROUND((julianday('2000-'||i.accept_time)-julianday('2000-01-01'))*86400) AS INTEGER) ELSE NULL END accept_s,CASE WHEN length(i.pickup_time)=14 AND strftime('%m-%d %H:%M:%S',julianday('2000-'||i.pickup_time))=i.pickup_time\n      THEN CAST(ROUND((julianday('2000-'||i.pickup_time)-julianday('2000-01-01'))*86400) AS INTEGER) ELSE NULL END finish_s,\n     CASE WHEN length(i.time_window_start)=14 AND strftime('%m-%d %H:%M:%S',julianday('2000-'||i.time_window_start))=i.time_window_start\n      THEN CAST(ROUND((julianday('2000-'||i.time_window_start)-julianday('2000-01-01'))*86400) AS INTEGER) ELSE NULL END window_start_s,CASE WHEN length(i.time_window_end)=14 AND strftime('%m-%d %H:%M:%S',julianday('2000-'||i.time_window_end))=i.time_window_end\n      THEN CAST(ROUND((julianday('2000-'||i.time_window_end)-julianday('2000-01-01'))*86400) AS INTEGER) ELSE NULL END window_end_s,\n     (lower(trim(i.order_id)) NOT IN ('','nan','none','null') AND lower(trim(i.courier_id)) NOT IN ('','nan','none','null')) ids_valid,\n     CASE WHEN lower(trim(i.order_id)) NOT IN ('','nan','none','null') AND\n       (SELECT COUNT(*) FROM raw_pickup j WHERE j._source_file_id=i._source_file_id AND j.order_id=i.order_id)>1\n       THEN 1 ELSE 0 END duplicate_key\n     FROM raw_pickup i WHERE i._source_file_id=9 AND substr(i.accept_time,1,5)='05-01'\n     AND ('14171' IS NULL OR i.courier_id='14171')),\n     checked AS (SELECT *,CASE WHEN ids_valid AND accept_s IS NOT NULL AND finish_s IS NOT NULL AND finish_s>=accept_s\n       AND window_start_s IS NOT NULL AND window_end_s IS NOT NULL AND window_end_s>=window_start_s THEN 0 ELSE 1 END invalid_record FROM base),\n     scoped AS (SELECT *,CASE WHEN invalid_record=0 AND duplicate_key=0 THEN 1 ELSE 0 END eligible FROM checked)\n     SELECT COUNT(*) observations,\n COALESCE(SUM(eligible),0) eligible,\n COALESCE(SUM(duplicate_key),0) duplicate_observations,\n COALESCE(SUM(invalid_record),0) invalid_observations,\n COALESCE(SUM(CASE WHEN eligible AND 'pickup'='pickup' THEN 1 ELSE 0 END),0) window_eligible,\n COALESCE(SUM(CASE WHEN eligible AND 'pickup'='pickup' AND finish_s>window_end_s THEN 1 ELSE 0 END),0) late_count,\n COALESCE(SUM(CASE WHEN eligible AND 'pickup'='pickup' AND finish_s<window_start_s THEN 1 ELSE 0 END),0) early_count,\n COALESCE(SUM(CASE WHEN eligible THEN finish_s-accept_s ELSE 0 END),0) duration_total_s FROM scoped;",
+      "parameters": {
+        "kind": "pickup",
+        "city": "jl",
+        "day": "05-01",
+        "courier": "14171",
+        "file_id": 9
+      }
+    },
+    "limitations": [
+      "按接单月日统计有效完整历史记录，年份未知。",
+      "重复任务键和关键时间异常不进入有效分母；原文保留。",
+      "派送子集没有已核实的承诺截止时间，不输出派送延迟率。"
+    ]
+  },
+  "stable_parameters": {
+    "min_gain_bps": 200,
+    "switch_penalty_units": 500,
+    "cooldown_steps": 2
+  },
+  "verification": {
+    "status": "passed",
+    "policy_runs_checked": 4,
+    "rounds_checked": 100,
+    "executions_checked": 27,
+    "independent_of_planner": true,
+    "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+    "raw_source_check": "passed",
+    "planned_task_occurrences_checked": 31,
+    "actions_checked_against_raw": 27
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "scenario_count": 200,
+  "policy_runs": 800,
+  "all_budget_checks_passed": true,
+  "all_action_uniqueness_checks_passed": true,
+  "selected_parameters": {
+    "parameters": {
+      "min_gain_bps": 1000,
+      "switch_penalty_units": 5000,
+      "cooldown_steps": 2
+    },
+    "development_scores": [
+      709703.625,
+      710500.875,
+      713566.15625,
+      717300.28125
+    ],
+    "selected_index": 3,
+    "protocol_sha256": "162044cfdc48237b27ed08ccb1a9f7af978e0572db0e029854c014833932fe8a",
+    "development_scenarios": 32,
+    "selection_source": "开发日期和开发模拟种子；评估阶段不再改参数"
+  },
+  "aggregate": {
+    "static": {
+      "mean_utility_units": 758466.825,
+      "mean_spent_cents": 9018.5,
+      "mean_executed_count": 11.67,
+      "mean_solver_calls": 1,
+      "mean_accepted_replans": 0,
+      "mean_rejected_replans": 0,
+      "mean_plan_edit_count": 0,
+      "mean_net_utility_units": 758466.825
+    },
+    "periodic": {
+      "mean_utility_units": 821648.12,
+      "mean_spent_cents": 9656,
+      "mean_executed_count": 11.71,
+      "mean_solver_calls": 3.965,
+      "mean_accepted_replans": 2.965,
+      "mean_rejected_replans": 0,
+      "mean_plan_edit_count": 9.965,
+      "mean_net_utility_units": 811683.12
+    },
+    "immediate": {
+      "mean_utility_units": 821477.54,
+      "mean_spent_cents": 9576,
+      "mean_executed_count": 11.715,
+      "mean_solver_calls": 11.705,
+      "mean_accepted_replans": 10.705,
+      "mean_rejected_replans": 0,
+      "mean_plan_edit_count": 18.33,
+      "mean_net_utility_units": 803147.54
+    },
+    "stable": {
+      "mean_utility_units": 823437.05,
+      "mean_spent_cents": 9655.5,
+      "mean_executed_count": 11.675,
+      "mean_solver_calls": 9.315,
+      "mean_accepted_replans": 1.58,
+      "mean_rejected_replans": 6.735,
+      "mean_plan_edit_count": 6.17,
+      "mean_net_utility_units": 817267.05
+    }
+  },
+  "stable_vs_immediate_net": {
+    "wins": 174,
+    "ties": 5,
+    "losses": 21,
+    "mean_paired_difference_units": 14119.51,
+    "day_cluster_bootstrap95_units": [
+      10685.92,
+      17539.399999999998
+    ],
+    "meaning": "仅为当前模拟事件分布和假设切换代价下的比较，区间不代表真实业务收益"
+  },
+  "protocol": {
+    "development_days": [
+      "2018-07-01",
+      "2018-07-02",
+      "2018-07-03",
+      "2018-07-04",
+      "2018-07-05",
+      "2018-07-06",
+      "2018-07-07",
+      "2018-07-08"
+    ],
+    "development_seeds": [
+      0,
+      1
+    ],
+    "evaluation_days": [
+      "2018-07-09",
+      "2018-07-11",
+      "2018-07-13",
+      "2018-07-15",
+      "2018-07-17",
+      "2018-07-19",
+      "2018-07-21",
+      "2018-07-23",
+      "2018-07-25",
+      "2018-07-27",
+      "2018-07-29",
+      "2018-07-31",
+      "2018-08-02",
+      "2018-08-04",
+      "2018-08-06",
+      "2018-08-08",
+      "2018-08-10",
+      "2018-08-12",
+      "2018-08-14",
+      "2018-08-16"
+    ],
+    "evaluation_seeds": [
+      100,
+      101,
+      102,
+      103,
+      104
+    ],
+    "budgets_cents": [
+      10000,
+      20000
+    ],
+    "candidate_limit": 40,
+    "steps": 12,
+    "execution_capacity_per_step": 1,
+    "periodic_interval": 3,
+    "candidate_parameters": [
+      {
+        "min_gain_bps": 0,
+        "switch_penalty_units": 0,
+        "cooldown_steps": 1
+      },
+      {
+        "min_gain_bps": 200,
+        "switch_penalty_units": 1000,
+        "cooldown_steps": 1
+      },
+      {
+        "min_gain_bps": 500,
+        "switch_penalty_units": 1000,
+        "cooldown_steps": 2
+      },
+      {
+        "min_gain_bps": 1000,
+        "switch_penalty_units": 5000,
+        "cooldown_steps": 2
+      }
+    ],
+    "review_penalty_units_per_edit": 1000,
+    "selection_rule": "仅按开发集平均(执行时累计效用-1000×方案增删项数)选参数；并列按候选序号",
+    "comparison_rule": "相同日期/种子/预算产生同一外生事件流，四策略执行容量和执行排序规则相同",
+    "heldout_scope": "仅日期与模拟种子保留；历史风险数据已用于此前实验，不是新的盲测或真实干预评估"
+  },
+  "input_sha256": "89ef57d08cae203178d3992e25702df3d211d139c138a906031eb7b77efedb23",
+  "limitations": [
+    "费用、状态变化、风险变化及方案切换代价是模拟参数，不是实际干预数据。",
+    "累计效用不是减少延迟单量；当前评分模型AUC约0.571且未校准。",
+    "单轮精确背包不等于整个动态时间段的全局最优；未来状态不提供给策略。",
+    "日期分组自助区间仅描述模拟实验差异；不能外推至真实物流。"
+  ]
+}

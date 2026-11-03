@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-02",
+  "status": "passed_for_simulated_prototype",
+  "batch_scenarios": 200,
+  "batch_policy_runs": 800,
+  "batch_decision_rounds": 9600,
+  "automated_tests_previously_passed": 74,
+  "browser_cases": 5,
+  "download_reread_and_verified": {
+    "status": "passed",
+    "policy_runs_checked": 4,
+    "rounds_checked": 48,
+    "executions_checked": 47,
+    "independent_of_planner": true,
+    "scope": "预算、唯一执行、终态排除、截至当轮已接收的状态/效用及汇总记账；不证明动态全局最优"
+  },
+  "default_selection_reproducible": true,
+  "limitations": [
+    "反馈、干预费用及效用变化是模拟参数",
+    "不证明实际延迟改善或动态全局最优",
+    "四Agent完整协作和真实物流接口未完成"
+  ],
+  "file_sha256": {
+    "zhice/rolling_optimizer.py": "c9bcd077516cfaa3c5bd3fc58149744201cbfc607e7019a3508fa0f7bc033664",
+    "zhice/rolling_demo.py": "9d62c05c2e629a33dacf43e7ae83a064061eba8eeca8f939e14ddd38ea3f35fc",
+    "zhice/rolling_verification.py": "3fa58f023051dd17847b9380b87300e9aff6df817bff84d8b19416e3e8fd01a3",
+    "models/rolling-policy.json": "b2b9e68270c493cacaeb08f3e107c039e73cb45299c06a3013eab9d5f2a992d2",
+    "reports/滚动优化网页验证.png": "523a8e87b182c0e4244f21985e9f9f44b056ec7c4e1cdcbbe908077aa8de429a",
+    "reports/浏览器下载_重排复核证据.json": "04e2d7f4515f388ccf6f7673f5373708e284949029f00f78fe2c113c031c2bec"
+  }
+}

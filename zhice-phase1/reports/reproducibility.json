@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "method": "independent full rebuild, exact SQLite file SHA-256 equality in this runtime",
+  "database_sha256": "a3611a1d419bd74ba2976b585a04757ed8320c47b2f2e612750d6c3b275deb91",
+  "rebuild_database_sha256": "a3611a1d419bd74ba2976b585a04757ed8320c47b2f2e612750d6c3b275deb91",
+  "input_fingerprint": "e505b6c9ccdae06aac599c6b43b39885ab998f6aed204c73b09631d00bf2dd4c",
+  "note": "同一 Python/Pandas/SQLite 环境中核验字节级可复现；跨版本应比较语义结果，不要求 SQLite 文件字节相同。"
+}

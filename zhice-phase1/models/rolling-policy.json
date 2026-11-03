@@ -1,0 +1,17 @@
+{
+  "parameters": {
+    "min_gain_bps": 1000,
+    "switch_penalty_units": 5000,
+    "cooldown_steps": 2
+  },
+  "development_scores": [
+    709703.625,
+    710500.875,
+    713566.15625,
+    717300.28125
+  ],
+  "selected_index": 3,
+  "protocol_sha256": "162044cfdc48237b27ed08ccb1a9f7af978e0572db0e029854c014833932fe8a",
+  "development_scenarios": 32,
+  "selection_source": "开发日期和开发模拟种子；评估阶段不再改参数"
+}

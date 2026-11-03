@@ -1,0 +1,36 @@
+{
+  "filters": {
+    "month": "2017-09",
+    "category": "cool_stuff",
+    "seller": "48436dade18ac8b2bce089ec2a041202"
+  },
+  "results": [
+    {
+      "group_value": "all",
+      "order_count": 19,
+      "delivered_order_count": 18,
+      "canceled_order_count": 0,
+      "unavailable_order_count": 0,
+      "non_canceled_available_order_count": 19,
+      "item_count": 21,
+      "sales_gmv_cents": 181400,
+      "delivered_freight_cents": 47078,
+      "delivered_observed_payment_cents": null,
+      "delivered_missing_payment_order_count": 0,
+      "delivery_eligible_order_count": 18,
+      "late_order_count": 3,
+      "delivery_late_rate": 0.16666666666666666,
+      "reviewed_delivered_order_count": 18,
+      "low_score_order_count": 4,
+      "low_score_rate": 0.2222222222222222,
+      "multi_seller_order_count": 0,
+      "single_seller_handoff_eligible_count": 18,
+      "single_seller_late_handoff_proxy_count": 8,
+      "late_handoff_proxy_rate": 0.4444444444444444,
+      "delivered_status_share": 0.9473684210526315,
+      "sales_gmv_brl": "1814.00",
+      "delivered_freight_brl": "470.78",
+      "profit_brl": null
+    }
+  ]
+}

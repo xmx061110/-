@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-02T05:53:43.696444+00:00",
+  "database": "C:\\Users\\32257\\Desktop\\华为ict\\zhice-phase1\\data\\lade\\warehouse.sqlite",
+  "database_bytes": 5295222784,
+  "source_count": 14,
+  "scenario_count": 200,
+  "policy_runs": 800,
+  "test_count": 93,
+  "browser_case_count": 5,
+  "downloaded_replay_reverification": {
+    "status": "passed",
+    "policy_runs_checked": 4,
+    "rounds_checked": 100,
+    "executions_checked": 27,
+    "independent_of_planner": true,
+    "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+    "raw_source_check": "passed",
+    "planned_task_occurrences_checked": 31,
+    "actions_checked_against_raw": 27
+  },
+  "standalone_raw_sql_reverification": "passed",
+  "evaluation_code_hashes_match": true,
+  "olist_database_unchanged_from_recorded_baseline": true,
+  "olist_database_sha256": "a3611a1d419bd74ba2976b585a04757ed8320c47b2f2e612750d6c3b275deb91",
+  "evidence_sha256": {
+    "lade-import-validation.json": "e9f652cefce1faa73fc2956b3cdda232e8bf1bb482e861866891af72fe279c4a",
+    "lade-replay-evaluation.json": "83a46444c45a713862210a2457f1a576f0636bcadea7b756a50b2b72fdf9a996",
+    "lade-browser-validation.json": "9fa57e562213bddf8ca4071b66e636f9cc74571dab062d523de0bec2b495616e",
+    "lade-integration-tests.log": "541adf17464d537b163b9cf895984a3138415f594b3bdc23540c0c36edc53e17",
+    "LaDe浏览器下载证据.json": "028e5e0f2340da685ae25f4049f3b18922e35c0be1b25ba922742d2e8005efeb",
+    "LaDe数据库算法接入验证.png": "6866705a65b4767d037942e71fd6ffa48bf9a4c52021b229cff58fff8ff5893a"
+  },
+  "limitations": [
+    "历史事实真实，但费用、行动与执行容量为模拟，不能称实际延误减少或费用节省。",
+    "规则效用不是概率，也不是在LaDe上训练的新预测模型。",
+    "每个范围最多40笔，未验证全部1065万条任务的所有调度组合；数据库行数与文件对账覆盖全量。",
+    "LaDe与Olist独立存储，无共同订单映射；GPS标识未与城市快递员建立映射。",
+    "未接入生产实时物流、华为云或完整原定四Agent编排。"
+  ]
+}

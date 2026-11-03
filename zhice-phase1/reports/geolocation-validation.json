@@ -1,0 +1,7 @@
+{
+  "invalid_coordinate_rows": 0,
+  "unique_zip_prefixes": 19015,
+  "customers_missing_geo_prefix": 278,
+  "sellers_missing_geo_prefix": 7,
+  "note": "经纬度中位数仅供展示；不用于当前经营指标或路线距离计算。"
+}

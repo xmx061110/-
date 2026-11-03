@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "groups": 3195,
+  "metric_checks": 67095,
+  "details": [
+    {
+      "group_by": "none",
+      "groups": 1,
+      "metric_checks": 21,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "group_by": "month",
+      "groups": 25,
+      "metric_checks": 525,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "group_by": "category",
+      "groups": 74,
+      "metric_checks": 1554,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "group_by": "seller",
+      "groups": 3095,
+      "metric_checks": 64995,
+      "passed": true,
+      "failures": []
+    }
+  ],
+  "ambiguous_review_tie_groups": 0,
+  "database_sha256": "a3611a1d419bd74ba2976b585a04757ed8320c47b2f2e612750d6c3b275deb91"
+}

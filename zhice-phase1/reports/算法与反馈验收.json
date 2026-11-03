@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-01",
+  "status": "passed_for_offline_prototype",
+  "automated_tests": {
+    "passed": 62,
+    "log": "reports/算法与反馈回归测试.log"
+  },
+  "static_scenarios": 180,
+  "budget_feasible": 180,
+  "exact_objective_matches": 180,
+  "feedback_demo_checks": {
+    "initial_selects_B_C": true,
+    "feedback_selects_A_B": true,
+    "final_selects_C": true,
+    "failed_action_keeps_cost": true
+  },
+  "browser_checked": [
+    "预算300 BRL的三算法比较",
+    "四事件反馈回放与逐轮支出"
+  ],
+  "screenshot": "reports/反馈回放结果验证.png",
+  "limitations": [
+    "模拟成本和干预系数",
+    "反馈事件完全人工构造",
+    "未接入真实物流",
+    "未实现原定四Agent完整闭环"
+  ],
+  "file_sha256": {
+    "zhice\\budget_optimizer.py": "e3f148aa5cde50b5edbac3b409ffca47a500e83b964c236d2f675648ac5ac1e1",
+    "zhice\\feedback_replay.py": "f5b528d729358757057f6da291a059729fc280bd6d183f1a291035239d061b9b",
+    "reports\\反馈回放结果验证.png": "be947e2bd1466a455698c6d1048a25dedb2026830e309282dcda2707b28621e4"
+  }
+}

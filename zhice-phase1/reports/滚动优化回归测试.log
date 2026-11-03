@@ -1,0 +1,100 @@
+test_day_range_and_mutation_cannot_become_month_query (test_agent.AgentTests.test_day_range_and_mutation_cannot_become_month_query) ... ok
+test_failed_independent_check_does_not_produce_metrics (test_agent.AgentTests.test_failed_independent_check_does_not_produce_metrics) ... ok
+test_invalid_parameters_are_rejected (test_agent.AgentTests.test_invalid_parameters_are_rejected) ... ok
+test_model_text_with_invented_number_is_not_shown (test_agent.AgentTests.test_model_text_with_invented_number_is_not_shown) ... ok
+test_model_tool_call_is_parsed (test_agent.AgentTests.test_model_tool_call_is_parsed) ... ok
+test_relative_time_and_guessed_code_are_not_confirmed (test_agent.AgentTests.test_relative_time_and_guessed_code_are_not_confirmed) ... ok
+test_three_real_selections_with_independent_checks (test_agent.AgentTests.test_three_real_selections_with_independent_checks) ... ok
+test_unsupported_multi_call_or_arguments_request_clarification (test_agent.AgentTests.test_unsupported_multi_call_or_arguments_request_clarification) ... ok
+test_budget_endpoint_is_feasible_and_rejects_invalid_input (test_agent_server.ServerTests.test_budget_endpoint_is_feasible_and_rejects_invalid_input) ... 127.0.0.1 - - [01/Nov/2026 23:18:20] "POST /api/budget HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2026 23:18:20] "POST /api/budget HTTP/1.1" 400 -
+127.0.0.1 - - [01/Nov/2026 23:18:20] "POST /api/budget HTTP/1.1" 400 -
+ok
+test_false_filter_is_rejected_instead_of_querying_everything (test_agent_server.ServerTests.test_false_filter_is_rejected_instead_of_querying_everything) ... 127.0.0.1 - - [01/Nov/2026 23:18:20] "POST /api/verify HTTP/1.1" 400 -
+127.0.0.1 - - [01/Nov/2026 23:18:21] "POST /api/verify HTTP/1.1" 400 -
+127.0.0.1 - - [01/Nov/2026 23:18:21] "POST /api/verify HTTP/1.1" 400 -
+ok
+test_feedback_demo_exposes_trace_and_rejects_custom_events (test_agent_server.ServerTests.test_feedback_demo_exposes_trace_and_rejects_custom_events) ... 127.0.0.1 - - [01/Nov/2026 23:18:21] "POST /api/feedback-demo HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2026 23:18:21] "POST /api/feedback-demo HTTP/1.1" 400 -
+ok
+test_historical_risk_results_load (test_agent_server.ServerTests.test_historical_risk_results_load) ... 127.0.0.1 - - [01/Nov/2026 23:18:21] "GET /api/risk HTTP/1.1" 200 -
+ok
+test_model_decision_does_not_call_query (test_agent_server.ServerTests.test_model_decision_does_not_call_query) ... 127.0.0.1 - - [01/Nov/2026 23:18:21] "POST /api/interpret HTTP/1.1" 200 -
+ok
+test_real_selection_and_sql_evidence (test_agent_server.ServerTests.test_real_selection_and_sql_evidence) ... 127.0.0.1 - - [01/Nov/2026 23:18:22] "POST /api/verify HTTP/1.1" 200 -
+ok
+test_rolling_endpoint_verifies_selected_scope_and_rejects_bad_inputs (test_agent_server.ServerTests.test_rolling_endpoint_verifies_selected_scope_and_rejects_bad_inputs) ... 127.0.0.1 - - [01/Nov/2026 23:18:22] "POST /api/rolling HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2026 23:18:22] "POST /api/rolling HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2026 23:18:22] "POST /api/rolling HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2026 23:18:22] "POST /api/rolling HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2026 23:18:22] "POST /api/rolling HTTP/1.1" 400 -
+127.0.0.1 - - [01/Nov/2026 23:18:22] "POST /api/rolling HTTP/1.1" 400 -
+127.0.0.1 - - [01/Nov/2026 23:18:22] "POST /api/rolling HTTP/1.1" 400 -
+ok
+test_triage_endpoint_returns_verified_priority (test_agent_server.ServerTests.test_triage_endpoint_returns_verified_priority) ... 127.0.0.1 - - [01/Nov/2026 23:18:25] "POST /api/triage HTTP/1.1" 200 -
+ok
+test_triage_rejects_extra_filter_and_invalid_month (test_agent_server.ServerTests.test_triage_rejects_extra_filter_and_invalid_month) ... 127.0.0.1 - - [01/Nov/2026 23:18:25] "POST /api/triage HTTP/1.1" 400 -
+127.0.0.1 - - [01/Nov/2026 23:18:25] "POST /api/triage HTTP/1.1" 400 -
+ok
+test_density_greedy_can_miss_better_combination (test_budget_optimizer.BudgetTests.test_density_greedy_can_miss_better_combination) ... ok
+test_empty_and_ties (test_budget_optimizer.BudgetTests.test_empty_and_ties) ... ok
+test_exact_against_exhaustive_and_unpruned (test_budget_optimizer.BudgetTests.test_exact_against_exhaustive_and_unpruned) ... ok
+test_future_outcome_cannot_change_selection_input (test_budget_optimizer.BudgetTests.test_future_outcome_cannot_change_selection_input) ... ok
+test_invalid_or_repeated_input_rejected (test_budget_optimizer.BudgetTests.test_invalid_or_repeated_input_rejected) ... ok
+test_all_groups_checked (test_demo_validation.DemoValidationTests.test_all_groups_checked) ... ok
+test_ambiguous_review_tie_blocks_pass (test_demo_validation.DemoValidationTests.test_ambiguous_review_tie_blocks_pass) ... ok
+test_changed_review_in_fact_really_fails (test_demo_validation.DemoValidationTests.test_changed_review_in_fact_really_fails) ... ok
+test_empty_intersection_is_verified_zero (test_demo_validation.DemoValidationTests.test_empty_intersection_is_verified_zero) ... ok
+test_float_tolerance_does_not_hide_wrong_rates (test_demo_validation.DemoValidationTests.test_float_tolerance_does_not_hide_wrong_rates) ... ok
+test_month_filter (test_demo_validation.DemoValidationTests.test_month_filter) ... ok
+test_no_review_count_zero_but_rate_null (test_demo_validation.DemoValidationTests.test_no_review_count_zero_but_rate_null) ... ok
+test_one_cent_changed_really_fails (test_demo_validation.DemoValidationTests.test_one_cent_changed_really_fails) ... ok
+test_sql_is_standalone_without_custom_functions (test_demo_validation.DemoValidationTests.test_sql_is_standalone_without_custom_functions) ... ok
+test_two_paths_match_and_duplicate_payment_not_counted (test_demo_validation.DemoValidationTests.test_two_paths_match_and_duplicate_payment_not_counted) ... ok
+test_conflicting_duplicate_is_rejected (test_feedback_replay.FeedbackTests.test_conflicting_duplicate_is_rejected) ... ok
+test_duplicate_event_is_idempotent_and_input_order_does_not_matter (test_feedback_replay.FeedbackTests.test_duplicate_event_is_idempotent_and_input_order_does_not_matter) ... ok
+test_feedback_changes_plan_and_locks_failed_spending (test_feedback_replay.FeedbackTests.test_feedback_changes_plan_and_locks_failed_spending) ... ok
+test_function_does_not_modify_inputs (test_feedback_replay.FeedbackTests.test_function_does_not_modify_inputs) ... ok
+test_late_old_observation_cannot_reopen_delivered_order (test_feedback_replay.FeedbackTests.test_late_old_observation_cannot_reopen_delivered_order) ... ok
+test_no_future_received_event_leaks_into_earlier_plan (test_feedback_replay.FeedbackTests.test_no_future_received_event_leaks_into_earlier_plan) ... ok
+test_repeat_commit_and_unknown_order_are_rejected (test_feedback_replay.FeedbackTests.test_repeat_commit_and_unknown_order_are_rejected) ... ok
+test_timezone_and_event_clock_validation (test_feedback_replay.FeedbackTests.test_timezone_and_event_clock_validation) ... ok
+test_canceled_excluded_from_sales (test_metrics.MetricTests.test_canceled_excluded_from_sales) ... ok
+test_conflicting_payment_key_rejected (test_metrics.MetricTests.test_conflicting_payment_key_rejected) ... ok
+test_filters_intersect_same_item (test_metrics.MetricTests.test_filters_intersect_same_item) ... ok
+test_group_sales_additive_counts_nonadditive (test_metrics.MetricTests.test_group_sales_additive_counts_nonadditive) ... ok
+test_identical_payment_row_dedup_but_split_preserved (test_metrics.MetricTests.test_identical_payment_row_dedup_but_split_preserved) ... ok
+test_integer_cents_and_invalid_amounts (test_metrics.MetricTests.test_integer_cents_and_invalid_amounts) ... ok
+test_latest_review_and_review_denominator (test_metrics.MetricTests.test_latest_review_and_review_denominator) ... ok
+test_missing_payments_remain_unknown (test_metrics.MetricTests.test_missing_payments_remain_unknown) ... ok
+test_multiseller_excluded_from_handoff_proxy (test_metrics.MetricTests.test_multiseller_excluded_from_handoff_proxy) ... ok
+test_no_item_payment_join_fanout (test_metrics.MetricTests.test_no_item_payment_join_fanout) ... ok
+test_review_tie_deterministic (test_metrics.MetricTests.test_review_tie_deterministic) ... ok
+test_same_calendar_day_is_on_time (test_metrics.MetricTests.test_same_calendar_day_is_on_time) ... ok
+test_unknown_profit_and_bound_parameters (test_metrics.MetricTests.test_unknown_profit_and_bound_parameters) ... ok
+test_zero_denominator_is_null (test_metrics.MetricTests.test_zero_denominator_is_null) ... ok
+test_empty_never_calls_model (test_multi_agent.WorkflowTest.test_empty_never_calls_model) ... ok
+test_invalid_output_stops_chain (test_multi_agent.WorkflowTest.test_invalid_output_stops_chain) ... ok
+test_rejected_review_cannot_be_passed (test_multi_agent.WorkflowTest.test_rejected_review_cannot_be_passed) ... ok
+test_roles_really_invoke_in_order (test_multi_agent.WorkflowTest.test_roles_really_invoke_in_order) ... ok
+test_future_fields_excluded (test_risk_baseline.RiskTests.test_future_fields_excluded) ... ok
+test_rank_metrics (test_risk_baseline.RiskTests.test_rank_metrics) ... ok
+test_unseen_category_is_all_zero_and_does_not_use_test_categories (test_risk_baseline.RiskTests.test_unseen_category_is_all_zero_and_does_not_use_test_categories) ... ok
+test_all_policies_use_same_stream_and_do_not_mutate_it (test_rolling_optimizer.RollingTests.test_all_policies_use_same_stream_and_do_not_mutate_it) ... ok
+test_budget_zero_empty_queue_and_invalid_parameters (test_rolling_optimizer.RollingTests.test_budget_zero_empty_queue_and_invalid_parameters) ... ok
+test_duplicate_event_idempotence_and_conflict (test_rolling_optimizer.RollingTests.test_duplicate_event_idempotence_and_conflict) ... ok
+test_future_received_observation_cannot_change_past_actions (test_rolling_optimizer.RollingTests.test_future_received_observation_cannot_change_past_actions) ... ok
+test_immediate_reacts_while_static_keeps_initial_remaining_plan (test_rolling_optimizer.RollingTests.test_immediate_reacts_while_static_keeps_initial_remaining_plan) ... ok
+test_late_observation_does_not_overwrite_more_recent_delivery (test_rolling_optimizer.RollingTests.test_late_observation_does_not_overwrite_more_recent_delivery) ... ok
+test_live_independent_verifier_checks_and_rejects_tampering (test_rolling_optimizer.RollingTests.test_live_independent_verifier_checks_and_rejects_tampering) ... ok
+test_live_verifier_rejects_early_future_score_and_missing_policy (test_rolling_optimizer.RollingTests.test_live_verifier_rejects_early_future_score_and_missing_policy) ... ok
+test_many_streams_never_overspend_repeat_or_execute_terminal_order (test_rolling_optimizer.RollingTests.test_many_streams_never_overspend_repeat_or_execute_terminal_order) ... ok
+test_per_step_optimum_is_independently_checkable (test_rolling_optimizer.RollingTests.test_per_step_optimum_is_independently_checkable) ... ok
+test_stable_hysteresis_rejects_small_gain_but_accepts_large_gain (test_rolling_optimizer.RollingTests.test_stable_hysteresis_rejects_small_gain_but_accepts_large_gain) ... ok
+test_empty_scope_is_not_a_successful_intervention (test_triage.TriageTests.test_empty_scope_is_not_a_successful_intervention) ... ok
+test_priority_is_verified_and_sample_floor_applies (test_triage.TriageTests.test_priority_is_verified_and_sample_floor_applies) ... ok
+
+----------------------------------------------------------------------
+Ran 74 tests in 11.913s
+
+OK

@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-02",
+  "status": "passed",
+  "cases": [
+    {
+      "city": "jl",
+      "day": "05-01",
+      "budget_points": 50,
+      "status": "吉林 05-01（年份未知），快递员14171，08:25起120分钟。原始表SQL及行动时刻复核通过。回放候选10/10笔（最多100笔）。",
+      "downloaded": true
+    },
+    {
+      "city": "hz",
+      "day": "07-15",
+      "budget_points": 50,
+      "status": "passed"
+    },
+    {
+      "city": "hz",
+      "day": "07-15",
+      "budget_points": 0,
+      "status": "passed",
+      "zero_actions": true
+    },
+    {
+      "budget_points": "1.5",
+      "status": "rejected_as_expected",
+      "stale_evidence_disabled": true
+    },
+    {
+      "city": "hz",
+      "day": "07-15",
+      "courier_id": "7539",
+      "budget_points": 20,
+      "status": "passed"
+    }
+  ],
+  "final_scope": {
+    "city": "hz",
+    "day": "07-15",
+    "courier_id": "6060",
+    "budget_points": 50
+  },
+  "final_raw_verification": {
+    "status": "passed",
+    "policy_runs_checked": 4,
+    "rounds_checked": 100,
+    "executions_checked": 49,
+    "independent_of_planner": true,
+    "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+    "raw_source_check": "passed",
+    "planned_task_occurrences_checked": 256,
+    "actions_checked_against_raw": 49
+  }
+}

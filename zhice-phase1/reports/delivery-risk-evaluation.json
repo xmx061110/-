@@ -1,0 +1,59 @@
+{
+  "model": "NumPy 逻辑回归基线",
+  "data_sha256": "a3611a1d419bd74ba2976b585a04757ed8320c47b2f2e612750d6c3b275deb91",
+  "features": [
+    "promised_days",
+    "purchase_weekday",
+    "purchase_hour",
+    "item_count",
+    "seller_count",
+    "price_cents",
+    "freight_cents",
+    "weight_g",
+    "customer_state",
+    "seller_state",
+    "category"
+  ],
+  "decision_time_assumption": "下单后、配送前；假设预计送达日期与商品和收货信息可获得，尚待业务验证",
+  "train": {
+    "purchase_before": "2018-05-01",
+    "delivered_before": "2018-05-01",
+    "orders": 68295,
+    "late_rate": 0.072435756643971
+  },
+  "validation": {
+    "purchase_range": "2018-05-01 至 2018-06-30",
+    "delivered_before": "2018-07-01",
+    "orders": 11149,
+    "late_orders": 434,
+    "late_rate": 0.038927,
+    "roc_auc": 0.720615,
+    "average_precision": 0.083482,
+    "brier_score": 0.037734,
+    "top10_count": 1115,
+    "top10_late_count": 115,
+    "top10_precision": 0.103139,
+    "top10_recall": 0.264977
+  },
+  "test": {
+    "purchase_range": "2018-07-01 至 2018-08-31",
+    "delivered_before": "2018-10-18",
+    "orders": 12507,
+    "late_orders": 601,
+    "late_rate": 0.048053,
+    "roc_auc": 0.571125,
+    "average_precision": 0.062782,
+    "brier_score": 0.047124,
+    "top10_count": 1251,
+    "top10_late_count": 83,
+    "top10_precision": 0.066347,
+    "top10_recall": 0.138103
+  },
+  "random_selection_expected_top10_precision": 0.04805309026944911,
+  "limitations": [
+    "只包括截止前已经送达且时间有效的订单，有选择偏差，不能代表取消和未送达订单",
+    "订单时预计送达日期是否可用为假设，必须业务验证",
+    "历史巴西数据不能证明当前或其他地区表现；没有实时数据及真实干预效果",
+    "风险评分未做独立概率校准"
+  ]
+}

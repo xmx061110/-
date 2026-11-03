@@ -1,0 +1,79 @@
+{
+  "development_days": [
+    "2018-07-01",
+    "2018-07-02",
+    "2018-07-03",
+    "2018-07-04",
+    "2018-07-05",
+    "2018-07-06",
+    "2018-07-07",
+    "2018-07-08"
+  ],
+  "development_seeds": [
+    0,
+    1
+  ],
+  "evaluation_days": [
+    "2018-07-09",
+    "2018-07-11",
+    "2018-07-13",
+    "2018-07-15",
+    "2018-07-17",
+    "2018-07-19",
+    "2018-07-21",
+    "2018-07-23",
+    "2018-07-25",
+    "2018-07-27",
+    "2018-07-29",
+    "2018-07-31",
+    "2018-08-02",
+    "2018-08-04",
+    "2018-08-06",
+    "2018-08-08",
+    "2018-08-10",
+    "2018-08-12",
+    "2018-08-14",
+    "2018-08-16"
+  ],
+  "evaluation_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "budgets_cents": [
+    10000,
+    20000
+  ],
+  "candidate_limit": 40,
+  "steps": 12,
+  "execution_capacity_per_step": 1,
+  "periodic_interval": 3,
+  "candidate_parameters": [
+    {
+      "min_gain_bps": 0,
+      "switch_penalty_units": 0,
+      "cooldown_steps": 1
+    },
+    {
+      "min_gain_bps": 200,
+      "switch_penalty_units": 1000,
+      "cooldown_steps": 1
+    },
+    {
+      "min_gain_bps": 500,
+      "switch_penalty_units": 1000,
+      "cooldown_steps": 2
+    },
+    {
+      "min_gain_bps": 1000,
+      "switch_penalty_units": 5000,
+      "cooldown_steps": 2
+    }
+  ],
+  "review_penalty_units_per_edit": 1000,
+  "selection_rule": "仅按开发集平均(执行时累计效用-1000×方案增删项数)选参数；并列按候选序号",
+  "comparison_rule": "相同日期/种子/预算产生同一外生事件流，四策略执行容量和执行排序规则相同",
+  "heldout_scope": "仅日期与模拟种子保留；历史风险数据已用于此前实验，不是新的盲测或真实干预评估"
+}

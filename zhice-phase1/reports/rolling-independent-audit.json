@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "independent_of_planner": true,
+  "scenario_count": 200,
+  "policy_runs_checked": 800,
+  "steps_checked": 9600,
+  "executions_checked": 9354,
+  "checks": [
+    "方案预算和累计支出",
+    "执行当时状态和效用",
+    "不重复执行",
+    "不提前读取未来接收事件",
+    "方案变动计数和行政代价",
+    "四策略相同输入指纹",
+    "汇总指标复算",
+    "开发和评估日期/种子分离"
+  ],
+  "evaluation_file_sha256": "f3b4d7da7a0e291b8bc8e829ecc9982ee9b509b59f80fd0b70a99a8d38e87c4f",
+  "limitations": [
+    "仅验证保存场景的一致性，不证明动态全局最优或真实干预效果。"
+  ]
+}

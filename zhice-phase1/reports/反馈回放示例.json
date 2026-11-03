@@ -1,0 +1,177 @@
+{
+  "mode": "事件回放原型，非真实物流接入",
+  "as_of": "2026-11-01T02:05:00+00:00",
+  "budget_cents": 5000,
+  "initial_plan": {
+    "spent_cents": 0,
+    "remaining_cents": 5000,
+    "planned_cents": 5000,
+    "selected_ids": [
+      "B",
+      "C"
+    ],
+    "priority_units": 250
+  },
+  "final_plan": {
+    "spent_cents": 1000,
+    "remaining_cents": 4000,
+    "planned_cents": 3000,
+    "selected_ids": [
+      "C"
+    ],
+    "priority_units": 120
+  },
+  "accepted_event_ids": [
+    "e1",
+    "e2",
+    "e3",
+    "e4"
+  ],
+  "ignored_events": [],
+  "committed_costs_cents": {
+    "A": 1000
+  },
+  "action_outcomes": {
+    "A": "failure"
+  },
+  "order_states": {
+    "A": {
+      "order_id": "A",
+      "cost_cents": 1000,
+      "priority_units": 200,
+      "status": "exception"
+    },
+    "B": {
+      "order_id": "B",
+      "cost_cents": 2000,
+      "priority_units": 130,
+      "status": "delivered"
+    },
+    "C": {
+      "order_id": "C",
+      "cost_cents": 3000,
+      "priority_units": 120,
+      "status": "pending"
+    }
+  },
+  "trace": [
+    {
+      "event_id": "e1",
+      "type": "observation",
+      "order_id": "A",
+      "received_at": "2026-11-01T02:01:00+00:00",
+      "spent_cents": 0,
+      "remaining_cents": 5000,
+      "planned_cents": 3000,
+      "selected_ids": [
+        "A",
+        "B"
+      ],
+      "priority_units": 330
+    },
+    {
+      "event_id": "e2",
+      "type": "commit",
+      "order_id": "A",
+      "received_at": "2026-11-01T02:02:00+00:00",
+      "spent_cents": 1000,
+      "remaining_cents": 4000,
+      "planned_cents": 2000,
+      "selected_ids": [
+        "B"
+      ],
+      "priority_units": 130
+    },
+    {
+      "event_id": "e3",
+      "type": "observation",
+      "order_id": "B",
+      "received_at": "2026-11-01T02:03:00+00:00",
+      "spent_cents": 1000,
+      "remaining_cents": 4000,
+      "planned_cents": 3000,
+      "selected_ids": [
+        "C"
+      ],
+      "priority_units": 120
+    },
+    {
+      "event_id": "e4",
+      "type": "action_result",
+      "order_id": "A",
+      "received_at": "2026-11-01T02:04:00+00:00",
+      "spent_cents": 1000,
+      "remaining_cents": 4000,
+      "planned_cents": 3000,
+      "selected_ids": [
+        "C"
+      ],
+      "priority_units": 120
+    }
+  ],
+  "limitations": [
+    "观察的优先级由上游提供，本模块不学习风险更新规则。",
+    "当前每单只支持一种固定费用行动；失败不退费且禁止自动重试。",
+    "未实现持久化、并发事务或外部物流接口。"
+  ],
+  "source": "全部订单、费用、效用和状态均为人工构造，非Olist实时轨迹",
+  "input": {
+    "items": [
+      {
+        "order_id": "A",
+        "cost_cents": 1000,
+        "priority_units": 60
+      },
+      {
+        "order_id": "B",
+        "cost_cents": 2000,
+        "priority_units": 130
+      },
+      {
+        "order_id": "C",
+        "cost_cents": 3000,
+        "priority_units": 120
+      }
+    ],
+    "events": [
+      {
+        "event_id": "e1",
+        "type": "observation",
+        "order_id": "A",
+        "occurred_at": "2026-11-01T10:01:00+08:00",
+        "received_at": "2026-11-01T10:01:00+08:00",
+        "status": "exception",
+        "priority_units": 200
+      },
+      {
+        "event_id": "e2",
+        "type": "commit",
+        "order_id": "A",
+        "occurred_at": "2026-11-01T10:02:00+08:00",
+        "received_at": "2026-11-01T10:02:00+08:00"
+      },
+      {
+        "event_id": "e3",
+        "type": "observation",
+        "order_id": "B",
+        "occurred_at": "2026-11-01T10:03:00+08:00",
+        "received_at": "2026-11-01T10:03:00+08:00",
+        "status": "delivered"
+      },
+      {
+        "event_id": "e4",
+        "type": "action_result",
+        "order_id": "A",
+        "occurred_at": "2026-11-01T10:04:00+08:00",
+        "received_at": "2026-11-01T10:04:00+08:00",
+        "outcome": "failure"
+      }
+    ]
+  },
+  "expected_checks": {
+    "initial_selects_B_C": true,
+    "feedback_selects_A_B": true,
+    "final_selects_C": true,
+    "failed_action_keeps_cost": true
+  }
+}

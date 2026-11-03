@@ -1,0 +1,1095 @@
+{
+  "status": "passed",
+  "date_utc": "2026-11-02T12:05:47.566303+00:00",
+  "mode": "tools",
+  "scenario_count": 40,
+  "model_calls": 0,
+  "cases": [
+    {
+      "run_id": "9a6a57e0c5fe4d85aea7d4661535d5e9",
+      "request": {
+        "city": "jl",
+        "day": "05-01",
+        "courier_id": "14171",
+        "start_time": "08:25",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "b0b2614b8356feeaddf1c8b0980505721ae026ae49437a470e986d37bca4ea7e",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "0b3c605bafec48f39e5fee7303be827f",
+      "request": {
+        "city": "jl",
+        "day": "05-01",
+        "courier_id": "14171",
+        "start_time": "08:25",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "b0b2614b8356feeaddf1c8b0980505721ae026ae49437a470e986d37bca4ea7e",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 27,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 31,
+        "actions_checked_against_raw": 27
+      }
+    },
+    {
+      "run_id": "c87b8dd56afe48e2b7156d225836b8e4",
+      "request": {
+        "city": "jl",
+        "day": "05-01",
+        "courier_id": "14171",
+        "start_time": "08:25",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "b0b2614b8356feeaddf1c8b0980505721ae026ae49437a470e986d37bca4ea7e",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "dc985879ab7241b296d197401929b6b6",
+      "request": {
+        "city": "jl",
+        "day": "05-01",
+        "courier_id": "14171",
+        "start_time": "08:25",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "b0b2614b8356feeaddf1c8b0980505721ae026ae49437a470e986d37bca4ea7e",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 27,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 31,
+        "actions_checked_against_raw": 27
+      }
+    },
+    {
+      "run_id": "515a863425f54101b45c25f9afb9fb42",
+      "request": {
+        "city": "jl",
+        "day": "08-01",
+        "courier_id": "5969",
+        "start_time": "07:40",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "7c9524d8266fffdcac51f2cb33c6a526f827173627613e5b1a9a49f596ff7aac",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "b363811853814eb2b92b5f44f367f6dc",
+      "request": {
+        "city": "jl",
+        "day": "08-01",
+        "courier_id": "5969",
+        "start_time": "07:40",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "7c9524d8266fffdcac51f2cb33c6a526f827173627613e5b1a9a49f596ff7aac",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 43,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 198,
+        "actions_checked_against_raw": 43
+      }
+    },
+    {
+      "run_id": "02ff0745ce0446d595ba73912df032a2",
+      "request": {
+        "city": "jl",
+        "day": "08-01",
+        "courier_id": "5969",
+        "start_time": "07:40",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "7c9524d8266fffdcac51f2cb33c6a526f827173627613e5b1a9a49f596ff7aac",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "928efeffd6f44b3fa694e28ea1af7d96",
+      "request": {
+        "city": "jl",
+        "day": "08-01",
+        "courier_id": "5969",
+        "start_time": "07:40",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "7c9524d8266fffdcac51f2cb33c6a526f827173627613e5b1a9a49f596ff7aac",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 43,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 198,
+        "actions_checked_against_raw": 43
+      }
+    },
+    {
+      "run_id": "8b386f9be6bd43c6b69f7743e9e26a55",
+      "request": {
+        "city": "hz",
+        "day": "04-24",
+        "courier_id": "2901",
+        "start_time": "13:05",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "ba50cd51a407c0e0d6bbfab63ccc80865ad416a6e8ee156aad68f38ede24a605",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "b67713ef1b1b406b871212620c8b7175",
+      "request": {
+        "city": "hz",
+        "day": "04-24",
+        "courier_id": "2901",
+        "start_time": "13:05",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "ba50cd51a407c0e0d6bbfab63ccc80865ad416a6e8ee156aad68f38ede24a605",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 4,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 4,
+        "actions_checked_against_raw": 4
+      }
+    },
+    {
+      "run_id": "0f602a07eaa64401a4f638434b515848",
+      "request": {
+        "city": "hz",
+        "day": "04-24",
+        "courier_id": "2901",
+        "start_time": "13:05",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "ba50cd51a407c0e0d6bbfab63ccc80865ad416a6e8ee156aad68f38ede24a605",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "75a25abfb3d14785a2c4bdc9f2841ad5",
+      "request": {
+        "city": "hz",
+        "day": "04-24",
+        "courier_id": "2901",
+        "start_time": "13:05",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "ba50cd51a407c0e0d6bbfab63ccc80865ad416a6e8ee156aad68f38ede24a605",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 4,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 4,
+        "actions_checked_against_raw": 4
+      }
+    },
+    {
+      "run_id": "b0a5b9bd023440cfbd05ff0799012dd7",
+      "request": {
+        "city": "hz",
+        "day": "07-29",
+        "courier_id": "15373",
+        "start_time": "07:10",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "f5281d4e3c2586c162ee7a9e892250693b70f4684c8a1ad20e50c689ae5ff428",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "4d27071630f04baab1114300d8d662b9",
+      "request": {
+        "city": "hz",
+        "day": "07-29",
+        "courier_id": "15373",
+        "start_time": "07:10",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "f5281d4e3c2586c162ee7a9e892250693b70f4684c8a1ad20e50c689ae5ff428",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 38,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 83,
+        "actions_checked_against_raw": 38
+      }
+    },
+    {
+      "run_id": "d677d26549f047659fc433ac69172818",
+      "request": {
+        "city": "hz",
+        "day": "07-29",
+        "courier_id": "15373",
+        "start_time": "07:10",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "f5281d4e3c2586c162ee7a9e892250693b70f4684c8a1ad20e50c689ae5ff428",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "89b6ee9528a0431cb82650ccd43a3764",
+      "request": {
+        "city": "hz",
+        "day": "07-29",
+        "courier_id": "15373",
+        "start_time": "07:10",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "f5281d4e3c2586c162ee7a9e892250693b70f4684c8a1ad20e50c689ae5ff428",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 38,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 83,
+        "actions_checked_against_raw": 38
+      }
+    },
+    {
+      "run_id": "ca12ee979e5c49dd9d9e1a14be0762bd",
+      "request": {
+        "city": "sh",
+        "day": "05-03",
+        "courier_id": "11636",
+        "start_time": "08:20",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "45500cb2ff278a2cf9cd816fffee59de999bea02df4e6e7173e5bea01e8fe4e4",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "3cf90e56d5c74276b9e7a019edfbc6db",
+      "request": {
+        "city": "sh",
+        "day": "05-03",
+        "courier_id": "11636",
+        "start_time": "08:20",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "45500cb2ff278a2cf9cd816fffee59de999bea02df4e6e7173e5bea01e8fe4e4",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 4,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 4,
+        "actions_checked_against_raw": 4
+      }
+    },
+    {
+      "run_id": "7114ede5e1ce4edcba2d7a489a41b734",
+      "request": {
+        "city": "sh",
+        "day": "05-03",
+        "courier_id": "11636",
+        "start_time": "08:20",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "45500cb2ff278a2cf9cd816fffee59de999bea02df4e6e7173e5bea01e8fe4e4",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "10d99479b2eb4a0494467ba4690b471b",
+      "request": {
+        "city": "sh",
+        "day": "05-03",
+        "courier_id": "11636",
+        "start_time": "08:20",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "45500cb2ff278a2cf9cd816fffee59de999bea02df4e6e7173e5bea01e8fe4e4",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 4,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 4,
+        "actions_checked_against_raw": 4
+      }
+    },
+    {
+      "run_id": "765d9904f8b6452daec62f5e03d14303",
+      "request": {
+        "city": "sh",
+        "day": "08-04",
+        "courier_id": "7552",
+        "start_time": "07:15",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "1ac32d3165ab3c7b1bd107c4d669f4357dca9a6763ed1fdcdf93337e8210435e",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "d9b3c9bf336a43dbadab0ef8b0ad8419",
+      "request": {
+        "city": "sh",
+        "day": "08-04",
+        "courier_id": "7552",
+        "start_time": "07:15",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "1ac32d3165ab3c7b1bd107c4d669f4357dca9a6763ed1fdcdf93337e8210435e",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 39,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 136,
+        "actions_checked_against_raw": 39
+      }
+    },
+    {
+      "run_id": "8a25e3f39dcf49adb86686c2a0da9339",
+      "request": {
+        "city": "sh",
+        "day": "08-04",
+        "courier_id": "7552",
+        "start_time": "07:15",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "1ac32d3165ab3c7b1bd107c4d669f4357dca9a6763ed1fdcdf93337e8210435e",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "15f8be5fd908471dabf70a36f0181cca",
+      "request": {
+        "city": "sh",
+        "day": "08-04",
+        "courier_id": "7552",
+        "start_time": "07:15",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "1ac32d3165ab3c7b1bd107c4d669f4357dca9a6763ed1fdcdf93337e8210435e",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 39,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 136,
+        "actions_checked_against_raw": 39
+      }
+    },
+    {
+      "run_id": "b9e56d0e5378497a95410a0d638507de",
+      "request": {
+        "city": "cq",
+        "day": "04-16",
+        "courier_id": "5863",
+        "start_time": "12:35",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "cf8280c094877f3ff63fa93f64c40d3054807e0501aba788c5a3c9bd25decc47",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "e0c5b395bfcd4c0b931bdc64f374d2d3",
+      "request": {
+        "city": "cq",
+        "day": "04-16",
+        "courier_id": "5863",
+        "start_time": "12:35",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "cf8280c094877f3ff63fa93f64c40d3054807e0501aba788c5a3c9bd25decc47",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 4,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 4,
+        "actions_checked_against_raw": 4
+      }
+    },
+    {
+      "run_id": "fa728f9b05884157b070bd97ac300b50",
+      "request": {
+        "city": "cq",
+        "day": "04-16",
+        "courier_id": "5863",
+        "start_time": "12:35",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "cf8280c094877f3ff63fa93f64c40d3054807e0501aba788c5a3c9bd25decc47",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "00b6e8d5bf4144c2ba46747d3683fd8b",
+      "request": {
+        "city": "cq",
+        "day": "04-16",
+        "courier_id": "5863",
+        "start_time": "12:35",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "cf8280c094877f3ff63fa93f64c40d3054807e0501aba788c5a3c9bd25decc47",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 4,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 4,
+        "actions_checked_against_raw": 4
+      }
+    },
+    {
+      "run_id": "c1e3250743d349efb1a597ab116730f5",
+      "request": {
+        "city": "cq",
+        "day": "07-29",
+        "courier_id": "13994",
+        "start_time": "07:35",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "65d309159f4aeac60ea9f5a43ebdd0875abb41c83fa90fbabd87ab93478098ff",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "e1cb2d53203248d8891e17b5994baf44",
+      "request": {
+        "city": "cq",
+        "day": "07-29",
+        "courier_id": "13994",
+        "start_time": "07:35",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "65d309159f4aeac60ea9f5a43ebdd0875abb41c83fa90fbabd87ab93478098ff",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 51,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 267,
+        "actions_checked_against_raw": 51
+      }
+    },
+    {
+      "run_id": "97a22a6b41e142e5941dcd196f61dd7d",
+      "request": {
+        "city": "cq",
+        "day": "07-29",
+        "courier_id": "13994",
+        "start_time": "07:35",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "65d309159f4aeac60ea9f5a43ebdd0875abb41c83fa90fbabd87ab93478098ff",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "77a8bb89164448a6887721153c9bd77c",
+      "request": {
+        "city": "cq",
+        "day": "07-29",
+        "courier_id": "13994",
+        "start_time": "07:35",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "65d309159f4aeac60ea9f5a43ebdd0875abb41c83fa90fbabd87ab93478098ff",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 51,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 267,
+        "actions_checked_against_raw": 51
+      }
+    },
+    {
+      "run_id": "3a70cfdd4a0742cf83e552f0d205b356",
+      "request": {
+        "city": "yt",
+        "day": "04-26",
+        "courier_id": "1780",
+        "start_time": "08:45",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "be0097b26aca632fdd3606efbe5e47f82e53fb43c0c83974dcae21e23427b991",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "91c75f998b2340ad98d28197e8df5d8c",
+      "request": {
+        "city": "yt",
+        "day": "04-26",
+        "courier_id": "1780",
+        "start_time": "08:45",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "be0097b26aca632fdd3606efbe5e47f82e53fb43c0c83974dcae21e23427b991",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 4,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 4,
+        "actions_checked_against_raw": 4
+      }
+    },
+    {
+      "run_id": "06de6e1fae5e4306836549de609c16ac",
+      "request": {
+        "city": "yt",
+        "day": "04-26",
+        "courier_id": "1780",
+        "start_time": "08:45",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "be0097b26aca632fdd3606efbe5e47f82e53fb43c0c83974dcae21e23427b991",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "41dafe23b64440e2ae86a81947b1bdbf",
+      "request": {
+        "city": "yt",
+        "day": "04-26",
+        "courier_id": "1780",
+        "start_time": "08:45",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "be0097b26aca632fdd3606efbe5e47f82e53fb43c0c83974dcae21e23427b991",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 4,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 4,
+        "actions_checked_against_raw": 4
+      }
+    },
+    {
+      "run_id": "7b1de5ebaa4a41c4936a69071f075c54",
+      "request": {
+        "city": "yt",
+        "day": "07-29",
+        "courier_id": "4857",
+        "start_time": "07:05",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "c55da3f8d46a0429e4b5a6acf874db4582de937f87d220b062ecb715380df056",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "e376e7119ff24ab3adff8043ae868fe1",
+      "request": {
+        "city": "yt",
+        "day": "07-29",
+        "courier_id": "4857",
+        "start_time": "07:05",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "priority",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "c55da3f8d46a0429e4b5a6acf874db4582de937f87d220b062ecb715380df056",
+      "policy": "immediate",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 51,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 237,
+        "actions_checked_against_raw": 51
+      }
+    },
+    {
+      "run_id": "65dd03a8f7684019bda2ea614159f257",
+      "request": {
+        "city": "yt",
+        "day": "07-29",
+        "courier_id": "4857",
+        "start_time": "07:05",
+        "duration_minutes": 120,
+        "budget_points": 0,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "c55da3f8d46a0429e4b5a6acf874db4582de937f87d220b062ecb715380df056",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 0,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 0,
+        "actions_checked_against_raw": 0
+      }
+    },
+    {
+      "run_id": "c8a2398df93a40749ac1c79a92ce5737",
+      "request": {
+        "city": "yt",
+        "day": "07-29",
+        "courier_id": "4857",
+        "start_time": "07:05",
+        "duration_minutes": 120,
+        "budget_points": 50,
+        "goal": "stability",
+        "mode": "tools"
+      },
+      "status": "passed",
+      "snapshot_sha256": "c55da3f8d46a0429e4b5a6acf874db4582de937f87d220b062ecb715380df056",
+      "policy": "stable",
+      "replay_verification": {
+        "status": "passed",
+        "policy_runs_checked": 4,
+        "rounds_checked": 100,
+        "executions_checked": 51,
+        "independent_of_planner": true,
+        "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+        "raw_source_check": "passed",
+        "planned_task_occurrences_checked": 237,
+        "actions_checked_against_raw": 51
+      }
+    }
+  ],
+  "code_sha256": {
+    "zhice/four_agents.py": "e914e33ff4c6eeb54e19afce2b6bc47b483f0504eb296f7227c2057fafc0f707",
+    "zhice/agent_server.py": "6044057614d152c9578ac2f869076009f15e73bb6ba896ab0ac5f49adbd43164",
+    "work/four_agent_acceptance.py": "61f73a2045aafd0c820bebb4e58923ba3eea4b960078b3b365af8267b2fc8d6b"
+  },
+  "boundary": "固定验收场景，不代表模型整体准确率或真实物流干预收益；工具演练不计作模型协作。"
+}

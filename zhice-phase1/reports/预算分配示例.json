@@ -1,0 +1,827 @@
+{
+  "mode": "历史评分+模拟成本和干预系数的离线情景",
+  "day": "2018-07-01",
+  "seed": 0,
+  "candidate_rule": "当日历史测试订单按下单时间与ID排序取前N笔；非实时队列",
+  "cost_rule": "SHA256(seed:order_id)前2字节映射1到30 BRL；模拟处理费用，不是运费",
+  "effect_rule": "第3字节映射0.2、0.5、0.8；未从真实干预估计",
+  "objective": "最大化sum(未校准风险评分×假设干预系数×1000000，逐单四舍五入)；仅为优先级效用，不是预计减少延迟单量",
+  "candidates": [
+    {
+      "order_id": "9d6a4798ca60c057f632bed582e5b0c5",
+      "risk_score": 0.055405557,
+      "cost_cents": 600,
+      "assumed_effect": "0.8",
+      "priority_units": 44324
+    },
+    {
+      "order_id": "3a05c5202070d944a10db60144ddf04b",
+      "risk_score": 0.053230423,
+      "cost_cents": 1000,
+      "assumed_effect": "0.8",
+      "priority_units": 42584
+    },
+    {
+      "order_id": "37c647851a4d30342bc4dd9ec8c95861",
+      "risk_score": 0.11918044,
+      "cost_cents": 2700,
+      "assumed_effect": "0.8",
+      "priority_units": 95344
+    },
+    {
+      "order_id": "5d681b5588723aa46f699b097a563a60",
+      "risk_score": 0.05760166,
+      "cost_cents": 2900,
+      "assumed_effect": "0.2",
+      "priority_units": 11520
+    },
+    {
+      "order_id": "e03e8192ecbedf3c6493ae3c01ba21e3",
+      "risk_score": 0.04199693,
+      "cost_cents": 100,
+      "assumed_effect": "0.2",
+      "priority_units": 8399
+    },
+    {
+      "order_id": "46f3c8f0f9ca12fb198779b7f99a0e0a",
+      "risk_score": 0.07205291,
+      "cost_cents": 1000,
+      "assumed_effect": "0.2",
+      "priority_units": 14411
+    },
+    {
+      "order_id": "c3a937f97910c3602c1e4cdb4b951b1e",
+      "risk_score": 0.0407724,
+      "cost_cents": 900,
+      "assumed_effect": "0.8",
+      "priority_units": 32618
+    },
+    {
+      "order_id": "9888a350c98263705a75ee0a82e90e7c",
+      "risk_score": 0.08484992,
+      "cost_cents": 2300,
+      "assumed_effect": "0.2",
+      "priority_units": 16970
+    },
+    {
+      "order_id": "a6cd7cac7ee11538a78649066487e0ca",
+      "risk_score": 0.12814471,
+      "cost_cents": 1400,
+      "assumed_effect": "0.8",
+      "priority_units": 102516
+    },
+    {
+      "order_id": "03bb0baa2f30152130d3d5df8e44507e",
+      "risk_score": 0.10398555,
+      "cost_cents": 700,
+      "assumed_effect": "0.8",
+      "priority_units": 83188
+    },
+    {
+      "order_id": "3c082ca49aaf1923e87b34e1375a1413",
+      "risk_score": 0.057405066,
+      "cost_cents": 1600,
+      "assumed_effect": "0.2",
+      "priority_units": 11481
+    },
+    {
+      "order_id": "047ea1a58aad923c2c108eafa2c28192",
+      "risk_score": 0.06637734,
+      "cost_cents": 1000,
+      "assumed_effect": "0.2",
+      "priority_units": 13275
+    },
+    {
+      "order_id": "e803d4e56a315a38eb3a6d339b02278d",
+      "risk_score": 0.05546268,
+      "cost_cents": 1900,
+      "assumed_effect": "0.5",
+      "priority_units": 27731
+    },
+    {
+      "order_id": "da01eb83df2aafd16872ab0c5f24d5b6",
+      "risk_score": 0.05457976,
+      "cost_cents": 2800,
+      "assumed_effect": "0.8",
+      "priority_units": 43664
+    },
+    {
+      "order_id": "519478e4bc7d1ca7d93f2fcd7f9e54b7",
+      "risk_score": 0.039584484,
+      "cost_cents": 2800,
+      "assumed_effect": "0.8",
+      "priority_units": 31668
+    },
+    {
+      "order_id": "1b6a74c497e59ff5342e7a1adcff98af",
+      "risk_score": 0.05466556,
+      "cost_cents": 1600,
+      "assumed_effect": "0.5",
+      "priority_units": 27333
+    },
+    {
+      "order_id": "c2af11ae3f61ffc78a1997289b07d497",
+      "risk_score": 0.04575545,
+      "cost_cents": 2500,
+      "assumed_effect": "0.5",
+      "priority_units": 22878
+    },
+    {
+      "order_id": "1ab38815794efa43d269d62b98dae815",
+      "risk_score": 0.059285022,
+      "cost_cents": 700,
+      "assumed_effect": "0.5",
+      "priority_units": 29643
+    },
+    {
+      "order_id": "a994ff8265aed38e21cb63b2d8402b09",
+      "risk_score": 0.040965747,
+      "cost_cents": 500,
+      "assumed_effect": "0.8",
+      "priority_units": 32773
+    },
+    {
+      "order_id": "8f0518f5d4437b43c4849faee7e6dacd",
+      "risk_score": 0.07761511,
+      "cost_cents": 2100,
+      "assumed_effect": "0.2",
+      "priority_units": 15523
+    },
+    {
+      "order_id": "f638d34835b2bcc16d7c6880954bc00f",
+      "risk_score": 0.06272306,
+      "cost_cents": 900,
+      "assumed_effect": "0.5",
+      "priority_units": 31362
+    },
+    {
+      "order_id": "5d4c60302689f1e23d80b19eea938bf6",
+      "risk_score": 0.067322336,
+      "cost_cents": 1600,
+      "assumed_effect": "0.2",
+      "priority_units": 13464
+    },
+    {
+      "order_id": "2ff28727dd7a3cbb51cf9b8053a7103a",
+      "risk_score": 0.1298574,
+      "cost_cents": 1100,
+      "assumed_effect": "0.2",
+      "priority_units": 25971
+    },
+    {
+      "order_id": "421bc5d68665463cbb939db50847894d",
+      "risk_score": 0.16917214,
+      "cost_cents": 400,
+      "assumed_effect": "0.5",
+      "priority_units": 84586
+    },
+    {
+      "order_id": "96ad8ef0669dc53c0830b44376e975f5",
+      "risk_score": 0.08262572,
+      "cost_cents": 800,
+      "assumed_effect": "0.2",
+      "priority_units": 16525
+    },
+    {
+      "order_id": "c75eebf08446545f765d7cfc1ab89342",
+      "risk_score": 0.061421268,
+      "cost_cents": 1200,
+      "assumed_effect": "0.2",
+      "priority_units": 12284
+    },
+    {
+      "order_id": "55bb79b4227dafa41a25a45e8462c7b5",
+      "risk_score": 0.06359744,
+      "cost_cents": 1500,
+      "assumed_effect": "0.5",
+      "priority_units": 31799
+    },
+    {
+      "order_id": "ddcc0f4f6de9d30500e9e39e2127046d",
+      "risk_score": 0.082071275,
+      "cost_cents": 1000,
+      "assumed_effect": "0.5",
+      "priority_units": 41036
+    },
+    {
+      "order_id": "3146e5198dddba5ff4a7843339a58226",
+      "risk_score": 0.0556583,
+      "cost_cents": 2700,
+      "assumed_effect": "0.5",
+      "priority_units": 27829
+    },
+    {
+      "order_id": "e1a9f566dc38eac4f78556976596a43f",
+      "risk_score": 0.05257453,
+      "cost_cents": 1800,
+      "assumed_effect": "0.8",
+      "priority_units": 42060
+    },
+    {
+      "order_id": "f6f0b540e89f9b3f6f256e9c5c739f6f",
+      "risk_score": 0.05786,
+      "cost_cents": 1900,
+      "assumed_effect": "0.5",
+      "priority_units": 28930
+    },
+    {
+      "order_id": "c5dc3239938cdd5fbaa0dae29b966d2c",
+      "risk_score": 0.06382433,
+      "cost_cents": 500,
+      "assumed_effect": "0.5",
+      "priority_units": 31912
+    },
+    {
+      "order_id": "d6934136368e34491a21bf8ac9f59aca",
+      "risk_score": 0.078557186,
+      "cost_cents": 2000,
+      "assumed_effect": "0.5",
+      "priority_units": 39279
+    },
+    {
+      "order_id": "da7edb9956cbe0ef5c50126e1bb784b9",
+      "risk_score": 0.05083999,
+      "cost_cents": 2900,
+      "assumed_effect": "0.8",
+      "priority_units": 40672
+    },
+    {
+      "order_id": "89d6544684b9cbacd492feb38abe4fe7",
+      "risk_score": 0.11191689,
+      "cost_cents": 1600,
+      "assumed_effect": "0.5",
+      "priority_units": 55958
+    },
+    {
+      "order_id": "a0190a8aa681fe129b9a9ae80dfd9266",
+      "risk_score": 0.06589561,
+      "cost_cents": 2700,
+      "assumed_effect": "0.5",
+      "priority_units": 32948
+    },
+    {
+      "order_id": "6d1832bd42dccbd91d1ce32da7f54492",
+      "risk_score": 0.061231837,
+      "cost_cents": 1200,
+      "assumed_effect": "0.5",
+      "priority_units": 30616
+    },
+    {
+      "order_id": "27d4565688530c96555c05e21f6740c1",
+      "risk_score": 0.05628417,
+      "cost_cents": 1000,
+      "assumed_effect": "0.2",
+      "priority_units": 11257
+    },
+    {
+      "order_id": "54243ef50fa7c7f650224a26f43bb90c",
+      "risk_score": 0.090023056,
+      "cost_cents": 2700,
+      "assumed_effect": "0.8",
+      "priority_units": 72018
+    },
+    {
+      "order_id": "cbbf61b366cb1ca7a9f9b954e8f345b5",
+      "risk_score": 0.060650356,
+      "cost_cents": 2400,
+      "assumed_effect": "0.5",
+      "priority_units": 30325
+    },
+    {
+      "order_id": "7c9b63669cf62dd8d1ed4d40d5bf953a",
+      "risk_score": 0.055203028,
+      "cost_cents": 200,
+      "assumed_effect": "0.2",
+      "priority_units": 11041
+    },
+    {
+      "order_id": "3ff4d494b9a42e38f1d11a11cac925c6",
+      "risk_score": 0.076023966,
+      "cost_cents": 2600,
+      "assumed_effect": "0.2",
+      "priority_units": 15205
+    },
+    {
+      "order_id": "24090634aff3af5ea0cbdbffc4a3e143",
+      "risk_score": 0.057669923,
+      "cost_cents": 2300,
+      "assumed_effect": "0.8",
+      "priority_units": 46136
+    },
+    {
+      "order_id": "db17cc060cb420c7dbea80f797f010ae",
+      "risk_score": 0.055682678,
+      "cost_cents": 2400,
+      "assumed_effect": "0.8",
+      "priority_units": 44546
+    },
+    {
+      "order_id": "eb3def506468a28e922792bce17156b0",
+      "risk_score": 0.10934501,
+      "cost_cents": 800,
+      "assumed_effect": "0.8",
+      "priority_units": 87476
+    },
+    {
+      "order_id": "1d4f81fabfc6dadb18f166298fc6aaad",
+      "risk_score": 0.06369108,
+      "cost_cents": 1600,
+      "assumed_effect": "0.2",
+      "priority_units": 12738
+    },
+    {
+      "order_id": "484f11db440188250fec53abd4283294",
+      "risk_score": 0.07041788,
+      "cost_cents": 1700,
+      "assumed_effect": "0.2",
+      "priority_units": 14084
+    },
+    {
+      "order_id": "2eb8d7103527b48ed39070bd8cb2368e",
+      "risk_score": 0.037281375,
+      "cost_cents": 1500,
+      "assumed_effect": "0.8",
+      "priority_units": 29825
+    },
+    {
+      "order_id": "756d62fd1519d390705464ab14c102a8",
+      "risk_score": 0.04860142,
+      "cost_cents": 1900,
+      "assumed_effect": "0.2",
+      "priority_units": 9720
+    },
+    {
+      "order_id": "4d72fbd8a8a12d4012b8578725c97a06",
+      "risk_score": 0.061513998,
+      "cost_cents": 1700,
+      "assumed_effect": "0.8",
+      "priority_units": 49211
+    },
+    {
+      "order_id": "e2101b7f68035b709716010fb28abb99",
+      "risk_score": 0.0920874,
+      "cost_cents": 1600,
+      "assumed_effect": "0.8",
+      "priority_units": 73670
+    },
+    {
+      "order_id": "3475576ebe7b1d8daf3201dd20dbc98d",
+      "risk_score": 0.14543898,
+      "cost_cents": 600,
+      "assumed_effect": "0.2",
+      "priority_units": 29088
+    },
+    {
+      "order_id": "83ef337ab9aec7423050b7ecd0260399",
+      "risk_score": 0.11578466,
+      "cost_cents": 500,
+      "assumed_effect": "0.2",
+      "priority_units": 23157
+    },
+    {
+      "order_id": "af00499b52c61ba01c141aa619499861",
+      "risk_score": 0.08810119,
+      "cost_cents": 1700,
+      "assumed_effect": "0.8",
+      "priority_units": 70481
+    },
+    {
+      "order_id": "5e703e05bcb502963f75e2a2a2eb7b73",
+      "risk_score": 0.121730015,
+      "cost_cents": 3000,
+      "assumed_effect": "0.2",
+      "priority_units": 24346
+    },
+    {
+      "order_id": "6d1f16f4ed292206fbeedf3b44e0ceb3",
+      "risk_score": 0.06145751,
+      "cost_cents": 2400,
+      "assumed_effect": "0.5",
+      "priority_units": 30729
+    },
+    {
+      "order_id": "70ca1c80e14fa0391a567797dc294938",
+      "risk_score": 0.08352532,
+      "cost_cents": 2200,
+      "assumed_effect": "0.5",
+      "priority_units": 41763
+    },
+    {
+      "order_id": "ca9012a0bc23f8c1b5be9b7e4af8fa5e",
+      "risk_score": 0.05667687,
+      "cost_cents": 2400,
+      "assumed_effect": "0.5",
+      "priority_units": 28338
+    },
+    {
+      "order_id": "e0145369394f83a5210ad16511c6cf33",
+      "risk_score": 0.05228606,
+      "cost_cents": 1100,
+      "assumed_effect": "0.8",
+      "priority_units": 41829
+    },
+    {
+      "order_id": "ee3392ed69b3aa71906d6890c571cf81",
+      "risk_score": 0.08660633,
+      "cost_cents": 1900,
+      "assumed_effect": "0.2",
+      "priority_units": 17321
+    },
+    {
+      "order_id": "f575b5125a609778241c26809da9ed2b",
+      "risk_score": 0.0611802,
+      "cost_cents": 1100,
+      "assumed_effect": "0.8",
+      "priority_units": 48944
+    },
+    {
+      "order_id": "51fea792e465500a842c7325adabf0ad",
+      "risk_score": 0.07881549,
+      "cost_cents": 3000,
+      "assumed_effect": "0.5",
+      "priority_units": 39408
+    },
+    {
+      "order_id": "a75677de97d29dd137bd7779428d9aa2",
+      "risk_score": 0.08760644,
+      "cost_cents": 2900,
+      "assumed_effect": "0.2",
+      "priority_units": 17521
+    },
+    {
+      "order_id": "036e37b0e268e6087e88d3d7a676c13d",
+      "risk_score": 0.09794453,
+      "cost_cents": 100,
+      "assumed_effect": "0.8",
+      "priority_units": 78356
+    },
+    {
+      "order_id": "430cd6b6d3066421a8bc48ce72541ba3",
+      "risk_score": 0.058772717,
+      "cost_cents": 1500,
+      "assumed_effect": "0.8",
+      "priority_units": 47018
+    },
+    {
+      "order_id": "b6276d65b997fa8398537cac9f42c55e",
+      "risk_score": 0.035351314,
+      "cost_cents": 2200,
+      "assumed_effect": "0.5",
+      "priority_units": 17676
+    },
+    {
+      "order_id": "ec6ae689bec92fef124043f61f553778",
+      "risk_score": 0.050266977,
+      "cost_cents": 2300,
+      "assumed_effect": "0.2",
+      "priority_units": 10053
+    },
+    {
+      "order_id": "4d280f7e02765cbee0a2ce0359dafb2e",
+      "risk_score": 0.06275558,
+      "cost_cents": 900,
+      "assumed_effect": "0.8",
+      "priority_units": 50204
+    },
+    {
+      "order_id": "ff4ce1bf027da9b8b1eaa0c10148cc2d",
+      "risk_score": 0.056716584,
+      "cost_cents": 600,
+      "assumed_effect": "0.2",
+      "priority_units": 11343
+    },
+    {
+      "order_id": "23c8185c60bb06f217a2437ffc73e45f",
+      "risk_score": 0.052154902,
+      "cost_cents": 1600,
+      "assumed_effect": "0.8",
+      "priority_units": 41724
+    },
+    {
+      "order_id": "ab344aaf7040ad7bcee8c7ae7db9e87e",
+      "risk_score": 0.05678468,
+      "cost_cents": 700,
+      "assumed_effect": "0.2",
+      "priority_units": 11357
+    },
+    {
+      "order_id": "dd804880e8bbe570f05a48fe008632e2",
+      "risk_score": 0.059800927,
+      "cost_cents": 100,
+      "assumed_effect": "0.8",
+      "priority_units": 47841
+    },
+    {
+      "order_id": "a61b9456778de69d35a9addadfc57ca8",
+      "risk_score": 0.07254475,
+      "cost_cents": 2900,
+      "assumed_effect": "0.2",
+      "priority_units": 14509
+    },
+    {
+      "order_id": "ee3565d2a50b87870c5b752412c360e6",
+      "risk_score": 0.0527142,
+      "cost_cents": 1800,
+      "assumed_effect": "0.8",
+      "priority_units": 42171
+    },
+    {
+      "order_id": "f24cb1ef5e87e5ea09a1fc0ae135c186",
+      "risk_score": 0.0823306,
+      "cost_cents": 1800,
+      "assumed_effect": "0.8",
+      "priority_units": 65864
+    },
+    {
+      "order_id": "d47275f7c8f1c128471944cf03903a2e",
+      "risk_score": 0.05357355,
+      "cost_cents": 700,
+      "assumed_effect": "0.5",
+      "priority_units": 26787
+    },
+    {
+      "order_id": "2e1b96bb2d8b0ca7e4a6c3d0c15d68a3",
+      "risk_score": 0.06927625,
+      "cost_cents": 500,
+      "assumed_effect": "0.8",
+      "priority_units": 55421
+    },
+    {
+      "order_id": "ddbbf91a5dc91f4757ad2ed77ab9616b",
+      "risk_score": 0.05314265,
+      "cost_cents": 1700,
+      "assumed_effect": "0.5",
+      "priority_units": 26571
+    },
+    {
+      "order_id": "eaac284918a0bae18197faef197f83e0",
+      "risk_score": 0.04979146,
+      "cost_cents": 2600,
+      "assumed_effect": "0.2",
+      "priority_units": 9958
+    },
+    {
+      "order_id": "0f34156bfdc1f9ea431eebf0b9343d42",
+      "risk_score": 0.08855058,
+      "cost_cents": 2100,
+      "assumed_effect": "0.8",
+      "priority_units": 70840
+    },
+    {
+      "order_id": "29b71dc3837a954158a1d1b30d0605bc",
+      "risk_score": 0.07217844,
+      "cost_cents": 2500,
+      "assumed_effect": "0.8",
+      "priority_units": 57743
+    },
+    {
+      "order_id": "98106dc1817ee224a51dc63feb059126",
+      "risk_score": 0.05940637,
+      "cost_cents": 2800,
+      "assumed_effect": "0.8",
+      "priority_units": 47525
+    },
+    {
+      "order_id": "443f3ab34f06d2d9124cd153812b4ba6",
+      "risk_score": 0.05299911,
+      "cost_cents": 1500,
+      "assumed_effect": "0.8",
+      "priority_units": 42399
+    },
+    {
+      "order_id": "d896771c13346a1152e08d268514f544",
+      "risk_score": 0.07560986,
+      "cost_cents": 500,
+      "assumed_effect": "0.5",
+      "priority_units": 37805
+    },
+    {
+      "order_id": "3083d0620c7cc835cb4c90a8b4895eda",
+      "risk_score": 0.18808575,
+      "cost_cents": 1500,
+      "assumed_effect": "0.5",
+      "priority_units": 94043
+    },
+    {
+      "order_id": "ad65db823bb3d24954abfc66ee67b165",
+      "risk_score": 0.049807448,
+      "cost_cents": 1400,
+      "assumed_effect": "0.8",
+      "priority_units": 39846
+    },
+    {
+      "order_id": "fd3a02bb749359b9e6a4126cd8a50822",
+      "risk_score": 0.06394405,
+      "cost_cents": 2600,
+      "assumed_effect": "0.2",
+      "priority_units": 12789
+    },
+    {
+      "order_id": "7ac0ea1aae0c98fd853d0baf7108099c",
+      "risk_score": 0.04731998,
+      "cost_cents": 400,
+      "assumed_effect": "0.2",
+      "priority_units": 9464
+    },
+    {
+      "order_id": "0b0809b2b64511c62fb745fb8b465cc9",
+      "risk_score": 0.05604926,
+      "cost_cents": 200,
+      "assumed_effect": "0.5",
+      "priority_units": 28025
+    },
+    {
+      "order_id": "731eb375d1d241e31221637ee6e5ef56",
+      "risk_score": 0.0821081,
+      "cost_cents": 2300,
+      "assumed_effect": "0.8",
+      "priority_units": 65686
+    },
+    {
+      "order_id": "3eae7531a136877d61e1aaea2684fcea",
+      "risk_score": 0.13825874,
+      "cost_cents": 2000,
+      "assumed_effect": "0.2",
+      "priority_units": 27652
+    },
+    {
+      "order_id": "0dbcaa88e213607d3795e96eda505c73",
+      "risk_score": 0.060021866,
+      "cost_cents": 500,
+      "assumed_effect": "0.5",
+      "priority_units": 30011
+    },
+    {
+      "order_id": "1d1f85267347878da2291cbb1bf6ba84",
+      "risk_score": 0.074991554,
+      "cost_cents": 2300,
+      "assumed_effect": "0.8",
+      "priority_units": 59993
+    },
+    {
+      "order_id": "b0e27a07c49f580ee1a2c6418cd7a5cf",
+      "risk_score": 0.05922754,
+      "cost_cents": 2900,
+      "assumed_effect": "0.5",
+      "priority_units": 29614
+    },
+    {
+      "order_id": "188e0ceeddc1fff39d55d96545c912c2",
+      "risk_score": 0.10888789,
+      "cost_cents": 900,
+      "assumed_effect": "0.8",
+      "priority_units": 87110
+    },
+    {
+      "order_id": "87c6169aae0c57897be7344931c2839e",
+      "risk_score": 0.060894642,
+      "cost_cents": 1900,
+      "assumed_effect": "0.8",
+      "priority_units": 48716
+    },
+    {
+      "order_id": "727be733cb840c05e9fc14028a1892e2",
+      "risk_score": 0.10435488,
+      "cost_cents": 1200,
+      "assumed_effect": "0.2",
+      "priority_units": 20871
+    },
+    {
+      "order_id": "6f30b59ca40f5851d931d146ef6868d0",
+      "risk_score": 0.048429027,
+      "cost_cents": 1700,
+      "assumed_effect": "0.2",
+      "priority_units": 9686
+    },
+    {
+      "order_id": "2899952345d332e41b79ece6d0463e9f",
+      "risk_score": 0.07306234,
+      "cost_cents": 2500,
+      "assumed_effect": "0.8",
+      "priority_units": 58450
+    },
+    {
+      "order_id": "529803de3fafe0402da504545ed10047",
+      "risk_score": 0.06359993,
+      "cost_cents": 2200,
+      "assumed_effect": "0.2",
+      "priority_units": 12720
+    }
+  ],
+  "optimized": {
+    "algorithm": "gcd_pareto_dp",
+    "selected_ids": [
+      "036e37b0e268e6087e88d3d7a676c13d",
+      "03bb0baa2f30152130d3d5df8e44507e",
+      "0b0809b2b64511c62fb745fb8b465cc9",
+      "0dbcaa88e213607d3795e96eda505c73",
+      "188e0ceeddc1fff39d55d96545c912c2",
+      "2e1b96bb2d8b0ca7e4a6c3d0c15d68a3",
+      "3083d0620c7cc835cb4c90a8b4895eda",
+      "421bc5d68665463cbb939db50847894d",
+      "7c9b63669cf62dd8d1ed4d40d5bf953a",
+      "83ef337ab9aec7423050b7ecd0260399",
+      "9d6a4798ca60c057f632bed582e5b0c5",
+      "a6cd7cac7ee11538a78649066487e0ca",
+      "a994ff8265aed38e21cb63b2d8402b09",
+      "c5dc3239938cdd5fbaa0dae29b966d2c",
+      "d896771c13346a1152e08d268514f544",
+      "dd804880e8bbe570f05a48fe008632e2",
+      "e03e8192ecbedf3c6493ae3c01ba21e3",
+      "eb3def506468a28e922792bce17156b0"
+    ],
+    "cost_cents": 10000,
+    "budget_cents": 10000,
+    "unused_cents": 0,
+    "priority_units": 967984,
+    "candidate_count": 100,
+    "eligible_candidate_count": 100,
+    "unit_cents": 100,
+    "states_visited": 5618,
+    "peak_states": 96,
+    "elapsed_ms": 1.248,
+    "optimality": "对传入的整数目标、候选集和预算约束精确最优；不代表实际经营最优"
+  },
+  "baselines": [
+    {
+      "algorithm": "risk",
+      "selected_ids": [
+        "3083d0620c7cc835cb4c90a8b4895eda",
+        "421bc5d68665463cbb939db50847894d",
+        "3475576ebe7b1d8daf3201dd20dbc98d",
+        "3eae7531a136877d61e1aaea2684fcea",
+        "2ff28727dd7a3cbb51cf9b8053a7103a",
+        "a6cd7cac7ee11538a78649066487e0ca",
+        "5e703e05bcb502963f75e2a2a2eb7b73"
+      ],
+      "cost_cents": 10000,
+      "budget_cents": 10000,
+      "priority_units": 388202
+    },
+    {
+      "algorithm": "density",
+      "selected_ids": [
+        "036e37b0e268e6087e88d3d7a676c13d",
+        "dd804880e8bbe570f05a48fe008632e2",
+        "421bc5d68665463cbb939db50847894d",
+        "0b0809b2b64511c62fb745fb8b465cc9",
+        "03bb0baa2f30152130d3d5df8e44507e",
+        "2e1b96bb2d8b0ca7e4a6c3d0c15d68a3",
+        "eb3def506468a28e922792bce17156b0",
+        "188e0ceeddc1fff39d55d96545c912c2",
+        "e03e8192ecbedf3c6493ae3c01ba21e3",
+        "d896771c13346a1152e08d268514f544",
+        "9d6a4798ca60c057f632bed582e5b0c5",
+        "a6cd7cac7ee11538a78649066487e0ca",
+        "a994ff8265aed38e21cb63b2d8402b09",
+        "c5dc3239938cdd5fbaa0dae29b966d2c",
+        "3083d0620c7cc835cb4c90a8b4895eda",
+        "0dbcaa88e213607d3795e96eda505c73",
+        "7c9b63669cf62dd8d1ed4d40d5bf953a",
+        "83ef337ab9aec7423050b7ecd0260399"
+      ],
+      "cost_cents": 10000,
+      "budget_cents": 10000,
+      "priority_units": 967984
+    }
+  ],
+  "limitations": [
+    "模型评分未经概率校准且测试AUC约0.571。",
+    "真实加急成本、处理能力与干预效果缺失。",
+    "仅在已送达且时间有效的历史测试样本中验证；不代表真实业务可行性。"
+  ],
+  "unpruned": {
+    "algorithm": "gcd_unpruned_dp",
+    "selected_ids": [
+      "036e37b0e268e6087e88d3d7a676c13d",
+      "03bb0baa2f30152130d3d5df8e44507e",
+      "0b0809b2b64511c62fb745fb8b465cc9",
+      "0dbcaa88e213607d3795e96eda505c73",
+      "188e0ceeddc1fff39d55d96545c912c2",
+      "2e1b96bb2d8b0ca7e4a6c3d0c15d68a3",
+      "3083d0620c7cc835cb4c90a8b4895eda",
+      "421bc5d68665463cbb939db50847894d",
+      "7c9b63669cf62dd8d1ed4d40d5bf953a",
+      "83ef337ab9aec7423050b7ecd0260399",
+      "9d6a4798ca60c057f632bed582e5b0c5",
+      "a6cd7cac7ee11538a78649066487e0ca",
+      "a994ff8265aed38e21cb63b2d8402b09",
+      "c5dc3239938cdd5fbaa0dae29b966d2c",
+      "d896771c13346a1152e08d268514f544",
+      "dd804880e8bbe570f05a48fe008632e2",
+      "e03e8192ecbedf3c6493ae3c01ba21e3",
+      "eb3def506468a28e922792bce17156b0"
+    ],
+    "cost_cents": 10000,
+    "budget_cents": 10000,
+    "unused_cents": 0,
+    "priority_units": 967984,
+    "candidate_count": 100,
+    "eligible_candidate_count": 100,
+    "unit_cents": 100,
+    "states_visited": 9362,
+    "peak_states": 101,
+    "elapsed_ms": 1.095,
+    "optimality": "对传入的整数目标、候选集和预算约束精确最优；不代表实际经营最优"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "name": "小数预算拒绝",
+      "input_budget": "0.5",
+      "plan_published": false,
+      "download_enabled": false
+    },
+    {
+      "name": "零预算稳定工具演练",
+      "run_id": "73e8b4fc3d1942c38c1c7eea5f4140e9",
+      "model_calls": 0,
+      "selected_count": 0
+    },
+    {
+      "name": "目录更新锁定运行并清空旧结果",
+      "city": "hz",
+      "day": "07-15"
+    },
+    {
+      "name": "杭州真实四角色运行及下载",
+      "run_id": "947c3dcc87084be58124a5afce9cc00c",
+      "model_calls": 4,
+      "accepted_count": 38,
+      "active_total": 31,
+      "selected_count": 15,
+      "cost_points": 50
+    }
+  ],
+  "method": "实际页面选择、点击、下载与截图；非模拟DOM测试",
+  "download_equals_saved_record": true,
+  "standalone_snapshot_and_full_day_sql": "passed",
+  "independent_plan_verification": {
+    "status": "passed",
+    "visible_tasks_only": true,
+    "unique_tasks": true,
+    "cost_cents": 5000,
+    "priority_units": 2695790,
+    "budget_cents": 5000,
+    "snapshot_sha256": "934efd4c02409d2a1ecf8cf776e87131746cb46618a7b855828a268da1bb2ddf",
+    "policy_chosen_before_replay": "immediate",
+    "scope": "原始SQL来源与当前可见性、无重复、预算及效用记账；不证明动态全局最优或真实干预效果"
+  },
+  "replay_reverification": {
+    "status": "passed",
+    "policy_runs_checked": 4,
+    "rounds_checked": 100,
+    "executions_checked": 58,
+    "independent_of_planner": true,
+    "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+    "raw_source_check": "passed",
+    "planned_task_occurrences_checked": 431,
+    "actions_checked_against_raw": 58
+  }
+}

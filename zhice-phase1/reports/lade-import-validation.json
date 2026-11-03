@@ -1,0 +1,112 @@
+{
+  "status": "passed",
+  "revision": "be2cec02775cafc8d52230303f32134382bcc50b",
+  "database": "C:\\Users\\32257\\Desktop\\华为ict\\zhice-phase1\\data\\lade\\warehouse.sqlite",
+  "database_bytes": 5295222784,
+  "source_counts": [
+    {
+      "path": "delivery/delivery_cq.csv",
+      "table": "raw_delivery",
+      "rows": 931351
+    },
+    {
+      "path": "delivery/delivery_hz.csv",
+      "table": "raw_delivery",
+      "rows": 1861600
+    },
+    {
+      "path": "delivery/delivery_jl.csv",
+      "table": "raw_delivery",
+      "rows": 31415
+    },
+    {
+      "path": "delivery/delivery_sh.csv",
+      "table": "raw_delivery",
+      "rows": 1483864
+    },
+    {
+      "path": "delivery/delivery_yt.csv",
+      "table": "raw_delivery",
+      "rows": 206431
+    },
+    {
+      "path": "delivery_five_cities.csv",
+      "table": "raw_delivery_bundle",
+      "rows": 472419
+    },
+    {
+      "path": "pickup/pickup_cq.csv",
+      "table": "raw_pickup",
+      "rows": 1172703
+    },
+    {
+      "path": "pickup/pickup_hz.csv",
+      "table": "raw_pickup",
+      "rows": 2130456
+    },
+    {
+      "path": "pickup/pickup_jl.csv",
+      "table": "raw_pickup",
+      "rows": 261801
+    },
+    {
+      "path": "pickup/pickup_sh.csv",
+      "table": "raw_pickup",
+      "rows": 1424406
+    },
+    {
+      "path": "pickup/pickup_yt.csv",
+      "table": "raw_pickup",
+      "rows": 1146781
+    },
+    {
+      "path": "pickup_five_cities.csv",
+      "table": "raw_pickup_bundle",
+      "rows": 531115
+    },
+    {
+      "path": "road-network/roads.csv",
+      "table": "raw_roads",
+      "rows": 531280
+    },
+    {
+      "path": "courier_detailed_trajectory.zip::courier_detailed_trajectory.csv",
+      "table": "raw_trajectory",
+      "rows": 8888199
+    }
+  ],
+  "task_groups": [
+    {
+      "kind": "delivery",
+      "rows": 4514661,
+      "eligible": 4514658,
+      "duplicate_rows": 0
+    },
+    {
+      "kind": "pickup",
+      "rows": 6136147,
+      "eligible": 6136147,
+      "duplicate_rows": 0
+    }
+  ],
+  "duplicate_key_groups": 0,
+  "quality_flag_combinations": {
+    "0": 10585616,
+    "64": 65189,
+    "80": 3
+  },
+  "flag_meanings": {
+    "1": "missing_order_id",
+    "2": "missing_courier_id",
+    "4": "invalid_accept_time",
+    "8": "invalid_finish_time",
+    "16": "finish_before_accept",
+    "32": "invalid_pickup_window",
+    "64": "ds_not_finish_day"
+  },
+  "limitations": [
+    "年份未提供，采用年内相对时刻，不赋予日历年份。",
+    "同一子集/城市/外部编号重复的记录保留原文，暂排除于有效任务与算法候选。",
+    "顶层bundle与城市明细分表，禁止直接追加计数；pickle仍为归档，不反序列化。"
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "status": "passed",
+  "filters": {
+    "month": "2018-01",
+    "category": null,
+    "seller": null
+  },
+  "stages": [
+    {
+      "role": "数据智能体",
+      "status": "passed",
+      "method": "两条SQL分别复核历史数据",
+      "seller_count": 970
+    },
+    {
+      "role": "诊断智能体",
+      "status": "passed",
+      "hypotheses": [
+        {
+          "code": "handoff",
+          "text": "核查商家交运记录与承诺交运时间"
+        },
+        {
+          "code": "carrier",
+          "text": "核查承运环节的流转和异常记录"
+        }
+      ]
+    },
+    {
+      "role": "建议智能体",
+      "status": "passed",
+      "actions": [
+        {
+          "code": "check_handoff",
+          "text": "核对订单交运时间与交运期限"
+        },
+        {
+          "code": "check_carrier",
+          "text": "调取承运商流转与异常记录"
+        }
+      ]
+    },
+    {
+      "role": "审核智能体",
+      "status": "approved"
+    }
+  ],
+  "evidence": {
+    "status": "passed",
+    "filters": {
+      "month": "2018-01",
+      "category": null,
+      "seller": null
+    },
+    "min_eligible_orders": 30,
+    "selection_rule": "按历史延迟订单数降序、延迟率降序、商家ID升序；门槛按有效配送分母计算",
+    "scope_metrics": {
+      "group_value": "all",
+      "order_count": 7269,
+      "delivered_order_count": 7069,
+      "canceled_order_count": 34,
+      "unavailable_order_count": 48,
+      "non_canceled_available_order_count": 7187,
+      "item_count": 8208,
+      "sales_gmv_cents": 92464500,
+      "delivered_freight_cents": 15324246,
+      "delivered_observed_payment_cents": 107860686,
+      "delivered_missing_payment_order_count": 0,
+      "delivery_eligible_order_count": 7069,
+      "late_order_count": 403,
+      "delivery_late_rate": 0.05700947800254633,
+      "reviewed_delivered_order_count": 7013,
+      "low_score_order_count": 961,
+      "low_score_rate": 0.13703122771994866,
+      "multi_seller_order_count": 102,
+      "single_seller_handoff_eligible_count": 7041,
+      "single_seller_late_handoff_proxy_count": 730,
+      "late_handoff_proxy_rate": 0.10367845476494816,
+      "delivered_status_share": 0.9724858990232494
+    },
+    "checked_sellers": 970,
+    "eligible_sellers": 39,
+    "checks_passed": 20370,
+    "priority": [
+      {
+        "rank": 1,
+        "seller": "ea8482cd71df3c1969d7b9473ff13abc",
+        "metrics": {
+          "group_value": "ea8482cd71df3c1969d7b9473ff13abc",
+          "order_count": 167,
+          "delivered_order_count": 166,
+          "canceled_order_count": 0,
+          "unavailable_order_count": 0,
+          "non_canceled_available_order_count": 167,
+          "item_count": 181,
+          "sales_gmv_cents": 600729,
+          "delivered_freight_cents": 250789,
+          "delivered_observed_payment_cents": null,
+          "delivered_missing_payment_order_count": 0,
+          "delivery_eligible_order_count": 166,
+          "late_order_count": 15,
+          "delivery_late_rate": 0.09036144578313253,
+          "reviewed_delivered_order_count": 164,
+          "low_score_order_count": 29,
+          "low_score_rate": 0.17682926829268292,
+          "multi_seller_order_count": 1,
+          "single_seller_handoff_eligible_count": 166,
+          "single_seller_late_handoff_proxy_count": 7,
+          "late_handoff_proxy_rate": 0.04216867469879518,
+          "delivered_status_share": 0.9940119760479041
+        },
+        "action": "优先核对承诺送达日、交运记录和配送异常记录，联系商家确认后再决定是否干预。",
+        "reason": "当前筛选内观察到15笔配送延迟，分母166笔。",
+        "causal_claim": false
+      },
+      {
+        "rank": 2,
+        "seller": "3d871de0142ce09b7081e2b9d1733cb1",
+        "metrics": {
+          "group_value": "3d871de0142ce09b7081e2b9d1733cb1",
+          "order_count": 198,
+          "delivered_order_count": 195,
+          "canceled_order_count": 0,
+          "unavailable_order_count": 0,
+          "non_canceled_available_order_count": 198,
+          "item_count": 203,
+          "sales_gmv_cents": 1923040,
+          "delivered_freight_cents": 366816,
+          "delivered_observed_payment_cents": null,
+          "delivered_missing_payment_order_count": 0,
+          "delivery_eligible_order_count": 195,
+          "late_order_count": 10,
+          "delivery_late_rate": 0.05128205128205128,
+          "reviewed_delivered_order_count": 191,
+          "low_score_order_count": 16,
+          "low_score_rate": 0.08376963350785341,
+          "multi_seller_order_count": 5,
+          "single_seller_handoff_eligible_count": 193,
+          "single_seller_late_handoff_proxy_count": 52,
+          "late_handoff_proxy_rate": 0.2694300518134715,
+          "delivered_status_share": 0.9848484848484849
+        },
+        "action": "优先核对承诺送达日、交运记录和配送异常记录，联系商家确认后再决定是否干预。",
+        "reason": "当前筛选内观察到10笔配送延迟，分母195笔。",
+        "causal_claim": false
+      },
+      {
+        "rank": 3,
+        "seller": "1ca7077d890b907f89be8c954a02686a",
+        "metrics": {
+          "group_value": "1ca7077d890b907f89be8c954a02686a",
+          "order_count": 39,
+          "delivered_order_count": 35,
+          "canceled_order_count": 0,
+          "unavailable_order_count": 0,
+          "non_canceled_available_order_count": 39,
+          "item_count": 50,
+          "sales_gmv_cents": 558390,
+          "delivered_freight_cents": 50215,
+          "delivered_observed_payment_cents": null,
+          "delivered_missing_payment_order_count": 0,
+          "delivery_eligible_order_count": 35,
+          "late_order_count": 9,
+          "delivery_late_rate": 0.2571428571428571,
+          "reviewed_delivered_order_count": 34,
+          "low_score_order_count": 28,
+          "low_score_rate": 0.8235294117647058,
+          "multi_seller_order_count": 1,
+          "single_seller_handoff_eligible_count": 37,
+          "single_seller_late_handoff_proxy_count": 27,
+          "late_handoff_proxy_rate": 0.7297297297297297,
+          "delivered_status_share": 0.8974358974358975
+        },
+        "action": "优先核对承诺送达日、交运记录和配送异常记录，联系商家确认后再决定是否干预。",
+        "reason": "当前筛选内观察到9笔配送延迟，分母35笔。",
+        "causal_claim": false
+      },
+      {
+        "rank": 4,
+        "seller": "620c87c171fb2a6dd6e8bb4dec959fc6",
+        "metrics": {
+          "group_value": "620c87c171fb2a6dd6e8bb4dec959fc6",
+          "order_count": 62,
+          "delivered_order_count": 62,
+          "canceled_order_count": 0,
+          "unavailable_order_count": 0,
+          "non_canceled_available_order_count": 62,
+          "item_count": 64,
+          "sales_gmv_cents": 687260,
+          "delivered_freight_cents": 102442,
+          "delivered_observed_payment_cents": null,
+          "delivered_missing_payment_order_count": 0,
+          "delivery_eligible_order_count": 62,
+          "late_order_count": 8,
+          "delivery_late_rate": 0.12903225806451613,
+          "reviewed_delivered_order_count": 62,
+          "low_score_order_count": 9,
+          "low_score_rate": 0.14516129032258066,
+          "multi_seller_order_count": 0,
+          "single_seller_handoff_eligible_count": 62,
+          "single_seller_late_handoff_proxy_count": 0,
+          "late_handoff_proxy_rate": 0.0,
+          "delivered_status_share": 1.0
+        },
+        "action": "优先核对承诺送达日、交运记录和配送异常记录，联系商家确认后再决定是否干预。",
+        "reason": "当前筛选内观察到8笔配送延迟，分母62笔。",
+        "causal_claim": false
+      },
+      {
+        "rank": 5,
+        "seller": "1025f0e2d44d7041d6cf58b6550e0bfa",
+        "metrics": {
+          "group_value": "1025f0e2d44d7041d6cf58b6550e0bfa",
+          "order_count": 47,
+          "delivered_order_count": 47,
+          "canceled_order_count": 0,
+          "unavailable_order_count": 0,
+          "non_canceled_available_order_count": 47,
+          "item_count": 82,
+          "sales_gmv_cents": 880870,
+          "delivered_freight_cents": 190496,
+          "delivered_observed_payment_cents": null,
+          "delivered_missing_payment_order_count": 0,
+          "delivery_eligible_order_count": 47,
+          "late_order_count": 7,
+          "delivery_late_rate": 0.14893617021276595,
+          "reviewed_delivered_order_count": 46,
+          "low_score_order_count": 10,
+          "low_score_rate": 0.21739130434782608,
+          "multi_seller_order_count": 1,
+          "single_seller_handoff_eligible_count": 46,
+          "single_seller_late_handoff_proxy_count": 12,
+          "late_handoff_proxy_rate": 0.2608695652173913,
+          "delivered_status_share": 1.0
+        },
+        "action": "优先核对承诺送达日、交运记录和配送异常记录，联系商家确认后再决定是否干预。",
+        "reason": "当前筛选内观察到7笔配送延迟，分母47笔。",
+        "causal_claim": false
+      }
+    ],
+    "sql": {
+      "program": "\n    WITH selected_items AS (\n      SELECT i.order_id, i.seller_id AS item_group,\n             COUNT(*) AS scoped_item_count, SUM(i.price_cents) AS scoped_gmv,\n             SUM(i.freight_value_cents) AS scoped_freight\n      FROM clean_order_items i JOIN clean_products p ON p.product_id=i.product_id\n      \n      GROUP BY i.order_id, item_group\n    ), scoped AS (\n      SELECT f.*, s.item_group AS group_value,\n             COALESCE(s.scoped_item_count,0) AS scoped_item_count,\n             s.scoped_gmv, s.scoped_freight\n      FROM fact_orders f JOIN selected_items s ON s.order_id=f.order_id\n      WHERE f.order_month = '2018-01'\n    )\n    SELECT group_value, COUNT(*) AS order_count,\n      SUM(order_status='delivered') AS delivered_order_count,\n      SUM(order_status='canceled') AS canceled_order_count,\n      SUM(order_status='unavailable') AS unavailable_order_count,\n      SUM(order_status NOT IN ('canceled','unavailable')) AS non_canceled_available_order_count,\n      COALESCE(SUM(scoped_item_count),0) AS item_count,\n      COALESCE(SUM(CASE WHEN order_status='delivered' THEN scoped_gmv ELSE 0 END),0) AS sales_gmv_cents,\n      COALESCE(SUM(CASE WHEN order_status='delivered' THEN scoped_freight ELSE 0 END),0) AS delivered_freight_cents,\n      NULL AS delivered_observed_payment_cents,\n      SUM(order_status='delivered' AND paid_total_cents IS NULL) AS delivered_missing_payment_order_count,\n      SUM(delivery_eligible) AS delivery_eligible_order_count,\n      SUM(COALESCE(delivery_late,0)) AS late_order_count,\n      1.0*SUM(COALESCE(delivery_late,0))/NULLIF(SUM(delivery_eligible),0) AS delivery_late_rate,\n      SUM(CASE WHEN order_status='delivered' AND review_score BETWEEN 1 AND 5 THEN 1 ELSE 0 END) AS reviewed_delivered_order_count,\n      SUM(CASE WHEN order_status='delivered' AND review_score IN (1,2) THEN 1 ELSE 0 END) AS low_score_order_count,\n      1.0*SUM(CASE WHEN order_status='delivered' AND review_score IN (1,2) THEN 1 ELSE 0 END)/\n        NULLIF(SUM(CASE WHEN order_status='delivered' AND review_score BETWEEN 1 AND 5 THEN 1 ELSE 0 END),0) AS low_score_rate,\n      SUM(seller_count>1) AS multi_seller_order_count,\n      SUM(handoff_eligible) AS single_seller_handoff_eligible_count,\n      SUM(COALESCE(carrier_late_proxy,0)) AS single_seller_late_handoff_proxy_count,\n      1.0*SUM(COALESCE(carrier_late_proxy,0))/NULLIF(SUM(handoff_eligible),0) AS late_handoff_proxy_rate,\n      1.0*SUM(order_status='delivered')/NULLIF(COUNT(*),0) AS delivered_status_share\n    FROM scoped GROUP BY group_value HAVING COUNT(*) >= 0 ORDER BY group_value;",
+      "reference": "-- 独立复核：仅使用 raw_* 原始表，不读取 clean_* 或 fact_*。\n-- 金额拆成整数部分与小数部分转分，避免浮点舍入。\n-- 评价并列键的评分冲突数必须为 0（先执行前置检查）。\nWITH filter_values(month,category,seller) AS (VALUES ('2018-01',NULL,NULL)),\nitems AS (\n SELECT DISTINCT order_id,order_item_id,product_id,seller_id,shipping_limit_date,price,freight_value\n FROM raw_order_items\n), products AS (\n SELECT DISTINCT product_id,product_category_name FROM raw_products\n), payments AS (\n SELECT DISTINCT order_id,payment_sequential,payment_type,payment_installments,payment_value\n FROM raw_order_payments\n), payment_totals AS (\n SELECT order_id,SUM((CAST(payment_value AS INTEGER)*100 + CAST(substr(CASE WHEN instr(payment_value,'.')=0 THEN '00' ELSE substr(payment_value,instr(payment_value,'.')+1)||'00' END,1,2) AS INTEGER))) AS order_paid\n FROM payments GROUP BY order_id\n), all_item_stats AS (\n SELECT order_id,COUNT(DISTINCT seller_id) AS seller_count,\n        MIN(datetime(shipping_limit_date)) AS first_deadline\n FROM items GROUP BY order_id\n), selected_items AS (\n SELECT i.order_id,i.seller_id AS item_group,COUNT(*) AS selected_item_count,\n        SUM((CAST(i.price AS INTEGER)*100 + CAST(substr(CASE WHEN instr(i.price,'.')=0 THEN '00' ELSE substr(i.price,instr(i.price,'.')+1)||'00' END,1,2) AS INTEGER))) AS selected_price,\n        SUM((CAST(i.freight_value AS INTEGER)*100 + CAST(substr(CASE WHEN instr(i.freight_value,'.')=0 THEN '00' ELSE substr(i.freight_value,instr(i.freight_value,'.')+1)||'00' END,1,2) AS INTEGER))) AS selected_freight\n FROM items i JOIN products p ON i.product_id=p.product_id CROSS JOIN filter_values v\n WHERE (v.category IS NULL OR COALESCE(p.product_category_name,'__unknown__')=v.category)\n   AND (v.seller IS NULL OR i.seller_id=v.seller)\n GROUP BY i.order_id,item_group\n), review_records AS (\n SELECT DISTINCT review_id,order_id,review_score,review_comment_title,review_comment_message,\n        review_creation_date,review_answer_timestamp\n FROM raw_order_reviews\n), ranked_reviews AS (\n SELECT order_id,CAST(review_score AS INTEGER) AS score,\n ROW_NUMBER() OVER(PARTITION BY order_id ORDER BY datetime(review_answer_timestamp) DESC,\n   datetime(review_creation_date) DESC,review_id DESC,CAST(review_score AS INTEGER) DESC) AS rn\n FROM review_records\n WHERE CAST(review_score AS INTEGER) BETWEEN 1 AND 5\n   AND CAST(review_score AS REAL)=CAST(review_score AS INTEGER)\n), base AS (\n SELECT o.order_id,o.order_status,s.item_group AS group_value,\n        datetime(o.order_purchase_timestamp) AS purchased,\n        datetime(o.order_delivered_customer_date) AS arrived,\n        datetime(o.order_estimated_delivery_date) AS expected,\n        datetime(o.order_delivered_carrier_date) AS handed,\n        a.seller_count,a.first_deadline,COALESCE(s.selected_item_count,0) AS selected_item_count,\n        s.selected_price,s.selected_freight,t.order_paid,r.score\n FROM raw_orders o CROSS JOIN filter_values v\n LEFT JOIN selected_items s ON s.order_id=o.order_id\n LEFT JOIN all_item_stats a ON a.order_id=o.order_id\n LEFT JOIN payment_totals t ON t.order_id=o.order_id\n LEFT JOIN ranked_reviews r ON r.order_id=o.order_id AND r.rn=1\n WHERE (v.month IS NULL OR substr(o.order_purchase_timestamp,1,7)=v.month)\n   AND ((v.category IS NULL AND v.seller IS NULL AND 1=0) OR s.order_id IS NOT NULL)\n), flags AS (\n SELECT *,CASE WHEN order_status='delivered' AND purchased IS NOT NULL AND arrived IS NOT NULL\n   AND expected IS NOT NULL AND arrived>=purchased AND expected>=purchased\n   AND (handed IS NULL OR arrived>=handed) THEN 1 ELSE 0 END AS delivery_ok,\n CASE WHEN seller_count=1 AND order_status NOT IN ('canceled','unavailable') AND handed IS NOT NULL\n   AND purchased IS NOT NULL AND first_deadline IS NOT NULL AND handed>=purchased\n   AND first_deadline>=purchased THEN 1 ELSE 0 END AS handoff_ok\n FROM base\n), totals AS (\n SELECT group_value,COUNT(*) AS order_count,\n SUM(CASE WHEN order_status='delivered' THEN 1 ELSE 0 END) AS delivered_order_count,\n SUM(CASE WHEN order_status='canceled' THEN 1 ELSE 0 END) AS canceled_order_count,\n SUM(CASE WHEN order_status='unavailable' THEN 1 ELSE 0 END) AS unavailable_order_count,\n SUM(CASE WHEN order_status NOT IN ('canceled','unavailable') THEN 1 ELSE 0 END) AS non_canceled_available_order_count,\n SUM(selected_item_count) AS item_count,\n COALESCE(SUM(CASE WHEN order_status='delivered' THEN selected_price ELSE 0 END),0) AS sales_gmv_cents,\n COALESCE(SUM(CASE WHEN order_status='delivered' THEN selected_freight ELSE 0 END),0) AS delivered_freight_cents,\n NULL AS delivered_observed_payment_cents,\n SUM(CASE WHEN order_status='delivered' AND order_paid IS NULL THEN 1 ELSE 0 END) AS delivered_missing_payment_order_count,\n SUM(delivery_ok) AS delivery_eligible_order_count,\n SUM(CASE WHEN delivery_ok=1 AND date(arrived)>date(expected) THEN 1 ELSE 0 END) AS late_order_count,\n SUM(CASE WHEN order_status='delivered' AND score BETWEEN 1 AND 5 THEN 1 ELSE 0 END) AS reviewed_delivered_order_count,\n SUM(CASE WHEN order_status='delivered' AND score<=2 THEN 1 ELSE 0 END) AS low_score_order_count,\n SUM(CASE WHEN seller_count>1 THEN 1 ELSE 0 END) AS multi_seller_order_count,\n SUM(handoff_ok) AS single_seller_handoff_eligible_count,\n SUM(CASE WHEN handoff_ok=1 AND handed>first_deadline THEN 1 ELSE 0 END) AS single_seller_late_handoff_proxy_count\n FROM flags GROUP BY group_value\n)\nSELECT *,1.0*late_order_count/NULLIF(delivery_eligible_order_count,0) AS delivery_late_rate,\n 1.0*low_score_order_count/NULLIF(reviewed_delivered_order_count,0) AS low_score_rate,\n 1.0*single_seller_late_handoff_proxy_count/NULLIF(single_seller_handoff_eligible_count,0) AS late_handoff_proxy_rate,\n 1.0*delivered_order_count/NULLIF(order_count,0) AS delivered_status_share\nFROM totals ORDER BY group_value;"
+    },
+    "limitations": [
+      "商家关联的是订单级配送结果；多商家订单不能据此认定某商家负责。",
+      "各商家订单数不可直接相加作为总订单量。",
+      "这是历史排查优先级，不是实时预警、因果结论或收益测算。"
+    ]
+  },
+  "limitation": "历史订单级统计不能证明延迟原因，也不能据此直接认定商家责任；建议均需人工核实。",
+  "model": "deepseek-v4-flash",
+  "created_at": "2026-11-01T14:37:11.748436+00:00"
+}

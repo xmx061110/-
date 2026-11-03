@@ -1,0 +1,666 @@
+{
+  "input_files": [
+    {
+      "file": "olist_customers_dataset.csv",
+      "sha256": "983a422239e1712ded753b3bf9ecf47dc73f144d306029dcfa99e70a226883d2",
+      "rows": 99441,
+      "bytes": 9033957
+    },
+    {
+      "file": "olist_geolocation_dataset.csv",
+      "sha256": "b514f6fc991b9566aeba02aa5d67e2c3630f034b60a0e05aa0d082a3b66d88d6",
+      "rows": 1000163,
+      "bytes": 61273883
+    },
+    {
+      "file": "olist_orders_dataset.csv",
+      "sha256": "8df58ef3d2d7e9944010f7beecd9b75367f5588ec6e3c91cec19ae3345ef9ecf",
+      "rows": 99441,
+      "bytes": 17654914
+    },
+    {
+      "file": "olist_order_items_dataset.csv",
+      "sha256": "0bc4d068c4fe38cbb01bd90e8746e3c613fe7b4baef75fab7b0e329701c3e279",
+      "rows": 112650,
+      "bytes": 15438671
+    },
+    {
+      "file": "olist_order_payments_dataset.csv",
+      "sha256": "4f713964f2815dbbaa40b9488268c55aac3627bfce5aa96cf58d1f3616de3cc0",
+      "rows": 103886,
+      "bytes": 5777138
+    },
+    {
+      "file": "olist_order_reviews_dataset.csv",
+      "sha256": "012b61c7593e34f51fa614efdf802b9c7056ce6aae5307ddb93236e7cfc797d7",
+      "rows": 99224,
+      "bytes": 14451670
+    },
+    {
+      "file": "olist_products_dataset.csv",
+      "sha256": "3e6569628a17fbc75fd206ee357b59e20364b9afa90f5b6cd5b4d624c58aa9cc",
+      "rows": 32951,
+      "bytes": 2379446
+    },
+    {
+      "file": "olist_sellers_dataset.csv",
+      "sha256": "1f643d2b950373b85735e7794b20986f528d7a000432e7c6f9bcbb44d0846a0e",
+      "rows": 3095,
+      "bytes": 174703
+    },
+    {
+      "file": "product_category_name_translation.csv",
+      "sha256": "a81f0d1f27b27e7293f761bc79e3ce8f348ee39c4b3ed3e49bde38f478586278",
+      "rows": 71,
+      "bytes": 2613
+    }
+  ],
+  "tables": {
+    "customers": {
+      "file": "olist_customers_dataset.csv",
+      "rows": 99441,
+      "columns": 5,
+      "exact_duplicate_rows": 0,
+      "fields": {
+        "customer_id": {
+          "semantic_type": "text",
+          "description": "订单对应的客户记录标识；不可当作跨订单自然人标识",
+          "missing": 0,
+          "distinct_nonnull": 99441
+        },
+        "customer_unique_id": {
+          "semantic_type": "text",
+          "description": "跨订单客户标识，用于复购分析",
+          "missing": 0,
+          "distinct_nonnull": 96096
+        },
+        "customer_zip_code_prefix": {
+          "semantic_type": "text",
+          "description": "邮编前缀，保留前导零",
+          "missing": 0,
+          "distinct_nonnull": 14994
+        },
+        "customer_city": {
+          "semantic_type": "text",
+          "description": "客户城市，保留原文",
+          "missing": 0,
+          "distinct_nonnull": 4119
+        },
+        "customer_state": {
+          "semantic_type": "text",
+          "description": "客户州代码",
+          "missing": 0,
+          "distinct_nonnull": 27
+        }
+      },
+      "primary_key": [
+        "customer_id"
+      ],
+      "null_key_rows": 0,
+      "duplicate_key_rows_beyond_first": 0
+    },
+    "geolocation": {
+      "file": "olist_geolocation_dataset.csv",
+      "rows": 1000163,
+      "columns": 5,
+      "exact_duplicate_rows": 261831,
+      "fields": {
+        "geolocation_zip_code_prefix": {
+          "semantic_type": "text",
+          "description": "邮编前缀；一对多，不是主键",
+          "missing": 0,
+          "distinct_nonnull": 19015
+        },
+        "geolocation_lat": {
+          "semantic_type": "real",
+          "description": "纬度，度",
+          "missing": 0,
+          "distinct_nonnull": 717372,
+          "invalid_nonnull": 0,
+          "negative": 998827,
+          "zero": 0,
+          "min": -36.6053744107061,
+          "max": 45.06593318269697
+        },
+        "geolocation_lng": {
+          "semantic_type": "real",
+          "description": "经度，度",
+          "missing": 0,
+          "distinct_nonnull": 717615,
+          "invalid_nonnull": 0,
+          "negative": 1000160,
+          "zero": 0,
+          "min": -101.46676644931476,
+          "max": 121.10539381057764
+        },
+        "geolocation_city": {
+          "semantic_type": "text",
+          "description": "城市原文，可能存在拼写变体",
+          "missing": 0,
+          "distinct_nonnull": 8011
+        },
+        "geolocation_state": {
+          "semantic_type": "text",
+          "description": "州代码",
+          "missing": 0,
+          "distinct_nonnull": 27
+        }
+      }
+    },
+    "orders": {
+      "file": "olist_orders_dataset.csv",
+      "rows": 99441,
+      "columns": 8,
+      "exact_duplicate_rows": 0,
+      "fields": {
+        "order_id": {
+          "semantic_type": "text",
+          "description": "订单主键",
+          "missing": 0,
+          "distinct_nonnull": 99441
+        },
+        "customer_id": {
+          "semantic_type": "text",
+          "description": "客户表外键",
+          "missing": 0,
+          "distinct_nonnull": 99441
+        },
+        "order_status": {
+          "semantic_type": "text",
+          "description": "订单快照状态，不代表完整状态流转历史",
+          "missing": 0,
+          "distinct_nonnull": 8
+        },
+        "order_purchase_timestamp": {
+          "semantic_type": "datetime",
+          "description": "下单时间；月份归属依据",
+          "missing": 0,
+          "distinct_nonnull": 98875,
+          "invalid_nonnull": 0,
+          "min": "2016-09-04 21:15:19",
+          "max": "2018-10-17 17:30:18"
+        },
+        "order_approved_at": {
+          "semantic_type": "datetime",
+          "description": "付款获批时间，可缺失",
+          "missing": 160,
+          "distinct_nonnull": 90733,
+          "invalid_nonnull": 0,
+          "min": "2016-09-15 12:16:38",
+          "max": "2018-09-03 17:40:06"
+        },
+        "order_delivered_carrier_date": {
+          "semantic_type": "datetime",
+          "description": "订单级交运时间，可缺失；不是各商家独立发货时间",
+          "missing": 1783,
+          "distinct_nonnull": 81018,
+          "invalid_nonnull": 0,
+          "min": "2016-10-08 10:34:01",
+          "max": "2018-09-11 19:48:28"
+        },
+        "order_delivered_customer_date": {
+          "semantic_type": "datetime",
+          "description": "实际送达时间，可缺失",
+          "missing": 2965,
+          "distinct_nonnull": 95664,
+          "invalid_nonnull": 0,
+          "min": "2016-10-11 13:46:32",
+          "max": "2018-10-17 13:22:46"
+        },
+        "order_estimated_delivery_date": {
+          "semantic_type": "datetime",
+          "description": "预计送达日期；延迟比较采用日历日",
+          "missing": 0,
+          "distinct_nonnull": 459,
+          "invalid_nonnull": 0,
+          "min": "2016-09-30 00:00:00",
+          "max": "2018-11-12 00:00:00"
+        }
+      },
+      "primary_key": [
+        "order_id"
+      ],
+      "null_key_rows": 0,
+      "duplicate_key_rows_beyond_first": 0
+    },
+    "order_items": {
+      "file": "olist_order_items_dataset.csv",
+      "rows": 112650,
+      "columns": 7,
+      "exact_duplicate_rows": 0,
+      "fields": {
+        "order_id": {
+          "semantic_type": "text",
+          "description": "订单外键；与 order_item_id 组成主键",
+          "missing": 0,
+          "distinct_nonnull": 98666
+        },
+        "order_item_id": {
+          "semantic_type": "integer",
+          "description": "订单内商品行序号；每行一件商品，不是数量字段",
+          "missing": 0,
+          "distinct_nonnull": 21,
+          "invalid_nonnull": 0,
+          "negative": 0,
+          "zero": 0,
+          "min": 1.0,
+          "max": 21.0
+        },
+        "product_id": {
+          "semantic_type": "text",
+          "description": "商品外键",
+          "missing": 0,
+          "distinct_nonnull": 32951
+        },
+        "seller_id": {
+          "semantic_type": "text",
+          "description": "商家外键",
+          "missing": 0,
+          "distinct_nonnull": 3095
+        },
+        "shipping_limit_date": {
+          "semantic_type": "datetime",
+          "description": "商品行发货截止时间",
+          "missing": 0,
+          "distinct_nonnull": 93318,
+          "invalid_nonnull": 0,
+          "min": "2016-09-19 00:15:34",
+          "max": "2020-04-09 22:35:08"
+        },
+        "price": {
+          "semantic_type": "money",
+          "description": "商品行成交价，BRL；不含运费；不是成本",
+          "missing": 0,
+          "distinct_nonnull": 5968,
+          "invalid_nonnull": 0,
+          "negative": 0,
+          "zero": 0,
+          "min": 0.85,
+          "max": 6735.0
+        },
+        "freight_value": {
+          "semantic_type": "money",
+          "description": "商品行收取的运费，BRL；不是可确认的实际物流成本",
+          "missing": 0,
+          "distinct_nonnull": 6999,
+          "invalid_nonnull": 0,
+          "negative": 0,
+          "zero": 383,
+          "min": 0.0,
+          "max": 409.68
+        }
+      },
+      "primary_key": [
+        "order_id",
+        "order_item_id"
+      ],
+      "null_key_rows": 0,
+      "duplicate_key_rows_beyond_first": 0
+    },
+    "order_payments": {
+      "file": "olist_order_payments_dataset.csv",
+      "rows": 103886,
+      "columns": 5,
+      "exact_duplicate_rows": 0,
+      "fields": {
+        "order_id": {
+          "semantic_type": "text",
+          "description": "订单外键；与 payment_sequential 组成主键",
+          "missing": 0,
+          "distinct_nonnull": 99440
+        },
+        "payment_sequential": {
+          "semantic_type": "integer",
+          "description": "同一订单付款记录序号；多记录不等于重复",
+          "missing": 0,
+          "distinct_nonnull": 29,
+          "invalid_nonnull": 0,
+          "negative": 0,
+          "zero": 0,
+          "min": 1.0,
+          "max": 29.0
+        },
+        "payment_type": {
+          "semantic_type": "text",
+          "description": "支付方式；保留 not_defined",
+          "missing": 0,
+          "distinct_nonnull": 5
+        },
+        "payment_installments": {
+          "semantic_type": "integer",
+          "description": "分期期数；不得再乘以 payment_value",
+          "missing": 0,
+          "distinct_nonnull": 24,
+          "invalid_nonnull": 0,
+          "negative": 0,
+          "zero": 2,
+          "min": 0.0,
+          "max": 24.0
+        },
+        "payment_value": {
+          "semantic_type": "money",
+          "description": "该支付记录总金额，BRL；没有退款流水",
+          "missing": 0,
+          "distinct_nonnull": 29077,
+          "invalid_nonnull": 0,
+          "negative": 0,
+          "zero": 9,
+          "min": 0.0,
+          "max": 13664.08
+        }
+      },
+      "primary_key": [
+        "order_id",
+        "payment_sequential"
+      ],
+      "null_key_rows": 0,
+      "duplicate_key_rows_beyond_first": 0
+    },
+    "order_reviews": {
+      "file": "olist_order_reviews_dataset.csv",
+      "rows": 99224,
+      "columns": 7,
+      "exact_duplicate_rows": 0,
+      "fields": {
+        "review_id": {
+          "semantic_type": "text",
+          "description": "评价标识；源数据不唯一，不能单独作为主键",
+          "missing": 0,
+          "distinct_nonnull": 98410
+        },
+        "order_id": {
+          "semantic_type": "text",
+          "description": "订单外键；一个订单可能有多条评价",
+          "missing": 0,
+          "distinct_nonnull": 98673
+        },
+        "review_score": {
+          "semantic_type": "integer",
+          "description": "1至5分；1、2分为本项目低评分",
+          "missing": 0,
+          "distinct_nonnull": 5,
+          "invalid_nonnull": 0,
+          "negative": 0,
+          "zero": 0,
+          "min": 1.0,
+          "max": 5.0
+        },
+        "review_comment_title": {
+          "semantic_type": "text",
+          "description": "评价标题，可缺失，不填充为负面评价",
+          "missing": 87656,
+          "distinct_nonnull": 4527
+        },
+        "review_comment_message": {
+          "semantic_type": "text",
+          "description": "评价正文，可缺失",
+          "missing": 58247,
+          "distinct_nonnull": 36159
+        },
+        "review_creation_date": {
+          "semantic_type": "datetime",
+          "description": "评价创建日期",
+          "missing": 0,
+          "distinct_nonnull": 636,
+          "invalid_nonnull": 0,
+          "min": "2016-10-02 00:00:00",
+          "max": "2018-08-31 00:00:00"
+        },
+        "review_answer_timestamp": {
+          "semantic_type": "datetime",
+          "description": "评价填写时间；选择最新有效评分的排序依据",
+          "missing": 0,
+          "distinct_nonnull": 98248,
+          "invalid_nonnull": 0,
+          "min": "2016-10-07 18:32:28",
+          "max": "2018-10-29 12:27:35"
+        }
+      },
+      "review_id_duplicate_rows_beyond_first": 814,
+      "order_id_duplicate_rows_beyond_first": 551
+    },
+    "products": {
+      "file": "olist_products_dataset.csv",
+      "rows": 32951,
+      "columns": 9,
+      "exact_duplicate_rows": 0,
+      "fields": {
+        "product_id": {
+          "semantic_type": "text",
+          "description": "商品主键",
+          "missing": 0,
+          "distinct_nonnull": 32951
+        },
+        "product_category_name": {
+          "semantic_type": "text",
+          "description": "葡萄牙语类别代码；缺失单独归入 __unknown__",
+          "missing": 610,
+          "distinct_nonnull": 73
+        },
+        "product_name_lenght": {
+          "semantic_type": "integer",
+          "description": "商品名称字符数；原始拼写保留",
+          "missing": 610,
+          "distinct_nonnull": 66,
+          "invalid_nonnull": 0,
+          "negative": 0,
+          "zero": 0,
+          "min": 5.0,
+          "max": 76.0
+        },
+        "product_description_lenght": {
+          "semantic_type": "integer",
+          "description": "商品描述字符数；原始拼写保留",
+          "missing": 610,
+          "distinct_nonnull": 2960,
+          "invalid_nonnull": 0,
+          "negative": 0,
+          "zero": 0,
+          "min": 4.0,
+          "max": 3992.0
+        },
+        "product_photos_qty": {
+          "semantic_type": "integer",
+          "description": "商品图片数",
+          "missing": 610,
+          "distinct_nonnull": 19,
+          "invalid_nonnull": 0,
+          "negative": 0,
+          "zero": 0,
+          "min": 1.0,
+          "max": 20.0
+        },
+        "product_weight_g": {
+          "semantic_type": "integer",
+          "description": "重量，克；缺失不臆造",
+          "missing": 2,
+          "distinct_nonnull": 2204,
+          "invalid_nonnull": 0,
+          "negative": 0,
+          "zero": 4,
+          "min": 0.0,
+          "max": 40425.0
+        },
+        "product_length_cm": {
+          "semantic_type": "integer",
+          "description": "长度，厘米",
+          "missing": 2,
+          "distinct_nonnull": 99,
+          "invalid_nonnull": 0,
+          "negative": 0,
+          "zero": 0,
+          "min": 7.0,
+          "max": 105.0
+        },
+        "product_height_cm": {
+          "semantic_type": "integer",
+          "description": "高度，厘米",
+          "missing": 2,
+          "distinct_nonnull": 102,
+          "invalid_nonnull": 0,
+          "negative": 0,
+          "zero": 0,
+          "min": 2.0,
+          "max": 105.0
+        },
+        "product_width_cm": {
+          "semantic_type": "integer",
+          "description": "宽度，厘米",
+          "missing": 2,
+          "distinct_nonnull": 95,
+          "invalid_nonnull": 0,
+          "negative": 0,
+          "zero": 0,
+          "min": 6.0,
+          "max": 118.0
+        }
+      },
+      "primary_key": [
+        "product_id"
+      ],
+      "null_key_rows": 0,
+      "duplicate_key_rows_beyond_first": 0
+    },
+    "sellers": {
+      "file": "olist_sellers_dataset.csv",
+      "rows": 3095,
+      "columns": 4,
+      "exact_duplicate_rows": 0,
+      "fields": {
+        "seller_id": {
+          "semantic_type": "text",
+          "description": "商家主键",
+          "missing": 0,
+          "distinct_nonnull": 3095
+        },
+        "seller_zip_code_prefix": {
+          "semantic_type": "text",
+          "description": "商家邮编前缀，保留前导零",
+          "missing": 0,
+          "distinct_nonnull": 2246
+        },
+        "seller_city": {
+          "semantic_type": "text",
+          "description": "商家城市原文",
+          "missing": 0,
+          "distinct_nonnull": 611
+        },
+        "seller_state": {
+          "semantic_type": "text",
+          "description": "商家州代码",
+          "missing": 0,
+          "distinct_nonnull": 23
+        }
+      },
+      "primary_key": [
+        "seller_id"
+      ],
+      "null_key_rows": 0,
+      "duplicate_key_rows_beyond_first": 0
+    },
+    "category_translation": {
+      "file": "product_category_name_translation.csv",
+      "rows": 71,
+      "columns": 2,
+      "exact_duplicate_rows": 0,
+      "fields": {
+        "product_category_name": {
+          "semantic_type": "text",
+          "description": "葡语类别主键；不覆盖全部商品类别",
+          "missing": 0,
+          "distinct_nonnull": 71
+        },
+        "product_category_name_english": {
+          "semantic_type": "text",
+          "description": "英语类别名称，仅用于展示",
+          "missing": 0,
+          "distinct_nonnull": 71
+        }
+      },
+      "primary_key": [
+        "product_category_name"
+      ],
+      "null_key_rows": 0,
+      "duplicate_key_rows_beyond_first": 0
+    }
+  },
+  "foreign_keys": [
+    {
+      "child": "orders",
+      "column": "customer_id",
+      "parent": "customers",
+      "parent_column": "customer_id",
+      "orphan_rows": 0
+    },
+    {
+      "child": "order_items",
+      "column": "order_id",
+      "parent": "orders",
+      "parent_column": "order_id",
+      "orphan_rows": 0
+    },
+    {
+      "child": "order_items",
+      "column": "product_id",
+      "parent": "products",
+      "parent_column": "product_id",
+      "orphan_rows": 0
+    },
+    {
+      "child": "order_items",
+      "column": "seller_id",
+      "parent": "sellers",
+      "parent_column": "seller_id",
+      "orphan_rows": 0
+    },
+    {
+      "child": "order_payments",
+      "column": "order_id",
+      "parent": "orders",
+      "parent_column": "order_id",
+      "orphan_rows": 0
+    },
+    {
+      "child": "order_reviews",
+      "column": "order_id",
+      "parent": "orders",
+      "parent_column": "order_id",
+      "orphan_rows": 0
+    }
+  ],
+  "diagnostics": {
+    "order_status_counts": {
+      "delivered": 96478,
+      "shipped": 1107,
+      "canceled": 625,
+      "unavailable": 609,
+      "invoiced": 314,
+      "processing": 301,
+      "created": 5,
+      "approved": 2
+    },
+    "review_orders_with_multiple_records": 547,
+    "invalid_review_score_rows": 0,
+    "untranslated_product_categories": {
+      "portateis_cozinha_e_preparadores_de_alimentos": 10,
+      "pc_gamer": 3
+    },
+    "orders_without_items": 775,
+    "orders_without_payments": 1,
+    "orders_with_multiple_payment_records": 2961,
+    "payment_item_difference_gt_1_cent_orders": 303,
+    "delivered_missing_payment_orders": 1,
+    "delivered_excluded_from_delivery_denominator": 31,
+    "multi_seller_orders": 1278,
+    "chronology": {
+      "approved_before_purchase": 0,
+      "carrier_before_purchase": 166,
+      "actual_before_purchase": 0,
+      "actual_before_carrier": 23,
+      "estimate_before_purchase": 0,
+      "delivered_missing_actual": 8,
+      "not_delivered_with_actual": 6
+    }
+  },
+  "input_fingerprint": "e505b6c9ccdae06aac599c6b43b39885ab998f6aed204c73b09631d00bf2dd4c"
+}

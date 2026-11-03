@@ -1,0 +1,15 @@
+test_csv_full_read_checks_structure_and_missing_identifier (test_lade_acquire.LaDeAcquireTests.test_csv_full_read_checks_structure_and_missing_identifier) ... ok
+test_existing_wrong_original_is_not_overwritten (test_lade_acquire.LaDeAcquireTests.test_existing_wrong_original_is_not_overwritten) ... ok
+下载并校验完成：pickup/example.csv (27 bytes)
+test_ignored_range_restarts_instead_of_appending (test_lade_acquire.LaDeAcquireTests.test_ignored_range_restarts_instead_of_appending) ... ok
+test_paths_cannot_escape_target_directory (test_lade_acquire.LaDeAcquireTests.test_paths_cannot_escape_target_directory) ... ok
+下载并校验完成：pickup/example.csv (27 bytes)
+test_range_resume_preserves_exact_bytes (test_lade_acquire.LaDeAcquireTests.test_range_resume_preserves_exact_bytes) ... ok
+test_road_csv_extension_can_contain_tab_delimited_geometry (test_lade_acquire.LaDeAcquireTests.test_road_csv_extension_can_contain_tab_delimited_geometry) ... ok
+已验证，复用：pickup/example.csv
+test_valid_original_is_reused_without_network (test_lade_acquire.LaDeAcquireTests.test_valid_original_is_reused_without_network) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.035s
+
+OK

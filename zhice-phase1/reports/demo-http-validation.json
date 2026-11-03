@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "case": "all",
+      "filters": {},
+      "order_count": 99441,
+      "sales_gmv_cents": 1322149811,
+      "checks_passed": 21,
+      "status": "passed"
+    },
+    {
+      "case": "month",
+      "filters": {
+        "month": "2018-01"
+      },
+      "order_count": 7269,
+      "sales_gmv_cents": 92464500,
+      "checks_passed": 21,
+      "status": "passed"
+    },
+    {
+      "case": "category",
+      "filters": {
+        "category": "beleza_saude"
+      },
+      "order_count": 8836,
+      "sales_gmv_cents": 123313172,
+      "checks_passed": 21,
+      "status": "passed"
+    },
+    {
+      "case": "seller",
+      "filters": {
+        "seller": "edb1ef5e36e0c8cd84eb3c9b003e486d"
+      },
+      "order_count": 166,
+      "sales_gmv_cents": 7914490,
+      "checks_passed": 21,
+      "status": "passed"
+    },
+    {
+      "case": "combined",
+      "filters": {
+        "month": "2018-01",
+        "category": "beleza_saude",
+        "seller": "edb1ef5e36e0c8cd84eb3c9b003e486d"
+      },
+      "order_count": 19,
+      "sales_gmv_cents": 646805,
+      "checks_passed": 21,
+      "status": "passed"
+    },
+    {
+      "case": "empty",
+      "filters": {
+        "month": "2018-10",
+        "category": "beleza_saude",
+        "seller": "edb1ef5e36e0c8cd84eb3c9b003e486d"
+      },
+      "order_count": 0,
+      "sales_gmv_cents": 0,
+      "checks_passed": 21,
+      "status": "passed"
+    }
+  ],
+  "exported_sql_executed_independently": true,
+  "invalid_filter_http_400": true,
+  "exhaustive_single_dimension_groups": 3195,
+  "exhaustive_single_dimension_metric_checks": 67095
+}

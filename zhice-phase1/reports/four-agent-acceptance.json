@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-02T12:16:25.732154+00:00",
+  "scope": "LaDe揽收场景本地受控四角色协作",
+  "roles": [
+    "总控Agent",
+    "经营分析Agent",
+    "优化决策Agent",
+    "方案评审Agent"
+  ],
+  "test_count": 109,
+  "database_tools_scenarios": 40,
+  "fixed_live_model_scenarios": 3,
+  "fixed_live_model_calls": 12,
+  "browser_live_model_scenarios": 1,
+  "browser_live_model_calls": 4,
+  "total_real_model_calls_in_recorded_acceptance": 16,
+  "browser_run_id": "947c3dcc87084be58124a5afce9cc00c",
+  "browser_case_count": 4,
+  "evaluation_code_hashes_match": true,
+  "downloaded_record_reverification": "passed",
+  "standalone_raw_sql_reverification": "passed",
+  "olist_database_unchanged": true,
+  "olist_database_sha256": "a3611a1d419bd74ba2976b585a04757ed8320c47b2f2e612750d6c3b275deb91",
+  "lade_database_bytes": 5295222784,
+  "code_sha256": {
+    "zhice/four_agents.py": "e914e33ff4c6eeb54e19afce2b6bc47b483f0504eb296f7227c2057fafc0f707",
+    "zhice/agent_server.py": "6044057614d152c9578ac2f869076009f15e73bb6ba896ab0ac5f49adbd43164",
+    "agent_demo/index.html": "d98353bfe44e02bab8b72f3e1cbdf45d6618a4a939b91da1d102a0b1e473db7b",
+    "agent_demo/app.js": "aad314e4d488d1c21a8b69ad1a30cace010396538a7431e28ca6f1919b517c3e",
+    "agent_demo/style.css": "70576abcf89671f006952c413c3d575333a0851e92075e817e1c3015742e2cd2",
+    "tests/test_four_agents.py": "7530f1ffeeaf6c88dbb077454f1037d41970c57cecbaf9ac58d2a3b2220796af",
+    "tests/test_agent_server.py": "693ff92220999683484004159491dcbf00cf164a9d06d4ff60e3b56f9065255b",
+    "work/four_agent_acceptance.py": "61f73a2045aafd0c820bebb4e58923ba3eea4b960078b3b365af8267b2fc8d6b",
+    "work/finalize_four_agent_acceptance.py": "7e42f36cafe888797cd957e33793c5f3a3cc5d40d072d7cd241a7adcaaea13cc"
+  },
+  "evidence_sha256": {
+    "four-agent-tools-evaluation.json": "c6acd6942268eaf56b755032fbeb2b8523a1b22ff71c07e1224f5459269e1663",
+    "four-agent-live-evaluation.json": "1bd60764e45a5979a802a8431f1b12b219947eb7beb561de7519d41e3a45b430",
+    "four-agent-live-1.json": "47946de420644f87263e6fc406995a8c5aa0f8f2b0c4a00c79e53e58382789bf",
+    "four-agent-live-2.json": "a30650929b949626e568facabf0307ff4e6823ae2f76b078c1c935253eecee12",
+    "four-agent-live-3.json": "33c2e86c80293fbb50dcafb46afd27021f0962a5efd6650470e50c97c0dadaf0",
+    "four-agent-regression-tests.log": "43e28c138da4b728982d40689c37f5328c275145e5a85ab79f32d3767814048b",
+    "four-agent-browser-validation.json": "23f790fe91a1601364572c33d5d4503ab0c6a17efabd78494912acb29d639e98",
+    "四Agent浏览器下载证据.json": "d25b7b7abe28e96ed1f53c4c1e24840344f2bf1d3436c02368b5ebf96ba85349",
+    "原定四Agent协作验证.png": "12b9ca2722c44d883a6372c94c54a0ef06a637f9e3287760648becb8821b5a42",
+    "four-agent-snapshot-example.sql": "def64ab79794ab33a2f6404738e0ae232471e704d83e4b79cb03928fbe62189c"
+  },
+  "limitations": [
+    "固定场景功能验收，不是整体准确率或真实物流干预收益。",
+    "相同模型4次独立角色调用；固定受控JSON流程，不是开放式自主编排。",
+    "模型仅起点调用；反馈回放后续轮次由确定性算法处理，未反复调用模型。",
+    "当前候选上限100；真实历史状态，规则优先级和模拟费用、关注行动。",
+    "未接生产实时物流、跨源订单映射、LaDe新预测模型或华为云。"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-02T12:38:16.623098+00:00",
+  "scope": "前端工作台改版与真实进度可视化",
+  "test_count": 111,
+  "browser_cases": [
+    "四工作区导航与Olist 2018-01指标查询通过",
+    "真实模型流式状态：总控执行中及方案评审执行中均被观察",
+    "四角色完成，模型调用4次，节点详情显示当前输入输出",
+    "任务表默认5笔，展开后15笔，收起恢复5笔",
+    "小数预算0.5拒绝且不能下载旧证据",
+    "零预算稳定工具演练调用0次并返回空关注方案",
+    "仅查询回放不点亮Agent完成状态",
+    "载入已有记录恢复杭州07-15、6060及50点预算",
+    "页面未出现水平溢出，控制台错误为空"
+  ],
+  "browser_viewport": {
+    "height": 720,
+    "width": 1265
+  },
+  "browser_run_id": "0b247e0076944176bbd479f0d5356f7f",
+  "actual_model_calls": 4,
+  "downloaded_record_matches_saved_record": true,
+  "snapshot_and_plan_match_previous_same_scope_run": true,
+  "standalone_raw_sql": "passed",
+  "independent_replay_audit": {
+    "status": "passed",
+    "policy_runs_checked": 4,
+    "rounds_checked": 100,
+    "executions_checked": 58,
+    "independent_of_planner": true,
+    "scope": "独立原始时间解析+任务可见性+完成退出+规则效用+预算记账；不证明干预有效",
+    "raw_source_check": "passed",
+    "planned_task_occurrences_checked": 431,
+    "actions_checked_against_raw": 58
+  },
+  "ui_matches_verified_record": true,
+  "unique_html_ids": true,
+  "olist_database_unchanged": true,
+  "code_sha256": {
+    "agent_demo/index.html": "5485863115529741a5c57d7945d491cb8fa0e7b236b8a7b7decf30eb1df35df3",
+    "agent_demo/app.js": "e36b1725cefdf3a5df3a67c8ced4cdd899027f2b24fe115066294dd501822a13",
+    "agent_demo/workspace.js": "18b89bba886835c4a8d2f890900f61d8aaaf2ed1a21ced003506367538659908",
+    "agent_demo/workspace.css": "10053d82d90e034e93bdd984ed05dececbf20034870c5d6f2d259c4ef1bf83f1",
+    "zhice/agent_server.py": "996253da6d9f5d25a2813ea5b67ccfb21b7ea3a63c78bef37062c796f49aaa65",
+    "zhice/four_agents.py": "d71fb61dbb0f6c99ce41caab97b6a05e07d2c81bf35392bf256b647e5e8704b7",
+    "tests/test_agent_server.py": "a6d4a6a909ef6a710c03bb0405c773ce50329290fa83f0dd37cd026ec8fc1ff2",
+    "tests/test_four_agents.py": "1b8b8fae70d0946cde32b2410d49f5790debf8ef38b24cdec6e4f1b9ee3dde21"
+  },
+  "evidence_sha256": {
+    "frontend-redesign-browser.json": "e739c26c87f10e5d02ed84cd294c954e1281e63bdd664bab5c585bae4a1604f0",
+    "frontend-redesign-tests.log": "dd9203b9a653c2bc443cef1a58457ccbe62b08eafe56cc9b8c5e145dd9ba0154",
+    "四Agent新版浏览器下载证据.json": "29470a785ea6ff9bb201e09ef7367ca0c6d4eef5f22652e00b350b956f73e104",
+    "四Agent工作台改版.jpg": "bd63f9ee0642bab8bb2b8b0c2895dfa25d839972b555c7cc5e200d29b4c4e8c4",
+    "四Agent工作台改版-完整页面.jpg": "d458ba911fe13395071f4e809b9a45c178f8ce56dc65cc071e9868c25e41f073",
+    "四Agent工作台-真实执行中.jpg": "bb7a5016f8179752c8718977a91bac28c9b63372dff7d812b9ec14dc343a2f0b"
+  },
+  "boundaries": [
+    "后台真实事件驱动节点；非定时进度演示。",
+    "当前截图为同一模型四角色的真实运行及明确标记的历史记录载入。",
+    "真实历史任务、模拟资源行动；本次未增加实际物流干预能力。",
+    "浏览器验证使用当前桌面视口；窄屏媒体样式已实现，未做手机设备实测。",
+    "旧版验收报告保留为历史证据，不代表其代码哈希仍对应本轮版本。"
+  ]
+}

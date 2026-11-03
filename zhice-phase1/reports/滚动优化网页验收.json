@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-02",
+  "status": "passed",
+  "url": "http://127.0.0.1:8793/",
+  "checks": [
+    {
+      "day": "2018-07-09",
+      "budget_cents": 10000,
+      "status": "passed",
+      "downloaded": true
+    },
+    {
+      "day": "2018-08-10",
+      "budget_cents": 20000,
+      "status": "2018-08-10，40笔历史评分初值，模拟预算 200.00 BRL。独立复核通过：4种策略、48轮。效用为模拟评分，不能解释为减少延迟单量。",
+      "table": "当前选择的单场景结果\n策略\t累计模拟效用\t支出BRL\t执行单数\t求解次数\t方案增删项\n不重排\t853270\t108.00\t12\t1\t0\n每3轮重排\t901308\t119.00\t12\t4\t9\n即时重排\t901308\t119.00\t12\t12\t19\n稳定重排\t901308\t119.00\t12\t9\t7"
+    },
+    {
+      "day": "2018-08-10",
+      "budget_cents": 0,
+      "status": "passed",
+      "all_spending_and_execution_zero": true
+    },
+    {
+      "day": "2000-01-01",
+      "budget_cents": 10000,
+      "status": "passed",
+      "candidate_count": 0,
+      "all_spending_and_execution_zero": true
+    },
+    {
+      "input_budget": "1.001",
+      "status": "rejected_as_expected",
+      "old_results_cleared": true,
+      "download_disabled": true
+    }
+  ],
+  "repeated_default_stream_sha256": "769a37e8f6efac9a13ce0d546e98608d80fc224151fc7685bdbaed5b22eeddd1",
+  "download_path": "reports/浏览器下载_重排复核证据.json"
+}

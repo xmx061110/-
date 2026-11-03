@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>智策 · 经营指标验证台</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<div class="shell">
+ <aside class="sidebar"><a class="brand" href="/" aria-label="智策首页"><span class="brand-icon">策</span><span>智策<small>经营决策数据层</small></span></a><div class="nav-label">工作空间</div><div class="nav-item active"><span>▦</span>经营指标验证</div><div class="sidebar-bottom"><span class="dot"></span> 本地 SQLite 数据库<br><small>Olist · 完整原始数据</small><div class="sidebar-rule"></div><small>第一阶段 / 真实数据与业务分析</small></div></aside>
+ <main>
+  <header class="topbar"><span>数据工作台 <span class="slash">/</span> 指标验证</span><span class="local-tag"><span class="dot"></span> 本地实时计算</span></header>
+  <div class="content">
+   <div class="page-heading"><div><div class="eyebrow">BUSINESS METRICS / VERIFICATION</div><h1>你来选，数据来回答。</h1><p>任选月份、商品类别或商家，实时计算，并与原始表独立复核。</p></div><div class="source-badge"><span>OLIST</span><small>Brazilian E-Commerce<br>2016 — 2018</small></div></div>
+   <section class="filter-panel" aria-label="筛选条件">
+    <div class="section-top"><div><span class="step">01</span><h2>选择你要验证的范围</h2></div><button id="reset" class="text-button" type="button">重置筛选 ↺</button></div>
+    <div class="filter-grid">
+     <label>下单月份<select id="month" disabled><option value="">全部月份</option></select></label>
+     <label>商品类别<select id="category" disabled><option value="">全部商品类别</option></select></label>
+     <label class="seller-field">商家<div class="seller-tools"><input id="seller-search" type="search" placeholder="搜索商家 ID / 城市 / 州" aria-label="搜索商家" disabled><select id="seller" disabled><option value="">全部商家</option></select></div></label>
+     <button id="run" class="primary-button" disabled type="button">计算并验证 <span>↗</span></button>
+    </div>
+    <div class="filter-footer"><div class="quick-picks"><span>快速试一试</span><button data-example="month" type="button">2018 年 1 月</button><button data-example="category" type="button">美容健康类</button><button data-example="seller" type="button">一位真实商家</button></div><span class="hint">可单选，也可组合筛选</span></div>
+   </section>
+   <div class="result-top"><div><span class="step">02</span><h2>这次选择的经营结果</h2></div><span id="scope" class="scope">等待数据连接</span></div>
+   <div id="status" class="status loading" role="status" aria-live="polite"><div class="status-icon">↻</div><div><strong id="status-title">正在连接本地数据库</strong><p id="status-detail">正在读取可选月份、类别和商家。</p></div><span id="duration"></span></div>
+   <section id="metrics" class="metric-grid" aria-label="指标结果" aria-busy="true"></section>
+   <div class="result-notes"><span>销售额 = 已送达商品成交额，不含运费。</span><span>缺少真实成本，利润不计算。</span><span>共同订单结果不等于商家责任。</span></div>
+   <section class="evidence-panel">
+    <div class="section-top"><div><span class="step">03</span><h2>让结果可以被复核</h2></div><div class="evidence-actions"><button id="download-json" class="secondary-button" disabled type="button">下载验证结果 ↓</button><button id="download-sql" class="secondary-button" disabled type="button">下载 SQL ↓</button></div></div>
+    <div class="tabs" role="tablist" aria-label="复核证据"><button role="tab" aria-selected="true" data-tab="checks">逐项核对 <span id="check-count">—</span></button><button role="tab" aria-selected="false" data-tab="sql">查看 SQL</button><button role="tab" aria-selected="false" data-tab="rules">指标口径</button></div>
+    <div id="panel-checks" class="tab-panel"><p class="table-intro">左侧由程序的经营事实表计算；右侧只从原始表重新计算。计数和金额逐项精确比较，比率允许 1e−12 的计算误差。</p><div class="table-wrap"><table><thead><tr><th>核对项目</th><th>程序结果</th><th>原始表 SQL 复算</th><th>核对状态</th></tr></thead><tbody id="checks-body"><tr><td colspan="4" class="empty-cell">选择条件后，在这里查看逐项核对结果。</td></tr></tbody></table></div></div>
+    <div id="panel-sql" class="tab-panel" hidden><div class="sql-top"><label>SQL 计算路径<select id="sql-kind"><option value="reference">独立复核 SQL · 仅查询原始表</option><option value="program">程序查询 SQL · 经营事实表</option></select></label><button id="copy-sql" class="secondary-button" type="button" disabled>复制 SQL</button></div><p class="table-intro">已代入本次筛选条件，可直接在交付的 warehouse.sqlite 中运行。下载 SQL 同时包含两条查询和评价前置检查。</p><pre id="sql-code">等待查询。</pre></div>
+    <div id="panel-rules" class="tab-panel" hidden><div class="rules-grid"><article><h3>订单与销售额</h3><p>订单量包含全部状态，按订单去重。仅已送达商品计销售额；取消、不可用及未送达订单不计。组合筛选只汇总同一商品行同时满足的商品金额。</p></article><article><h3>配送延迟率</h3><p>实际送达日晚于预计送达日才算延迟，同日送达算准时。分母为已送达且日期可比的订单，排除送达早于交运等矛盾记录。</p></article><article><h3>低评分订单占比</h3><p>最新有效评价为 1 或 2 分的已送达订单，占有有效评分的已送达订单的比例。未评价不当作好评，分母为 0 时显示“—”。</p></article><article><h3>商家交运代理</h3><p>仅计算单商家且时间可比的订单，交运时间晚于最早商品发货截止即标记。多商家整单日期不能用于判定某家商家的责任。</p></article><article><h3>付款与重复计数</h3><p>商品、付款先按订单各自聚合，防止多对多放大。相同订单的多笔合法支付保留，分期期数不乘付款额。商品维度不虚构整单付款分摊。</p></article><article><h3>“一致”能说明什么</h3><p>说明当前数据和公开口径下，两条独立计算路径的结果一致；不代表历史数据没有缺失，也不代表可以计算缺少真实成本的利润。</p></article></div></div>
+   </section>
+   <footer><span id="data-proof">数据来源：Olist / Kaggle · 本地完整九表</span><span id="batch-proof">每次选择，重新计算。</span></footer>
+  </div>
+ </main>
+</div>
+<script src="/app.js"></script>
+</body></html>

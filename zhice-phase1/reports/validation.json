@@ -1,0 +1,332 @@
+{
+  "status": "passed",
+  "input_fingerprint": "e505b6c9ccdae06aac599c6b43b39885ab998f6aed204c73b09631d00bf2dd4c",
+  "check_count": 62,
+  "unit_tests": 24,
+  "database_sha256": "a3611a1d419bd74ba2976b585a04757ed8320c47b2f2e612750d6c3b275deb91",
+  "python_version": "3.12.14",
+  "pandas_version": "3.0.1",
+  "sqlite_version": "3.53.1",
+  "checks": [
+    {
+      "name": "raw_hash_olist_customers_dataset.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_hash_olist_geolocation_dataset.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_hash_olist_orders_dataset.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_hash_olist_order_items_dataset.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_hash_olist_order_payments_dataset.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_hash_olist_order_reviews_dataset.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_hash_olist_products_dataset.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_hash_olist_sellers_dataset.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_hash_product_category_name_translation.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_manifest_hash_olist_customers_dataset.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_manifest_hash_olist_geolocation_dataset.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_manifest_hash_olist_order_items_dataset.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_manifest_hash_olist_order_payments_dataset.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_manifest_hash_olist_order_reviews_dataset.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_manifest_hash_olist_orders_dataset.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_manifest_hash_olist_products_dataset.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_manifest_hash_olist_sellers_dataset.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_manifest_hash_product_category_name_translation.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sqlite_integrity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sqlite_foreign_keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_fact_per_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_row_count_customers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "clean_exact_dedup_customers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_row_count_geolocation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "clean_exact_dedup_geolocation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_row_count_orders",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "clean_exact_dedup_orders",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_row_count_order_items",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "clean_exact_dedup_order_items",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_row_count_order_payments",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "clean_exact_dedup_order_payments",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_row_count_order_reviews",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "clean_exact_dedup_order_reviews",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_row_count_products",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "clean_exact_dedup_products",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_row_count_sellers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "clean_exact_dedup_sellers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_row_count_category_translation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "clean_exact_dedup_category_translation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "payment_amount_integer_storage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "profit_unknown",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_order_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canceled_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "delivered_gmv_from_raw_items",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "delivered_freight_from_raw_items",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "payments_sum_without_installment_multiplication",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gmv_partition_month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gmv_each_group_month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "distinct_orders_each_group_month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gmv_partition_category",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gmv_each_group_category",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "distinct_orders_each_group_category",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gmv_partition_seller",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gmv_each_group_seller",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "distinct_orders_each_group_seller",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "delivery_denominator_from_raw_dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "delivery_numerator_calendar_day",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "latest_valid_review_denominator",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "latest_valid_low_review_numerator",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "combined_filters_order_count",
+      "passed": true,
+      "detail": {
+        "month": "2017-09",
+        "category": "cool_stuff",
+        "seller": "48436dade18ac8b2bce089ec2a041202"
+      }
+    },
+    {
+      "name": "combined_filters_item_gmv",
+      "passed": true,
+      "detail": {
+        "month": "2017-09",
+        "category": "cool_stuff",
+        "seller": "48436dade18ac8b2bce089ec2a041202"
+      }
+    },
+    {
+      "name": "synthetic_edge_cases",
+      "passed": true,
+      "detail": {
+        "tests_run": 24
+      }
+    }
+  ]
+}

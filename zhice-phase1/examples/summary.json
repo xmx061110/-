@@ -1,0 +1,29 @@
+[
+  {
+    "group_value": "all",
+    "order_count": 99441,
+    "delivered_order_count": 96478,
+    "canceled_order_count": 625,
+    "unavailable_order_count": 609,
+    "non_canceled_available_order_count": 98207,
+    "item_count": 112650,
+    "sales_gmv_cents": 1322149811,
+    "delivered_freight_cents": 219827564,
+    "delivered_observed_payment_cents": 1542246177,
+    "delivered_missing_payment_order_count": 1,
+    "delivery_eligible_order_count": 96447,
+    "late_order_count": 6534,
+    "delivery_late_rate": 0.06774705278546767,
+    "reviewed_delivered_order_count": 95832,
+    "low_score_order_count": 12273,
+    "low_score_rate": 0.12806786877034812,
+    "multi_seller_order_count": 1278,
+    "single_seller_handoff_eligible_count": 96143,
+    "single_seller_late_handoff_proxy_count": 8787,
+    "late_handoff_proxy_rate": 0.09139510936833675,
+    "delivered_status_share": 0.9702034372140264,
+    "sales_gmv_brl": "13221498.11",
+    "delivered_freight_brl": "2198275.64",
+    "profit_brl": null
+  }
+]
